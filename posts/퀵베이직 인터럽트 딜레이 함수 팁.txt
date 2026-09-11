@@ -1,0 +1,29 @@
+
+   INTERRUPT &H15번의 &H83의 기능
+   입력 : AH = &H83
+    AL = 0 (대기 간격 설정)
+        1 (대기 간격 취소)
+    CX,DS = 대기 간격
+    ES:BX = 표시 바이트의 포인터값(주소)
+           (대기 사간이 경과되면 최상위 비트가 1로 세트)
+    출력 : (성공) 캐리 플러그 = 0
+           (실패) 캐리 플러그 = 1
+
+   위의 인터럽트 표를 참고하면서 아래의 프로그램을 보시기 바랍니다.
+    DEFINT A-Z
+    REM $INCLUDE: 'QB.BI'
+    DIM SHARED DelaySwitch AS INTEGER
+    DIM SHARED InRegs AS RegTypeX, OutRegs AS RegTypeX
+    SUB Delay (MicroSecond1 AS INTEGER, MicroSecond2 AS INTEGER)
+    DelaySwitch = 0
+    InRegs.ax = &H8300
+    InRegs.cx = MicroSecond1
+    InRegs.dx = MicroSecond2
+    InRegs.es = VARSEG(DelaySwitch)
+    InRegs.bx = VARPTR(DelaySwitch)
+    INTERRUPTX &H15, InRegs, OutRegs
+    END SUB
+    사용법은 Delay 지연할 MicroSecond1,지연한 MicroSecond2
+    입니다.
+    참고로 1 Micro초=10의 -6승 초입니다.
+-------------------------------------------------------------------

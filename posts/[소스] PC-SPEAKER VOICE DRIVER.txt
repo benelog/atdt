@@ -1,0 +1,250 @@
+
+
+ 김민수   (forby   )
+[소스] PC-SPEAKER VOICE DRIVER               05/22 00:43   243 line
+
+;
+; 안녕하세요.
+; 전북에 사는 김민수 입니다.
+;
+; QB용 PC-SPEAKER Voice Output Driver 를 소개합니다.
+; 본 루틴은 ADIMS V2.0에 넣을 루틴으로 혹 여러분중 관심이 있으신
+; 분이 계실지 몰라서 소개합니다.
+;
+; 타이머 프로그래미과 PC-SPEAKER 제어에 관심있으신 보세요.
+; 조금은 유용하리라 생각합니다.
+;
+; 그럼 항상 건강하고 행복하세요.
+;
+
+.286
+.MODEL MEDIUM
+.DATA
+.CODE
+
+MIX_RATE       EQU  22056    ; 최대 출력 가능 주파수 22KHz
+MIX_DIVIDER    EQU  54       ; 타이머 인터럽트 디바이더 값
+VOC_RATE       WORD 8000     ; 출력하고자 하는 속도
+VOC_MODULAR    WORD 0        ; 출력용 내부 변수
+CLK_MODULAR    WORD 0        ; 타이머 인터럽트 조정변수
+OLD_INT08      WORD 0, 0     ; 원래의 타이머를 저장하는 변수
+VoiceSeg       WORD 0        ; 출력할 음성의 세그먼트
+VoiceOff       WORD 0        ; 출력할 음성의 오프셍
+VoiceLength    WORD 0, 0     ; 출력할 음성의 길이 (4바이트정수)
+
+;
+; 타이머 인터럽트를 가로채서 음성출력루틴으로 설정하거나 또는
+; 타이머를 원상태로 복귀하여주는 루틴
+;
+; 현재 설정되어 있는 인터럽트의 세그먼트와 오프셍을 얻고,
+; 사용자가 설정하고자하는 상태에 따라, 인스톨여부를 검사한다.
+;
+; BIOS 태이블을 직접 제어하는 것이 간단하지만, QB의 경우는
+; DOS 인터럽트를 사용하는 것이 좋다.
+;
+TimerInstall   PROC    BASIC Switch:WORD
+               PUSH    ES
+               PUSH    DS
+               MOV     AX, 3508h
+               INT     21h
+               MOV     AX, CS
+               MOV     CX, ES
+              .IF SWITCH
+                 .IF (AX != CX)
+                     MOV     CS:OLD_INT08[0], BX
+                     MOV     CS:OLD_INT08[2], ES
+                     MOV     DX, OFFSET NewInt08
+                     MOV     AX, 2508h
+                     PUSH    CS
+                     POP     DS
+                     INT     21h
+                 .ENDIF
+              .ELSE
+                 .IF (AX == CX)
+                     MOV     DX, CS:OLD_INT08[0]
+                     MOV     AX, CS:OLD_INT08[2]
+                     MOV     DS, AX
+                     MOV     AX, 2508h
+                     INT     21h
+                 .ENDIF
+              .ENDIF
+               POP     DS
+               POP     ES
+               RET
+TimerInstall   ENDP
+
+;
+; 음성을 출력하는 루틴
+;
+;
+PLAYVOC        PROC   BASIC  Array:WORD, Lens:WORD, Rate:WORD
+               PUSHA
+               MOV    BX, Array         ; 음성정보가 담긴 배열의
+               MOV    DX, [BX+02]       ; 세그먼트
+               MOV    AX, [BX+00]       ; 오프셍
+               MOV    VoiceSeg, DX
+               MOV    VoiceOff, AX
+               MOV    BX, Lens          ; 음성정보 길이의 포인터
+               MOV    AX, [BX+00]
+               MOV    VoiceLength, AX
+               MOV    AX, [BX+02]
+               MOV    VoiceLength[2], AX
+               MOV    BX, Rate           ; 음성출력 속도
+               MOV    BX, [BX]
+               MOV    Voc_Rate, BX
+
+               INVOKE TimerInstall, -1   ; 타이머를 가로챈다
+
+               MOV    AL, 34h
+               OUT    43h ,AL            ;
+               MOV    AL, MIX_DIVIDER    ; 타이머 인터럽트를 22KHz
+               OUT    40h, AL            ; 로 설정한다.
+               MOV    AL, 00h            ;
+               OUT    40h, AL            ;
+
+               MOV    AL, 90h            ; 스피커를 NO WAVE로 설정
+               OUT    43h, AL            ;
+
+               IN     AL, 61h            ; 스피커를 켠다.
+               OR     AL, 03h            ; 이때 부터 소리가 나기
+               OUT    61h, AL            ; 시작한다.
+
+              .REPEAT
+                      ;
+                      ; 음성이 완전히 출력될때 까지 기다린다.
+                      ;
+              .UNTIL (VOICELENGTH[0] == 0) && (VOICELENGTH[2] == 0)
+
+               IN      AL,  61h          ; 스피커를  끈다.
+               AND     AL,  0FCh         ; 소리가 나지 않게 한다.
+               OUT     61h, AL           ;
+
+               MOV     AL,  34h          ;
+               OUT     43h, AL           ; 타이머인터럽트의 속도를
+               XOR     AL,  AL           ; 18.2Hz(정상속도)로 설정
+               OUT     40h, AL           ; 한다.
+               OUT     40h, AL           ;
+
+               MOV     AL,  036h         ;
+               OUT     43h, AL           ; 스피커의 주파수를 초기
+               MOV     AX,  0533h        ; 값으로 설정한다.
+               OUT     42h, AL           ;
+               MOV     AL,  AH           ;
+               OUT     42h, AL           ;
+
+               INVOKE  TimerInstall, 0   ; 인터럽트를 복원한다.
+
+               POPA
+               RET
+PLAYVOC        ENDP
+
+
+NewInt08       PROC
+               PUSH    ES
+               PUSH    BX
+               PUSH    AX
+
+              .IF VoiceLength || VoiceLength[2]
+                  MOV     AX, VOC_MODULAR
+                  ADD     AX, VOC_RATE
+                 .IF AX > MIX_RATE
+                     SUB     AX, MIX_RATE
+                    .IF VoiceLength
+                        DEC     VoiceLength
+                    .ELSEIF VoiceLength[2]
+                        NOT     VoiceLength
+                        DEC     VoiceLength[2]
+                    .ENDIF
+                     ADD     VoiceOff, 1
+                     ADC     VoiceSeg, 0
+                 .ENDIF
+                  MOV     VOC_MODULAR, AX
+                  MOV     BX, VoiceOff
+                  MOV     AX, VoiceSeg
+                  MOV     ES, AX
+                  MOV     AH, ES:[BX]
+                  SHR     AH, 2          ; 출력주파수를 조정한다.
+                  INC     AH
+
+               ;
+               ; 아래는 출력주파수를 0으로 설정하여 소리를 끄고
+               ; 다시 주파수를 새로 조정하여 소리를 다시 켠다.
+               ; 이렇게 주파수와 타이머에 의한 주기를 동시에 변
+               ; 화할 경우 좀더 정밀한 음을 재생할 수 있다.
+               ;
+                  XOR     AL,  AL        ; 출력주파수를 0으로 설정
+                  OUT     42h, AL
+                  MOV     AL,  AH        ; 출력주파수 설정
+                  OUT     42h, AL
+              .ENDIF
+
+               ;
+               ; 원래의 주파수 주기 18.2Hz를 검사하여 원래의 주기
+               ; 가된 경우에 원래의 타이머 인터럽트를 호출한다.
+               ; 주기가 되지 않은 경우는 IRQ제어 칭에 인터럽트의
+               ; 처리가 끝났음을 알리는 코드를 출력한다.
+               ;
+               ADD     CLK_MODULAR, MIX_DIVIDER
+              .IF (CARRY?)
+                  PUSHF
+                  CALL    DWORD PTR OLD_INT08
+              .ELSE
+                  MOV     AX, 20h
+                  OUT     20h, AL
+              .ENDIF
+
+               POP     AX
+               POP     BX
+               POP     ES
+               IRET
+NewInt08       ENDP
+
+               END
+
+
+'
+'
+' 시험용 배이직 출력루틴
+'
+'
+DECLARE SUB PLAYVOC (Array() AS STRING * 1024, Lens&, Rate%)
+
+DEFINT A-Z
+
+REM $DYNAMIC
+
+PRINT
+PRINT "PC-SPEAKER Voice Player for ADIMS 2.00, Written by Kim Min-su"
+PRINT
+
+IF COMMAND$ = "" THEN
+   INPUT "Enter filename to play : ", FileName$
+   PRINT
+ELSE
+   FileName$ = COMMAND$
+ENDIF
+
+IF FileName$ = "" THEN
+   PRINT "Error : Filename not specified. "
+   END
+ENDIF
+
+OPEN FileName$ FOR BINARY AS #1
+     Lens& = LOF(1)
+     IF Lens& = 0 THEN
+        CLOSE #1
+        KILL  FileName$
+        PRINT "Error : Can't not open '"; FileName$; "'"
+        END
+     ENDIF
+     DIM Array(Lens& \ 1024) AS STRING * 1024
+     FOR I = 0 TO Lens& \ 1024
+         GET #1, , Array(I)
+     NEXT I
+CLOSE
+
+PLAYVOC Array(), Lens&, 8000
+
+END
+
+ PRINTER/CAPTURE를 OFF 하시고 Enter를 누르십시오.

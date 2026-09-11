@@ -1,0 +1,108 @@
+
+
+
+ [194] 제목 : [강좌] WINDOWS 95의 부트체제......
+ 올린이 : beatist (이원훈  )    97/01/01 01:17    읽음 : 409  관련자료 없음
+ ------------------------------------------------------------------------------
+WINDOWS 95 의 부팅체제.....
+
+* 이 글은 독자가 dos 명령에 대한 기초적 지식은 있다고 보고
+ 쓴 것임......
+
+win95는 부팅시에 IO.sys msdos.sys config.sys autoexec.bat
+system.ini win.ini 의 순으로 실행된다.
+win95의 실행에는 io.sys msdos.sys만 필요하지만 특정 응용프
+로그램이나 win3.1과의 호환, 도스와의 호환을 위해서 나머지
+파일이 존재하는 것이다.
+
+
+
+
+먼저 IO.sys를 살펴보겠다.
+io.sys는 ms-dos의 io.sys+msdos.sys의 역할을 한다...
+io.sys는 컴퓨터를 시작하기 위한 정보를 담고있으며 에디트가
+불가능하다 그러므로 config.sys 를 통해서 덮어씌우는 방법이
+최선의 방법이다.
+
+#io.sys 의 디폴트 셋팅#
+himem.sys
+dos=high,umb
+ifshlp.sys
+setver.exe
+files=60
+lastdrive=z
+buffers=30
+stacks=9,256
+shell=command.com/p
+fcbs=4
+(dblspace or drvspace.bin)발견이 될 시......
+
+위의 디폴트 셋팅을 볼때 emm386.exe는 load하지 않는것을 알
+수 있다. (그러므로 config.sys에 지정이 필요하다...)
+
+
+
+다음은 msdos.sys를 살펴보겠다.....
+msdos.sys는 다행히 파일속성만 변화시키면 에디트가 가능하다
+
+#msdos.sys의 내용#
+[paths]
+호스트 드라이브
+윈도우95가 있는 디렉토리를 지정.. 에디트 불필요...
+[options]
+* 0은 no, 1은 yes를 의미 숫자가 초를 의미하기도 함... *
+bootGUI=1 자동 그래픽 시작을 활성화.....
+bootkeys=1 no로 지정하면 f8 f4 f6키의 동작을 막음.....
+bootmenu=0 윈도우즈 시작메뉴를 디폴트 표시화 여부
+bootmenudefault=메뉴앞의 숫자...
+bootmenudelay=시간 (단위 초)
+bootmulti=0 구버젼 도스 사용가능여부
+bootwarn=1
+bootwin=1 윈도우95가 디폴트 운영체제인지 결정... 0이면 win
+          3.1과 동일한 방식으로 동작
+          (구버젼 도스가 있을때만 유용)
+Dblspace=1 자동로드 여부
+loadtop=1 도스나 기타 win95가 로드라는 메모리 상주 프로그램
+          이 HMA를 사용할것인지의 여부
+bootfailsafe=0 시작시에 safe모드를 사용할것인가.....
+bootdelay=2 단위는 '초'이며 f8키를 누르기를 기다리는 단순한
+          idletime이므로 윈도우만 사용하거나 bootmenu=1로 쓰
+          시는 분은 bootdelay=0으로 잡으면 속도의 향상을 가
+          져온다...
+
+logo=1 에니메이션 로고를 디스플레이 할것인지 설정
+network=0 네트워크구성요소 설지 여부
+
+
+
+#config.sys#
+디폴트는 io.sys에 의해 실행되므로 추가나 덮어쓰기만 하면 된
+다.
+*앞에서 말했듯이 ems,xms를 쓰려면 emm386을 config.sys에 설치
+해야 한다...
+
+
+
+#autoexec.bat#
+필요가 전혀 없으나 호환을 위해 존재한다....
+
+디폴트 값
+tmp=win-dir\temp
+temp=win-dir\temp
+prompt=$p$g
+path=win-dir;win-dir\command
+comspec=win-dir\command\command.com
+
+
+
+#system.ini & win.ini#
+win3.1과의 호환을 위해 존재하는 이것들은 win95에서는 레지스
+트리라는 개념으로 대체되었다....
+없어도 32비트 프로그램에 win95만 쓴다면 무리없이 동작한다..
+
+
+
+
+                   이 원 훈   (beatist)
+
+출력이 끝났습니다. [Enter]를 누르십시오.

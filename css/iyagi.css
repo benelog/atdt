@@ -1,0 +1,191 @@
+/* 이야기 5.3 화면 재현 — 원본 그림·글꼴은 쓰지 않고 CSS 로 새로 그렸다. */
+@font-face {
+  font-family: "Neo둥근모";
+  src: url("../fonts/neodgm.woff2") format("woff2");
+  font-display: block;
+}
+
+:root {
+  --c0: #000000; --c1: #0000AA; --c2: #00AA00; --c3: #00AAAA;
+  --c4: #AA0000; --c5: #AA00AA; --c6: #AA5500; --c7: #AAAAAA;
+  --c8: #555555; --c9: #5555FF; --c10: #55FF55; --c11: #55FFFF;
+  --c12: #FF5555; --c13: #FF55FF; --c14: #FFFF55; --c15: #FFFFFF;
+}
+
+html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+body {
+  font: 16px/16px "Neo둥근모", "NeoDunggeunmo", "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", "Malgun Gothic", monospace;
+  color: #fff;
+  -webkit-font-smoothing: none;
+  -webkit-text-size-adjust: 100%;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+}
+[hidden] { display: none !important; }
+b, i { font-style: normal; font-weight: normal; }
+
+#wrap { position: fixed; inset: 0; }
+#stage {
+  position: absolute; left: 0; top: 0;
+  width: 640px; height: 480px; overflow: hidden;
+  transform-origin: 0 0; background: #000; white-space: pre;
+}
+#stage > * { position: absolute; left: 0; top: 0; }
+
+/* ---------- 통신 화면 ---------- */
+#screen {
+  width: 640px; height: 464px;
+  --tfg: #FFFFFF; --tbg: #0000AA;
+  background: var(--tbg); color: var(--tfg);
+}
+#dos { width: 640px; height: 480px; --tfg: #AAAAAA; --tbg: #000000; background: var(--tbg); color: var(--tfg); }
+.row { position: relative; height: 16px; width: 640px; overflow: hidden; white-space: pre; }
+.w { display: inline-block; width: 16px; height: 16px; text-align: center; vertical-align: top; overflow: hidden; }
+.ln b { display: inline-block; transform: scaleX(2); }
+
+.f0 { color: var(--c0); } .f1 { color: var(--c1); } .f2 { color: var(--c2); } .f3 { color: var(--c3); }
+.f4 { color: var(--c4); } .f5 { color: var(--c5); } .f6 { color: var(--c6); } .f7 { color: var(--c7); }
+.f8 { color: var(--c8); } .f9 { color: var(--c9); } .f10 { color: var(--c10); } .f11 { color: var(--c11); }
+.f12 { color: var(--c12); } .f13 { color: var(--c13); } .f14 { color: var(--c14); } .f15 { color: var(--c15); }
+.f16 { color: var(--tfg); } .f17 { color: var(--tbg); }
+.b0 { background: var(--c0); } .b1 { background: var(--c1); } .b2 { background: var(--c2); } .b3 { background: var(--c3); }
+.b4 { background: var(--c4); } .b5 { background: var(--c5); } .b6 { background: var(--c6); } .b7 { background: var(--c7); }
+.b8 { background: var(--c8); } .b9 { background: var(--c9); } .b10 { background: var(--c10); } .b11 { background: var(--c11); }
+.b12 { background: var(--c12); } .b13 { background: var(--c13); } .b14 { background: var(--c14); } .b15 { background: var(--c15); }
+.b16 { background: var(--tfg); } .b17 { background: var(--tbg); }
+
+.cursor { position: absolute; width: 8px; height: 16px; background: #AA5500; pointer-events: none; z-index: 2; }
+.cursor.ul { height: 2px; margin-top: 14px; }
+.cursor.blink { animation: blink 0.6s steps(1) infinite; }
+#dos .cursor { background: #AAAAAA; height: 2px; margin-top: 14px; }
+@keyframes blink { 50% { opacity: 0; } }
+
+a.lk { color: inherit; text-decoration: none; cursor: pointer; }
+a.lk:hover i { background: #00AAAA; color: #fff; }
+
+#kbd {
+  position: absolute; width: 8px; height: 16px; padding: 0; margin: 0; border: 0;
+  opacity: 0; font-size: 16px; background: transparent; color: transparent; caret-color: transparent;
+  outline: none; z-index: 3;
+}
+
+/* ---------- 상태줄 ---------- */
+#status { top: 464px; width: 640px; height: 16px; background: #AAAAAA; color: #555555; display: flex; overflow: hidden; }
+#status span {
+  display: block; box-sizing: border-box; height: 16px; overflow: hidden; flex: none;
+  border-left: 1px solid #000; box-shadow: inset 1px 0 #fff; padding-left: 4px; cursor: default;
+}
+#status span:first-child { border-left: 0; box-shadow: none; padding-left: 2px; }
+#status span:last-child { padding-left: 2px; }
+#status span.act { cursor: pointer; }
+#status span.act:hover { color: #000; }
+.mouse { display: inline-block; width: 9px; height: 12px; margin: 1px 4px 0 1px; vertical-align: top; box-sizing: border-box;
+  background: #fff; border: 1px solid #000; border-radius: 3px 3px 4px 4px; position: relative; }
+.mouse::after { content: ""; position: absolute; left: 3px; top: 0; width: 1px; height: 4px; background: #000; }
+.led { display: inline-block; width: 8px; height: 8px; margin: 3px 2px 0 3px; vertical-align: top; box-sizing: border-box;
+  background: #00AA00; border: 1px solid; border-color: #555 #fff #fff #555; }
+.led.on { background: #55FF55; }
+
+/* ---------- 풀다운 메뉴 ---------- */
+#menubar { width: 640px; height: 19px; background: #AAAAAA; color: #555555; z-index: 20;
+  box-shadow: 0 1px 0 #fff, 0 2px 0 #555, 0 5px 0 rgba(0,0,0,0.6); }
+#menubar .mi { position: absolute; top: 1px; height: 16px; padding: 0 6px; box-sizing: content-box; cursor: pointer;
+  border: 1px solid; border-color: #fff #555 #555 #fff; }
+#menubar .mi.sel { background: #000; color: #fff; border-color: #000; }
+#menubar .brand { position: absolute; right: 2px; top: 1px; height: 16px; padding: 0 6px; background: #0000AA; color: #fff; }
+.dd { position: absolute; top: 20px; background: #AAAAAA; color: #555555; padding: 2px 0; z-index: 21;
+  border: 1px solid; border-color: #fff #555 #555 #fff; box-shadow: 3px 3px 0 rgba(0,0,0,0.6); }
+.dd .it { display: flex; justify-content: space-between; gap: 24px; height: 16px; padding: 0 8px; cursor: pointer; }
+.dd .it.sel { background: #000; color: #fff; }
+.dd .it.dim { color: #777; }
+.dd hr { border: 0; border-top: 1px solid #555; border-bottom: 1px solid #fff; margin: 2px 0; }
+
+/* ---------- 대화상자 ---------- */
+#layer { width: 640px; height: 480px; z-index: 30; }
+.dlg { position: absolute; background: #AAAAAA; color: #000; border: 4px solid; border-color: #fff #555 #555 #fff;
+  box-shadow: 4px 4px 0 rgba(0,0,0,0.6); white-space: pre; }
+.dlg .ttl { background: #00AAAA; color: #fff; text-align: center; height: 16px; padding: 0 8px; }
+.dlg .bd { padding: 8px; }
+.dlg .bd > div { min-height: 16px; }
+.dlg .btns { text-align: center; padding: 0 8px 8px; }
+.btn { display: inline-block; height: 16px; padding: 0 12px; margin: 0 6px; background: #AAAAAA; color: #000; cursor: pointer;
+  border: 2px solid; border-color: #fff #555 #555 #fff; }
+.btn.sel { background: #000; color: #fff; border-color: #000; }
+.dlg input.in { font: inherit; background: #AAAAAA; color: #000; border: 0; border-bottom: 1px solid #555; outline: none;
+  padding: 0; margin: 0; width: 100%; box-sizing: border-box; caret-color: #000; }
+.dlg .li { height: 16px; padding: 0 8px; cursor: pointer; }
+.dlg .li.sel { background: #000; color: #fff; }
+.dlg .hint { color: #555; }
+
+/* 전화 걸기 */
+.dial .band { background: #00AAAA; color: #fff; padding: 3px 4px; height: 16px; }
+.dial .band .btn { margin: 0 2px; color: #000; background: #AAAAAA; }
+.dial .list { background: #AAAAAA; color: #000; padding: 4px 0; }
+.dial .li.sel { background: #000; color: #fff; }
+.dial .keys { background: #00AAAA; color: #fff; padding: 3px 8px; }
+.dial .keys b { color: #55FF55; }
+.dial .keys i.act { cursor: pointer; }
+
+/* 파일 고르기 */
+.picker .grid { display: flex; }
+.picker .cells { display: grid; grid-template-columns: repeat(4, 128px); grid-auto-rows: 16px; }
+.picker .cell { padding-left: 8px; cursor: pointer; overflow: hidden; }
+.picker .cell.sel { background: #000; color: #fff; }
+.picker .sb { width: 16px; background: #555; position: relative; margin-left: 4px; border: 1px solid; border-color: #555 #fff #fff #555; }
+.picker .sb i { position: absolute; left: 0; width: 100%; background: #AAAAAA; }
+
+/* 도움말 */
+.help .pane { background: #000; color: #AAAAAA; padding: 8px; width: 560px; box-sizing: border-box; }
+.help .hbox { display: inline-block; border: 1px solid #AAAAAA; padding: 2px 16px; color: #fff; margin-bottom: 8px; }
+.help .hl { height: 16px; }
+.help .hl b { color: #fff; }
+.help .foot { display: flex; align-items: center; gap: 8px; padding: 6px 8px; }
+.help .red { background: #AA0000; color: #fff; padding: 0 8px; }
+.help .kb { display: inline-block; padding: 0 4px; border: 1px solid; border-color: #fff #555 #555 #fff; cursor: pointer; }
+.help .kb.k1 { background: #00AA00; color: #fff; } .help .kb.k2 { background: #AA00AA; color: #fff; }
+.help .kb.k3 { background: #0000AA; color: #fff; } .help .kb.k4 { background: #AA5500; color: #fff; }
+
+/* Z모뎀 */
+.zm .bar { display: inline-block; width: 320px; height: 16px; background: #555; vertical-align: top; }
+.zm .bar i { display: block; height: 100%; background: #55FF55; width: 0; }
+
+/* ---------- 문서 편집기 ---------- */
+#editor { width: 640px; height: 480px; --tfg: #FFFFFF; --tbg: #000000; background: var(--tbg); color: var(--tfg); }
+#etext { position: absolute; left: 0; top: 0; width: 640px; height: 464px; }
+#estat { position: absolute; left: 0; top: 464px; width: 640px; height: 16px; background: #0000AA; color: #FFFF55; padding-left: 2px; box-sizing: border-box; }
+#estat b { display: inline-block; width: 8px; height: 8px; margin: 4px 1px 0; background: #FFFF55; vertical-align: top; }
+#estat i.act { cursor: pointer; }
+
+/* ---------- 시작 화면 (원본 그림을 베끼지 않고 CSS 로 새로 그림) ---------- */
+#splash { width: 640px; height: 480px; overflow: hidden; }
+#splash .wall { position: absolute; left: 0; top: 0; width: 640px; height: 300px; background: #5555FF; }
+#splash .floor { position: absolute; left: 0; top: 300px; width: 640px; height: 180px; background: #0000AA; }
+#splash .desk { position: absolute; left: 340px; top: 292px; width: 280px; height: 14px; background: #AA5500; box-shadow: 0 14px 0 #553300; }
+#splash .monitor { position: absolute; left: 400px; top: 186px; width: 150px; height: 108px; background: #AAAAAA; border: 4px solid #555; box-sizing: border-box; }
+#splash .monitor .scr { position: absolute; left: 10px; top: 8px; right: 10px; bottom: 12px; background: #000; color: #55FF55; font-size: 8px; line-height: 10px; overflow: hidden; padding: 4px; white-space: pre; }
+#splash .stand { position: absolute; left: 455px; top: 294px; width: 40px; height: 0; }
+#splash .pc { position: absolute; left: 556px; top: 258px; width: 60px; height: 36px; background: #AAAAAA; border: 2px solid #555; box-sizing: border-box; }
+#splash .modem { position: absolute; left: 350px; top: 274px; width: 44px; height: 20px; background: #555; border: 1px solid #000; }
+#splash .modem i { position: absolute; top: 6px; width: 6px; height: 6px; background: #55FF55; }
+#splash .modem i:first-child { left: 6px; } #splash .modem i:last-child { left: 16px; background: #FF5555; }
+#splash .win { position: absolute; left: 64px; top: 96px; width: 300px; white-space: normal; word-break: keep-all; background: #AAAAAA; border: 4px solid; border-color: #fff #555 #555 #fff; box-shadow: 4px 4px 0 rgba(0,0,0,0.6); }
+#splash .win .ttl { background: #00AAAA; color: #fff; text-align: center; height: 16px; }
+#splash .win .gbox { margin: 12px; padding: 8px; border: 2px solid #00AA00; color: #FFFF55; background: #000; text-align: center; white-space: normal; }
+#splash .win .gbox small { display: block; font-size: 16px; color: #AAAAAA; }
+#splash .win .rbox { margin: 12px; padding: 6px 8px; border: 2px solid #AA0000; color: #000; white-space: normal; }
+#splash .win .msg { margin: 12px; text-align: center; color: #0000AA; animation: blink 1s steps(1) infinite; }
+
+/* ---------- 다람쥐 커서 ---------- */
+#screen, #editor, #layer, #menubar, #status, #splash {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='24' viewBox='0 0 16 24'><path d='M1 1 L1 19 L5 15 L8 22 L11 21 L8 14 L14 14 Z' fill='%2355FFFF' stroke='%23000' stroke-width='1.5'/></svg>") 1 1, auto;
+}
+a.lk, .btn, .li, .cell, .mi, .it, .kb, span.act, i.act { cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='24' viewBox='0 0 16 24'><path d='M1 1 L1 19 L5 15 L8 22 L11 21 L8 14 L14 14 Z' fill='%23FFFF55' stroke='%23000' stroke-width='1.5'/></svg>") 1 1, pointer; }
+
+/* ---------- 소프트 키 (터치 기기·세로 화면) ---------- */
+#softkeys { display: none; position: fixed; left: 0; right: 0; bottom: 0; padding: 6px 4px calc(6px + env(safe-area-inset-bottom));
+  background: #222; gap: 4px; flex-wrap: wrap; justify-content: center; z-index: 50; }
+#softkeys button { font: 14px/20px "Neo둥근모", sans-serif; background: #AAAAAA; color: #000; border: 2px solid; border-color: #fff #555 #555 #fff;
+  padding: 2px 8px; min-width: 60px; }
+#softkeys button:active { background: #000; color: #fff; }
+@media (pointer: coarse), (orientation: portrait) { #softkeys { display: flex; } }

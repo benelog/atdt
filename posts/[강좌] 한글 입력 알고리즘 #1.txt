@@ -1,0 +1,763 @@
+
+
+ 김현종   (kbcc    )
+[강좌] 한글 입력 알고리즘 #1                 06/12 12:50   139 line
+
+
+ 한글 입력 알고리즘 강좌 #1
+
+
+ □참고서적 : 임현모저 '컴퓨터와 한글의 만남'
+
+
+ 안녕하십니까 아이디 빌려쓰는 farer조현근 입니다.
+
+
+ 한글의 입력에 관한 이야기는 여러번 있었지만 그에관한 자세한 강좌
+나 토론등은 이루어지지 않았습니다. 이유는 입력 알고리즘 구현의 어
+려움에 있다고 할 수 있죠. 그러나 어려울것 같지만 어렵지 않은 한글
+입력 알고리즘에관해 같아 알아보도록 합시다.  제가 한글입력 알고리
+즘을 배울수 있었던 참고서적을 이용 이를 베이식으로 변형하고, 글샘
+에서 사용되었던 다른기능을 많이 첨가하도록 하겠습니다.
+
+ 단 한글의 한글자 임의 출력루틴은 이미 완성되어 있다고   생각하고
+오로지 한글 입력에 관해서만 언급하겠습니다. 또한 2벌식 자판에  국
+한 하도록 하겠습니다.
+
+
+ 1. 한글 입력 오토마타?
+
+ 오토마타(Automata)라는 말은 입력된 한글의 자모에와 그 종류에따라
+어떠한 작업을 수행할것인가를 판단해야 할 경우, 이 작업을 효율적으
+로 구현할 수 있도록 도와주는 수단의 하나를 지칭합니다.이 오토마타
+가 갖추어야할 기능과 기본구조를 알아보도록 합시다.
+
+ 한글 오토마타가 수행하는 판단 작업을 아래를 통해 간단히 알아  보
+도록 합시다.
+
+-- < 예 : 1 - 1 > -----------------------------------------------
+    ㅋ □ 커 □ 컴 □ 컴ㅍ□ 컴퓨 □ 컴픁 □ 컴퓨ㅌ □ 컴퓨터
+-----------------------------------------------------------------
+
+ <예:1-1>에서는 우리가 무심코 사용하는 한글의 입력을 자모의  입력
+순서에따라 차례로 나타내 두었습니다. 우리가 입력을하는 동안  오토
+마타는 어떠한일들을 처리하고 있을까요?
+ 위의 예를 상기하면서  오토마타의 알고리즘을 알아봅시다.
+
+
+ 2. 2벌식 입력 오토마타의 알고리즘
+
+ 영문 입력 알고리즘에 비해 한글 입력 알고리즘은 복잡해 질 수 밖에
+없습니다. 한글은 영문과는 달리 조합이라는 과정을 거쳐야 하기 때문
+입니다. 지금부터 한 글자가 입력될경우 이 오토마타의 알고리즘을 흐
+름도로 알아보기로  하겠습니다. 그리고 한,영 토글키는 'Shift + Sp-
+ace'로 통일 하겠습니다.
+
+
+ □ 두벌식 입력 알고리즘
+
+ 0) 한 글자의 입력을 받아들입니다.
+
+ 1) 눌러진 키가 'Shift-Space'인지 아닌지를 확인합니다.
+
+ 2) 눌러진키가 'Shift-Space'이면 한,영 입력 모드를 바꾸고, 만약
+   한글을 조합중이었다면 한글의 조합을 강제로 중지하고 한  음절
+   을 완성합니다.
+
+ 3) 눌러진키가 'Shift-Space'가 아니라면, 현재 설정되어있는 입력
+   모드를 판단합니다.
+
+ 4) 현재 입력 모드가 영문 모드이면, 눌러진 키에 해당하는 아스키
+   문자를 화면에 출력합니다.
+
+ 5) 현재 입력 모드가 한글 모드이고 눌려진 키가 A - Z에 속하면 현
+   재 쉬프트키가 눌러졌는가를 판단하여, 눌려진 경우에는 영문자판
+   'Q,W,E,R,T,O,P'에 해당하는 한글자판  'ㅃ,ㅉ,ㄸ,ㄲ,ㅆ,ㅒ,ㅖ'를
+   한글코드로 사용하고, 눌러지지 않은 경우는 'ㅂ,ㅈ,ㄷ,ㄱ,ㅅ,ㅐ,
+   ㅔ'를 사용합니다.
+
+ 6) 눌러진 키가 자음일 경우는 자음 처리 루틴으로, 아닐 경우는 모
+   음 처리 루틴으로 이동합니다.
+
+
+ □ 자음 처리 알고리즘
+
+ 1) 한글코드의 중성 유무를 판단합니다.
+
+ 2) 중성이 없을 경우는 초성 코드로 현재 눌러진 키를 사용하고, 있
+   는 경우에는 종성의 유무를 판단랍니다.
+
+ 3) 종성이 없는 경우에는 눌러진 키를 종성용으로  사용하려면  키가
+   종성 독용인가를 판단하여 'ㅃ,ㅉ,ㄸ'과 같은 초성 독용일  경우에
+   는 한글 코드를 완성하고 입력된 코드는 다음 문자의 초성으로  사
+   용합니다.
+
+ 4) 종성이 있는 경우에는 당연히 중성이 있으므로 현재 종성의  코드
+   와 눌러진 키가 결합하여 종성에 쓰일 수 있는 종성 독용 복자음인
+   가를 판단하여, 복자음으로 쓸수 없는 경우라면 한글 코드를  완성
+   하고 입력된 코드를 다음 문자의 초성으로 사용하며, 종성 독용 복
+   자음이라면 종성 코드를 새로이 갱신합니다.
+
+
+ □ 모음처리 알고리즘
+
+ 1) 초성과 중성의 유무를 판단합니다.
+
+ 2) 초성과 중성이 없다면 초성에는 Fill code를 중성에는 새로  입력
+   된 키를 중성으로 사용합니다.
+
+ 3) 초성이나 중성이 있고(둘중 하나만 있어도 해당), 종성이 없는 경
+   우는 모두 세가지 경우가 있을 수 있으나 두가지 경우로  분류하여
+   처리합니다.
+
+   ① 초성만 있는 경우(중성이 없는 경우)
+      입력된 키를 중성으로 사용
+
+   ② 초성과 중성이 모두 있는경우
+      중성만 있는 경우나 초성이나 중성이 모두 있는 경우는 같은 상
+     황으로 취급하여 처리하는데 기존에 저장되어 있는 중성  코드와
+     새로 입력된 모음이 결합하여 복모음이 되는가를 판단하여  복모
+     음이 되는 경우는 기존에 있던 중성 코드를 복모음으로 갱신하고
+     복모음이 되지 않는 경우는  다음 문자의 중성으로 사용합니다.
+
+ 4) 초성이나 중성이 있고, 종성이 있는 경우는 종성이 복자음일 경우
+   와 아닐 경우로 구분됩니다.
+
+   ① 종성이 복자음이 아닐경우
+      종성이 복자음이 아니라면 종성을 다음 문자의 초성으로 입력돈
+     모음을 다음 문자의 중성으로 사용한다.
+
+   ② 종성이 복자음일 경우
+      종성이 복자음이라면 복자음 중 병서의 두번째 자음을 다음문자
+     의 초성으로 사용한다.
+
+
+
+ 위의 과정으로 한글이 입력이 되게 됩니다. 이론이라 너무  딱딱하고
+이해가 어려우리라 봅니다. 이제 기본적인 입력 알고리즘이  끝났습니
+다. 다음에는 글샘의 입력루틴의 기본 설계 방향에 대해 알아보겠습니
+다. 제 나름대로 설계한 입력루틴이라 구미에 맞지 않을 수도  있겠지
+만 변형은 얼마든지 가능합니다. 그럼 다음에 뵙겠습니다.
+
+
+                                           - 1994.5.18  조 현근 -
+
+
+ PRINTER/CAPTURE를 OFF 하시고 Enter를 누르십시오.
+
+ 김현종   (kbcc    )
+[강좌] 한글 입력 알고리즘 #2                 06/12 12:52   338 line
+
+
+ 한글 입력 알고리즘 강좌 #2
+
+
+ 안녕하세요! 아이디 빌려쓰는 farer조현근 입니다.
+
+
+ 이번에는 이 강좌에서 만들어나갈 '글샘'에서 사용된 한글 입력루틴의 설
+계 방향에 대해 살펴보도록 하겠습니다.
+
+ 글샘에서 사용되는 한글 입력루틴의 저의 단독적인 코딩에 의한 루틴으로
+다른 한글 강좌에서 나오는 루틴과는 많은 차이점이 있습니다.
+
+ 저 같은 경우는 기억력이 과히 좋은편은 못  되어서  한번  생각해내었던
+알고리즘이라도 자꾸 잊어버려 그때그때 새로이 만들어내는 타입입니다.그
+래서 '글샘'같은 경우도 버전업시 초기버전의 입력루틴에서 수정해 사용하
+기란 변수의 기능을 다 알지못하는 관계로 상당한 시간과 노력이 필요하고
+, 부득이 다시 만들어 내는 수 밖에 없었습니다.  그때 생각해서 만들어낸
+알고리즘이 다음에 나올 InputProc()루틴입니다. 입력에 관계된  전반적인
+사항은 이곳에서 대부분 관리해 주기때문에 입력 루틴을 다시  구성할때도
+골아픈 부분은 생각하지 않고 문자열 관리나 커서, 화면 갱신같은  부분만
+재 구성하면 되도록 해 보았습니다.
+
+ 일련의 흐름도나 코딩같은 작업을 거치지 않은 루틴이기 때문에 매끄럽게
+연결되지 않는 경우도 많을것입니다. 그러나 이 강좌가 끝날때쯤 여러분은
+이정도는 충분히 재구성 할 수 있으리라 생각합니다.
+
+
+ 여기에 글샘에서 발췌한 InputProc()를 소개합니다.
+
+---------------------------------------------------------------------
+
+DEFINT A-Z
+DECLARE FUNCTION InputProc ()
+
+
+DEFINT A-Z
+FUNCTION InputProc ()
+
+ IF RemainCode = "CODEREMAIN" THEN
+    InputProc = 2
+    RemainCode = ""
+    EXIT FUNCTION
+ ELSEIF RemainCode <> "" THEN
+    Key$ = RemainCode
+    RemainCode = ""
+ ELSE
+    Key$ = INKEY$
+ END IF
+
+ IF Key$ = "" THEN InputProc = 0: EXIT FUNCTION
+
+ InRegs.ax = &H200
+ INTERRUPTX &H16, InRegs, OutRegs
+ ShiftStatus = StripLow8Bit(OutRegs.ax) AND &H2
+
+ IF ShiftStatus <> 0 AND ASC(Key$) = 32 AND InputMode = 2 THEN
+    InputProc = 6
+    VerifiedCode = "SHIFT-SPACE"
+    EXIT FUNCTION
+ END IF
+
+ SELECT CASE Key$
+    CASE CHR$(8)
+        IF CodeStatus <> 0 THEN
+            InputProc = 3
+            CodeStack(CodeStatus) = 0
+            CodeStatus = CodeStatus - 1
+            VerifiedCode = CompleteVerify$
+            IF CodeStatus = 0 THEN InputProc = 5
+        ELSE
+            InputProc = 6
+            VerifiedCode = "BACKSPACE"
+        END IF
+        EXIT FUNCTION
+    CASE CHR$(13)
+        InputProc = 6
+        VerifiedCode = "ENTER"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(67)
+        InputProc = 6
+        VerifiedCode = "F9"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(71)
+        InputProc = 6
+        VerifiedCode = "HOME"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(72)
+        InputProc = 6
+        VerifiedCode = "UP"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(73)
+        InputProc = 6
+        VerifiedCode = "PAGEUP"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(75)
+        InputProc = 6
+        VerifiedCode = "LEFT"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(77)
+        InputProc = 6
+        VerifiedCode = "RIGHT"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(79)
+        InputProc = 6
+        VerifiedCode = "END"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(80)
+        InputProc = 6
+        VerifiedCode = "DOWN"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(81)
+        InputProc = 6
+        VerifiedCode = "PAGEDOWN"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(83)
+        IF CodeStatus <> 0 THEN
+            InputProc = 5
+            ClearInputBuffer
+        ELSE
+            InputProc = 6
+            VerifiedCode = "DELETE"
+        END IF
+        EXIT FUNCTION
+    CASE ELSE
+        IF LEN(Key$) = 2 THEN InputProc = 0: EXIT FUNCTION
+ END SELECT
+
+ SELECT CASE InputMode
+    CASE 0
+        IF ASC(Key$) >= 48 AND ASC(Key$) <= 57 THEN
+            InputProc = 1
+            VerifiedCode = Key$
+        ELSE
+            InputProc = 0
+        END IF
+    CASE 1
+        InputProc = 1
+        VerifiedCode = Key$
+    CASE 2
+        IF ASC(UCASE$(Key$)) - 65 < 0 OR ASC(UCASE$(Key$)) - 65_
+> 25 THEN
+            IF CodeStatus <> 0 THEN
+                InputProc = 4
+                VerifiedCode = CompleteVerify$
+                RemainCode = Key$
+                ClearInputBuffer
+            ELSE
+                InputProc = 1
+                VerifiedCode = Key$
+            END IF
+            EXIT FUNCTION
+        END IF
+        IF InputStatus = 0 THEN
+            VerifiedCode = Key$
+            InputProc = 1
+        ELSE
+            IF ShiftStatus <> 0 THEN
+                InputCode = Shift(ASC(UCASE$(Key$)) - 65)
+            ELSE
+                InputCode = NoShift(ASC(UCASE$(Key$)) - 65)
+            END IF
+            IF InputCode < 100 THEN
+                IF CodeStatus = 0 THEN
+                    CodeStatus = CodeStatus + 1: InputProc = 2
+                    CodeStack(CodeStatus) = InputCode
+                ELSEIF CodeStatus = 1 THEN
+                    VerifiedCode = CompleteVerify$
+                    ClearInputBuffer
+                    RemainCode = "CODEREMAIN"
+                    CodeStatus = 1: InputProc = 4
+                    CodeStack(1) = InputCode
+                ELSEIF CodeStatus = 2 THEN
+                    CodeStatus = 3: InputProc = 3
+                    CodeStack(CodeStatus) = InputCode
+                ELSEIF CodeStatus = 3 THEN
+                    FOR I = 0 TO 10
+                        IF JongBokja(I, 0) = NoBokJaTB(CodeStack_
+(3)) AND JongBokja(I, 1) = InputCode THEN
+                            CodeStatus = 4: InputProc = 3
+                            CodeStack(4) = InputCode
+                            EXIT FUNCTION
+                        END IF
+                    NEXT I
+                    VerifiedCode = CompleteVerify$
+                    ClearInputBuffer
+                    RemainCode = "CODEREMAIN"
+                    CodeStatus = 1: InputProc = 4
+                    CodeStack(1) = InputCode
+                ELSEIF CodeStatus = 4 THEN
+                    VerifiedCode = CompleteVerify$
+                    ClearInputBuffer
+                    RemainCode = "CODEREMAIN"
+                    CodeStatus = 1: InputProc = 4
+                    CodeStack(1) = InputCode
+                END IF
+            ELSE
+                InputCode = InputCode - 100
+                IF CodeStatus = 0 THEN
+                    CodeStatus = 2: InputProc = 2
+                    CodeStack(2) = InputCode
+                ELSEIF CodeStatus = 1 THEN
+                    CodeStatus = 2: InputProc = 3
+                    CodeStack(2) = InputCode
+                ELSEIF CodeStatus = 2 THEN
+                    FOR I = 0 TO 6
+                        IF SecondTB(I, 0) = CodeStack(2) AND_
+SecondTB(I, 1) = InputCode THEN
+                            CodeStatus = 2: InputProc = 3
+                            CodeStack(2) = SecondTB(I, 2)
+                            EXIT FUNCTION
+                        END IF
+                    NEXT I
+                    VerifiedCode = CompleteVerify$
+                    ClearInputBuffer
+                    RemainCode = "CODEREMAIN"
+                    CodeStatus = 2: InputProc = 4
+                    CodeStack(2) = InputCode
+                ELSEIF CodeStatus = 3 OR CodeStatus = 4 THEN
+                    StackBackUp = CodeStack(CodeStatus)
+                    CodeStack(CodeStatus) = 0
+                    VerifiedCode = CompleteVerify$
+                    ClearInputBuffer
+                    RemainCode = "CODEREMAIN"
+                    CodeStatus = 2: InputProc = 4
+                    CodeStack(1) = StackBackUp
+                    CodeStack(2) = InputCode
+                END IF
+            END IF
+        END IF
+    CASE ELSE
+ END SELECT
+
+END FUNCTION
+
+----------------------------------------------------------------
+
+ 위의 소스에서 알 수 있듯이 한글의 입력시 자동으로 코드의 합성및
+한글 입력에 관계되는 일련의 작업을  수행해주고,  특수키의 경우는
+그 키의 이름을 변수에 넣어 되돌려 주게 됩니다.   프로그래머는 이
+되돌려진 값에따라 입력된 글쇠가 무엇인지 파악 하게되고  다음에는
+어떤 작업과 연결해야 할것인지를 판단하게 됩니다.
+
+ 여기서 글샘의 전체적인 입력루틴의 흐름을 보도록 합시다.
+
+
+
+ □ 입력 루틴의 설계
+
+ 1) 입력루틴을 호출합니다.(예:HINPUT InputString$)
+
+ 2) 모든 사항을 초기화 합니다.
+
+ 3) InputProc()를 호출합니다.
+
+ 4) VerifiedCode AS STRING에 되돌려진 값에 따라 한글이 입력되었는
+   지, 아니면 영문이 입력되었는지 편집키가 입력되었는지의  여부를
+   판단하고 그에 맞도록 분기합니다.
+
+
+ □ 한글이 입력되었을경우
+
+ 1) 한글이 입력되었다면 스택처럼 꾸며진 CodeStack()에 코드가 저장
+   되게됩니다. CodeStack()은 한글이 입력되었을경우 자모의  구분에
+   따라 각 음소의 코드번호를 가지게 됩니다. 이 CodeStack()에 저장
+   된 각 코드번호를 조합해서 합성된 한 글자의 코드를 얻게 됩니다.
+
+ 2) 합성된 코드에따라 화면에 새로이 합성된 글자로 갱산하여 표현합
+   니다.
+
+ 3) -입력루틴 설계-의 3번으로 돌아가 새로운 입력을 받아 들입니다.
+
+
+ □ 영문이 입력되었을 경우
+
+ 1) VerifiedCode에의해 돌아온 글자를 화면에 출력한뒤 커서의 위치
+   를 한칸 뒤로 옮깁니다.
+
+ 2) -입력루틴 설계-의 3번으로 돌아가 새로운 입력을 받아 들입니다.
+
+
+ □ 편집키가 입력된경우
+
+ 1) VerifiedCode에 돌아온 편집키의 종류에 따라 각각의 작업으로 분
+   기합니다.
+
+   ⓛ 한글 한음절이 완성된 경우
+     ㉠ 완성된 한글의 코드를 조합해 화면에 갱신한뒤 커서를  한 칸
+       뒤로 옮깁니다.
+     ㉡ -입력루틴 설계-의 3번으로 돌아가 새로운 입력을 받아들입니
+       다.
+
+   ② Shift-Space가 입력된 경우
+     ㉠ 현재 입력상태에따라 InputMode변수의 값을 한글, 또는  영문
+       입력상태로 토글합니다.
+     ㉡ 현재 한글이 조합중이라면 강제로 조합을 중지하고 한 글자를
+       완성한 다음 커서를 한 칸 뒤로 옮깁니다.
+     ㉢ -입력루틴 설계-의 3번으로 돌아가 새로운 입력을 받아들입니
+       다.
+
+   ③ 백 스페이스가 입력된 경우
+     ㉠ 현재 한글이 조합중인 경우
+       ㉮ 음소별로 하나만 없앱니다.
+       ㉯ 코드를 다시 합성하여 화면을 갱신합니다.
+       ㉰ -입력루틴 설계-의 3번으로 돌아가 새로운 입력을 받아들입
+         니다.
+     ㉡ 한글 입력중이 아닌경우
+       ㉮ 커서의 앞에 있는 글자가 한글인지 영문이지 판별한뒤 한글
+         이라면 2바이트를 영문이라면 1바이트를 지우고 커서를 이동
+         합니다.
+       ㉯ -입력루틴 설계-의 3번으로 돌아가 새로운 입력을 받아  들
+         입니다.
+
+    ④ 편집키가 입력된경우
+      ㉠ 각 경우에 맞는 작업을 행합니다.
+      ㉡ -입력루틴 설계-의 3번으로 돌아가 새로운 입력을  받아들입
+        니다.
+
+
+
+ 이와같은 작업을 ENTER가 입력될때 까지 행하면서 입력을 받아 들입
+니다.
+
+ 이번 강좌는 이걸로 끝맺도록 하겠습니다. 한글 입력 알고리즘은  출
+력과는 달리 제작자의 주관적인 견해가 아주 많이 들어가는  부분이므
+로 이해하기도 힘들고 막상 제작하기도 힘든 부분입니다.  이해가  되
+지 않는 부분은 질문을 해 주시면 성의껏 답변해 드리도록 하겠습니다
+.
+ 다음에는 우선 위의 InputProc()루틴을 분석해 보도록 하겠습니다.그
+때 부터는 설명하기가 좀 어려워 질 것 같네요.
+ 또 지금까지의 설명은 대략적인 것으로 어느정도만 이해하고  있으면
+됩니다. 중요한건 다음부터니까요.
+
+
+
+                                             - 1994.5.18 조현근 -
+
+
+
+ PRINTER/CAPTURE를 OFF 하시고 Enter를 누르십시오.pr
+ PRINTER/CAPTURE를 준비하시고 Enter를 누르십시오
+
+
+ 김현종   (kbcc    )
+[강좌] 한글 입력 알고리즘 #3                 06/12 12:55   325 line
+
+
+ 한글 입력 알고리즘 강좌 #3
+
+
+ 안녕하세요! 아이디 빌려쓰는 farer조현근 입니다.
+
+
+ 이번 3번째 강좌에서는 실제 한글 입력 방법에 대해 알아 보도록  하
+겠습니다. 2회 까지는 한번쯤 읽어보는 다 알 수 있는 그런  내용이었
+지만 지금은 어떨지 잘 모르겠네요. 약간은 머리를 쓰면서  봐야   되
+지 않을까 하는데....
+
+
+
+ 1. 루틴을 작성하기 전에...
+
+
+ 1.1 코드 저장 배열의 설정
+
+ 한글 입력 루틴을 작성하기 전에 미리 선언 되어져야할 몇 가지의 배
+열이 있습니다.
+
+ 첫째로 조합되고 있는 한글의 코드가 임시로 저장될 수 있는  스택처
+럼 사용할 수 있는 배열입니다. 코드가 차곡 차곡 입력되는 순서에 따
+라 차례대로 저장되고 지울때는 위에서부터 하나하나 빼낼수 있는  배
+열을을 뜻합니다. '글샘'에서는 이 배열을 CodeStack()이라는  이름의
+전역변수로 설정하고 있습니다.
+
+ DIM SHARED CodeStack(1 TO 4) AS INTEGER
+
+ 과 같이 선언 되는 이 배열은 1번 방부터 4번방까지  스택처럼  사용
+될것입니다. 방 번호에 따라 들어갈수 있는 코드가  지정되어  있는데
+1번방에는 초성, 2번방에는 중성, 3번방에는 종성, 4번방에는 종성 복
+자음일 경우 복자음의 후미의 자음이 들어갑니다. 만약 처음부터 모음
+이 입력될경우 1번방은 0으로 남겨두고 2번방으로 들어가게 됩니다.
+ 이렇게 각각의 방을 지정해 둔 이유는 화면을 갱신할때 코드를  합성
+해 한글을 만들어 낼 필요가 있기 때문입니다. 그때 초성, 중성, 종성
+의 구별을 쉽게 할 수 가 있습니다.
+
+ 그런데 여기서 창규님의 한글 출력 강좌를 읽어 보신분이라면 종성복
+자음(실은 어떤 복자음이든 간에) 코드가 두개로 들어가지 않고  하나
+로 지정되어 있는 사항을 아시고 계실 겁니다. 근데 왜 여기서 종성복
+자음이 입력될경우 굳이 두개로 나누었는지 의문을 가지는 분이  계실
+겁니다. 제다가 초성에서는 복자음을 하나의 코드로 처리했고, 중성의
+복모음 역시 하나의 코드로 했는데 말이죠.
+ 그 이유는 종성 복모음의 경우는 그 조합과 분리가 빈번히  일어나기
+때문입니다. '달과 나'라는 문장을 쓸 경우 '달과'를 쓸때 '닭'이라는
+글자에서 'ㅗ'모음을 타이핑 하기전 'ㄺ'복모음이 합성되는것을  보실
+수 있습니다. 그러나 일단 'ㅗ'모음이 타이핑되면 다시 'ㄹ'과 'ㄱ'으
+로 분리됩니다. 이것을 하나의 코드로 처리한다면 그  코드의  합성과
+분리를위한 루틴과 배열이 첨가됩니다. 그러나 따로 설정하면 그런 수
+고를 덜 수 있다는것이 그 이유입니다.
+
+
+ 2.2 키보드에서의 입력
+
+ 한글 입력 루틴을 만들면서 또 고려해야 하는 사항의 하나로  키보드
+에서의 입력을 들 수 있습니다. 직접 interrupt(이하 int.)를  호출하
+여 입력을 받을 수도 있지만 직접적인 이익은 없고  수고만  낭비하는
+결과를 가져오기 때문에 int.보다는 INKEY$를 사용하도록 하겠습니다.
+ 그런데 영문의 입력과는 달리 한글은 CapsLock의 On/Off에 영향을 받
+지 않기 때문에 INKEY$로 받아 들여진 아스키 코드를 대문자면 대문자
+소문자면 소문자의 아스키 코드로 변환해 프로그래밍을 해야 합니다.
+실제로는 식을 이용해 ASCII코드를 변환해야 겠지만 베이식의  INKEY$
+를 통해 받아들여지는 코드가 문자열 변수로 들어오는 점을  감안하면
+베이식의 UCASE$같은 기본 함수를 사용해도 좋다는 결론이 나오게  됩
+니다. 따라서 입력되는 ASCII코드에 해당하는 문자를  UCASE$를  이용
+대문자로 변환한다음 ASCII코드로 변환합니다. 이제 우리는 A-Z에  해
+당하는 인덱스만으로 입력을 받을 수 있게 되었습니다.
+
+ 이제 우리는 두번째의 벽에 부딪히게 됩니다. 한글을 입력 할때 대문
+자 소문자든 CapsLock의 On/Off에 상관없이 한글을 입력 받을 수 있게
+되었지만 Shift키의 검출이 불가능 하다는걸 알 수 있습니다. Shift키
+를 누르고 입력하면 한글입력 상태에서는 'ㅃ,ㅉ,ㄸ,ㄲ,ㅆ,ㅒ,ㅖ'같은
+음소가 입력되어야 하는데 이를 구분할 길이 없습니다. Shift키를  누
+르고 입력할 경우 단지 대문자는 소문자로, 소문자는 대문자로 입력되
+는 차이밖에 없는데 우리는 입력을 받을시 무조건 대문자로 바꿔 버리
+도록 했기때문에 그냥 입력하나 쉬프트를 누루고 입력하나 항상  대문
+자로만 인식됩니다. 따라서 Shift키는 따로 감시를 해야 합니다. 쉬프
+트는 이 외에 Shift-Space에서 한/영 전환의 구실도 하기 때문에 더욱
+중요합니다. 그럼 어떻게 Shift의 상태를 감시 할 수 있을까요?
+ 드디어 int.를 이용할때가 왔습니다. 한라에서 유일하게 int.가 사용
+되는 경우입니다. 따라서 우리는 프로그램에서 int.를 사용할  준비를
+해야 합니다. 프고그램의 선두에
+
+ REM $INCLUDE: 'QB.BI'
+   .
+   .
+   .
+ DIM SHARED InRegs AS RegType, OutRegs AS RegType
+
+ 를 삽입합니다. 다음 어떠한 키의 입력이 있음을 감지하자마자 Shift
+는 눌려있는지 그렇지 않은지의 여부를 검사합니다. 다음과 같은 방법
+으로 검출이 가능합니다.
+
+
+ InRegs.ax = &H200
+ INTERRUPT &H16, InRegs, OutRegs
+ ShiftStatus = StripLow8Bit(OutRegs.ax) AND &H2
+
+
+ 위와 같이 하면 ShiftStatus에 만약 Shift키가 떨어져 있다면 0의값
+이 주어지게 되고, 그렇지 않다면 0이아닌 값이 주어지게 됩니다.
+ StripLow8Bit FUNCTION은 아래와 같은 내용으로 구성되며 아래의 숫
+자(정수형)변수에서 마지막 한 바이트를 추출해내는 기능을 지닙니다
+
+
+ DEFINT A-Z
+ DECLARE FUNCTION StripLow8Bit (Register)
+
+   StripLow8Bit = (Register AND &HFF)
+
+ END FUNCTION
+
+
+ 이 기능을 이옛載 자리가 정해져 있는데 말이죠
+. 그러나 이게 자음이라는걸 알고 있다면 이 코드가 초성에는  들어갈
+수 없고 중성의 위치에 코드값을 넣어야 겠다는걸 알 수 있게 됩니다.
+ 여기서는 자음과 모음의 구별을 위해서 키코드값에 한글 코드가 대응
+되어 저장될 배열의 데이터부분에서,모음의 경우는 코드값에 100을 더
+한 값을 사용할것 입니다.
+ 이런 방법에 의해 만들어진 Shift자 눌려지지 않을 경우의 NoShift()
+코드 배열과 Shift()의 코드 배열의 데이터는 아래와 같습니다.
+
+ - NoShift () -
+
+ DATA 8,126,16,13,5,7,20,113,105,107,103,129,127,120,104,110,9,2,
+4,11,111,19,14,18,119,17
+
+
+ - Shift () -
+
+ DATA 8,126,16,13,6,7,20,113,105,107,103,129,127,120,106,112,10,3
+,4,12,111,19,15,18,119,17
+
+
+ 100이상의 값일 경우는 모음으로 인식하고 코드값에서 100을 뺀 다음
+코드값으로 이용하면 됩니다.
+
+ 그럼 입력된 아스키 코드를 이용해 한글 코드로 변환하는 연습을  해
+봅시다.
+
+ DIM SHARED Shift(25) AS INTEGER
+ DIM SHARED NoShift(25) AS INTEGER
+
+ FOR I=0 TO 25
+    READ Shift(I)
+ NEXT I
+
+ FOR I=0 TO 25
+    READ NoShift(I)
+ NEXT I
+
+ .
+ .
+ .
+
+ DO
+     Key$ = INKEY$
+
+     IF Key$ <> "" THEN
+        InRegs.ax = &H200
+        INTERRUPT &H16, InRegs, OutRegs
+        ShiftStatus = StripLow8Bit(OutRegs.ax) AND &H2
+
+        IF ShiftStatus = 0 THEN
+            '보통 경우의 문자 입력이다.
+            Key$ = UCASE$(Key$)
+            IF 한글 입력 상태라면 THEN
+                CodeAsc = ASC(A$) - 65
+                IF CodeAsc >= 0 AND CodeAsc <= 25 THEN
+                    InputCode = NoShift(CodeAsc)
+                    IF InputCode < 100 THEN
+                        '자음 입력이다
+                    ELSE
+                        '모음 입력이다.
+                        InputCode = InputCode - 100
+                    END IF
+                ELSE
+                    '한글이 아니다.
+                END IF
+            ELSE
+                '영문 입력 이다.
+            END IF
+            .
+            .
+
+        ELSE
+            IF Key$ = " " THEN
+                'Shift-Space가 입력되었다. 한/영 토글을 한다.
+            ELSE
+                'Shift와 함께 키가 입력되었다.
+                Key$=UCASE$(Key$)
+                IF 한글 입력 상태라면 THEN
+                    CodeAsc = ASC(A$) - 65
+                    IF CodeAsc >= 0 AND CodeAsc <= 25 THEN
+                        InputCode = Shift(CodeAsc)
+                        IF InputCode < 100 THEN
+                            '자음 입력이다
+                        ELSE
+                            '모음 입력이다.
+                            InputCode = InputCode - 100
+                        END IF
+                    ELSE
+                        '한글이 아니다.
+                    END IF
+                ELSE
+                    '영문 입력 이다.
+                END IF
+                .
+                .
+            END IF
+        END IF
+     END IF
+ LOOP WHILE 1
+
+
+ 우선 보통 경우의 입력 이고 한글 입력 상태라면 대문자로 변환된 Ke
+y$의 값을 ASCII코드로 변환해서 65을 뺀값을 CodeAsC에 저장합니다.
+ 여기서 65를 빼는 이유는 A-Z중 가장 먼저 시작되는 'A'의 아스키 코
+드값이 65이므로, 대문자 알파벳의 아스키 코드에서 65를 빼주게 되면
+0-25번 까지의 값을 가지게 되어 배열을 참조할때 편리하기  때문입니
+다. 그다음 A-Z이외의 코드값을 가질 경우가 있는데(1,2,3,...)  이때
+는 영문과 마찬가지로 처리해 주면 됩니다.또 한글 코드인지 아닌지를
+검사하기 위해 'IF CodeAsc >= 0 AND CodeAsc <= 25 THEN'이 사용되었
+습니다. 이를 만족하면 입력된 코드는 한글 코드입니다.  왜 그런지는
+조금만 신경쓰면 알 수 있겠죠.
+ 다음 할 일은 현재 하는 작업이 Shift키가 눌려지지 않은 상태이므로
+NoShift()참조  배열을 이용해 한글 코드로 변환한 다음  InputCode에
+저장 합니다. 그리고 이 InputCode가 100이상인지 아닌지의 여부로 자
+음인지 모음인지를  구별하고 모음이면 100을 뺀값을 코드 번호로  이
+용합니다.
+
+ Shift키가 눌려진 경우도 모든 작업이 동일하고, 단지 참조배열을 Sh
+ift()를 이용하는것만이 다릅니다.
+
+ 따라서 이 두작업은 거의 동일하므로 하나로 합치는것이  프로그램의
+크기를 줄이는데 도움이 된다는걸 알 수 있습니다. 다음에   '글샘'의
+입력 루틴을 제시할때 이부분을 합쳐서 하도록 하겠습니다. 지금은 이
+해를 돕기 위해 그대로 쓰도록 합니다.
+
+ 3회는 이만 하도록 하겠습니다.
+
+
+ 그럭저럭 3회 강좌도 넘어 갔군요. 3회에서 한글 입력에 사용되는 배
+열을 모두 다 다룰려고 했는데, 무리인것 같네요. 다음 4회에서는  한
+글 입력에 사용되는 코드를 완전히 끝내고, 코드들을 다시 정리해  살
+펴 보도록 하겠습니다.
+
+ 시간이 너무 쪼달려서 급히 쓰다보니 말이 안되는  부분이  있을지도
+모르겠습니다만, 공부하랴 이거하랴 너무 급하고, 시간 짬짬이 쓰다보
+니 머리속에서 차려대로 정리가 안되어 그렇습니다.  너무 비약적이거
+나 말도안되는 소리를 해서 이해가 잘 되지 않는다면  어떤부분이  잘
+이해가 안된다고 게시판에 글을 올려주시면 다시 정리해서  답변해 드
+리겠습니다. 그럼.
+
+                                              - 1994.5.22 조현근-
+
+
+
+ PRINTER/CAPTURE를 OFF 하시고 Enter를 누르십시오.
+
+ 송창규   (ddongper)
+[강좌] 한글 풀그림 강좌 #1                   06/05 13:50   85 line
+
+안녕하세요? dp입니다.
+앞에서 예고한 대로 이번에는 조합형
