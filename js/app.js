@@ -49,11 +49,13 @@
       connectedAt = Date.now();
       updateOffice();
       updateStatus();
+      updateSoftkeys();
     },
     onDisconnect: () => {
       connectedAt = 0;
       updateOffice();
       updateStatus();
+      updateSoftkeys();
     },
     onRoute: (h) => setRoute(h),
     postUrl: (key) => (/^https?:$/.test(location.protocol) ? location.href.replace(/#.*$/, "") + "#" + key : ""),
@@ -169,6 +171,13 @@
   }
 
   // ------------------------------------------------------------ 모드
+  // 소프트 키: 접속 전에는 BBS 명령 키를 흐리게, 전화번호부가 열려 있을 때만 '전화 걸기' 키를 보인다.
+  function updateSoftkeys() {
+    const top = dialogs[dialogs.length - 1];
+    softkeys.classList.toggle("offline", modem.state !== "online");
+    softkeys.querySelector('[data-act="dial"]').textContent = modem.state === "online" ? "전화 끊기" : "전화번호부";
+    softkeys.querySelector('[data-act="call"]').hidden = !(top && top.call);
+  }
   function updateOffice() {
     const visible = mode === "splash" || (mode === "term" && modem.state !== "online");
     $("office").hidden = !visible;
@@ -272,6 +281,7 @@
       d.input.focus();
       d.input.select();
     } else kbd.blur();
+    updateSoftkeys();
     return d;
   }
   function closeDialog(d) {
@@ -283,6 +293,7 @@
       layer.hidden = true;
       focusKbd();
     }
+    updateSoftkeys();
     if (d.onClose) d.onClose();
   }
   function box(cls, title, bodyHTML) {
@@ -704,7 +715,7 @@
       modem.dial(e.number, false);
     };
     const d = {
-      el, x: 72, y: 8,
+      el, x: 72, y: 8, call: go,
       onKey(e, k) {
         if (k === "ArrowUp") sel = (sel + book.length - 1) % book.length;
         else if (k === "ArrowDown") sel = (sel + 1) % book.length;
@@ -1277,11 +1288,17 @@
     if (menu.open && !e.target.closest("#menubar")) menu.hide();
   });
 
+  // 소프트 키: 접속 중이면 BBS 명령(T, L, B, N, S, X)을 입력 줄에 넣어 보내고, 그 밖에는 글쇠로 넘긴다.
   softkeys.addEventListener("click", (e) => {
     const b = e.target.closest("button");
     if (!b) return;
     e.preventDefault();
     if (b.dataset.act === "dial") return runAction(modem.state === "online" ? "hangup" : "dial");
+    if (b.dataset.act === "call") {
+      const d = dialogs[dialogs.length - 1];
+      if (d && d.call) d.call();
+      return;
+    }
     if (b.dataset.act === "kbd") {
       if (dialogs.length) {
         const d = dialogs[dialogs.length - 1];
@@ -1293,12 +1310,13 @@
       return;
     }
     const k = b.dataset.k;
-    if (mode === "term" && !term.keyMode && !dialogs.length && !menu.open && k.length === 1) {
-      kbd.value = k;
-      term.setInput(k);
-      return commitLine();
-    }
-    pressKey(k);
+    if (dialogs.length || menu.open || mode !== "term") return pressKey(k === "N" ? "Enter" : k);
+    if (modem.state !== "online") return;
+    if (term.busy) term.flush();
+    if (term.keyMode) return modem.key(k);
+    kbd.value = k;
+    term.setInput(k);
+    commitLine();
   });
 
   // ------------------------------------------------------------ 시작: 도스 → 시작 화면 → 통신 화면
@@ -1366,8 +1384,10 @@
   // ------------------------------------------------------------ 창 크기
   function layout() {
     const vv = window.visualViewport;
-    const W = vv ? vv.width : window.innerWidth;
-    const Hh = (vv ? vv.height : window.innerHeight) - (getComputedStyle(softkeys).display === "none" ? 0 : softkeys.offsetHeight);
+    // 손가락으로 벌려 확대(pinch zoom)했을 때는 visualViewport 가 줄어들지만 화면 배치는 그대로 두어야 하므로
+    // scale 을 곱해 원래 창 크기로 되돌린다. 소프트 자판이 올라와 창이 실제로 줄어든 경우만 배치를 다시 한다.
+    const W = vv ? vv.width * vv.scale : window.innerWidth;
+    const Hh = (vv ? vv.height * vv.scale : window.innerHeight) - (getComputedStyle(softkeys).display === "none" ? 0 : softkeys.offsetHeight);
     // 위아래에 얇은 검은 여백을 두고, 남은 화면을 4:3 비율로 최대한 채운다.
     const marginY = Math.min(16, Hh * 0.03);
     const s = Math.min(W / 640, (Hh - marginY * 2) / 480);
@@ -1381,6 +1401,7 @@
   const fontReady = document.fonts && document.fonts.load ? Promise.race([document.fonts.load('16px "Neo둥근모"'), new Promise((r) => setTimeout(r, 2000))]) : Promise.resolve();
   fontReady.then(() => {
     layout();
+    updateSoftkeys();
     applyColor();
     applyCursor();
     term.bps = cnf.bps;

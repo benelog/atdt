@@ -213,4 +213,5 @@ a.lk, .btn, .li, .cell, .mi, .it, .kb, span.act, i.act { cursor: url("data:image
 #softkeys button { font: 14px/20px "Neo둥근모", sans-serif; background: #AAAAAA; color: #000; border: 2px solid; border-color: #fff #555 #555 #fff;
   padding: 2px 8px; min-width: 60px; }
 #softkeys button:active { background: #000; color: #fff; }
+#softkeys.offline button.bbs { color: #555; background: #888; border-color: #aaa #666 #666 #aaa; }
 @media (pointer: coarse), (orientation: portrait) { #softkeys { display: flex; } }
