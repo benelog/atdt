@@ -6,6 +6,27 @@
     <pattern id="keys" width="14" height="7" patternUnits="userSpaceOnUse"><path fill="#000" d="M0 0h14v7H0z"/><path fill="#fff" d="M1 1h11v4H1z"/><path fill="#aaa" d="M2 2h10v3H2z"/></pattern>
     <g id="keyboard"><path fill="#fff" stroke="#000" d="M18 0h164l24 30H0z"/><path fill="url(#keys)" stroke="#555" d="M22 4h156l16 21H7z"/><path fill="#aaa" stroke="#000" d="M0 30h206v4H4z"/><path fill="#aaa" stroke="#000" d="M57 22h79v4H57z"/></g>
     <g id="monitor"><path fill="url(#dots)" stroke="#000" d="M4 0h104l4 4v63l-4 4H4l-4-4V4z"/><path fill="#aaa" stroke="#fff" d="M5 5h102v59H5z"/><path fill="#555" stroke="#000" d="M12 10h88v48H12z"/><path fill="#000" stroke="#fff" d="M16 13h80v42H16z"/><path fill="#aaa" stroke="#000" d="M38 71h36l5 9H32zM29 80h51l9 9H20z"/><path fill="#fff" d="M28 81h50v2H28z"/><path fill="#55ff55" d="M91 63h3v2h-3z"/></g>
+    <!-- Neo둥근모 16px의 도트 윤곽. fonts/neodgm.woff2, SIL OFL 1.1 (fonts/neodgm-OFL.txt). -->
+    <path id="dot-0021" d="M3.0 -10.0H5.0V-3.0H3.0ZM3.0 -2.0H5.0V0.0H3.0Z"/>
+    <path id="dot-0031" d="M1.0 -8.0H2.0V-9.0H3.0V-10.0H5.0V0.0H3.0V-7.0H1.0Z"/>
+    <path id="dot-0036" d="M0.0 -9.0H1.0V-10.0H6.0V-9.0H2.0V-6.0H6.0V-5.0H7.0V-1.0H6.0V0.0H1.0V-1.0H0.0ZM2.0 -5.0V-1.0H5.0V-5.0Z"/>
+    <path id="dot-0039" d="M0.0 -9.0H1.0V-10.0H6.0V-9.0H7.0V-1.0H6.0V0.0H1.0V-1.0H5.0V-5.0H1.0V-6.0H0.0ZM2.0 -9.0V-6.0H5.0V-9.0Z"/>
+    <path id="dot-0041" d="M0.0 -9.0H1.0V-10.0H6.0V-9.0H7.0V0.0H5.0V-5.0H2.0V0.0H0.0ZM2.0 -9.0V-6.0H5.0V-9.0Z"/>
+    <path id="dot-0044" d="M0.0 -10.0H6.0V-9.0H7.0V-1.0H6.0V0.0H0.0ZM2.0 -9.0V-1.0H5.0V-9.0Z"/>
+    <path id="dot-0045" d="M0.0 -9.0H1.0V-10.0H7.0V-9.0H2.0V-6.0H6.0V-5.0H2.0V-1.0H7.0V0.0H1.0V-1.0H0.0Z"/>
+    <path id="dot-0047" d="M0.0 -9.0H1.0V-10.0H6.0V-9.0H7.0V-8.0H5.0V-9.0H2.0V-1.0H5.0V-5.0H4.0V-6.0H7.0V0.0H1.0V-1.0H0.0Z"/>
+    <path id="dot-0049" d="M1.0 -10.0H7.0V-9.0H5.0V-1.0H7.0V0.0H1.0V-1.0H3.0V-9.0H1.0Z"/>
+    <path id="dot-004c" d="M0.0 -10.0H2.0V-1.0H7.0V0.0H0.0Z"/>
+    <path id="dot-004e" d="M0.0 -10.0H6.0V-9.0H7.0V0.0H5.0V-9.0H2.0V0.0H0.0Z"/>
+    <path id="dot-004f" d="M0.0 -9.0H1.0V-10.0H6.0V-9.0H7.0V-1.0H6.0V0.0H1.0V-1.0H0.0ZM2.0 -9.0V-1.0H5.0V-9.0Z"/>
+    <path id="dot-0054" d="M1.0 -10.0H7.0V-9.0H5.0V0.0H3.0V-9.0H1.0Z"/>
+    <path id="dot-0059" d="M1.0 -10.0H3.0V-6.0H5.0V-10.0H7.0V-6.0H6.0V-5.0H5.0V0.0H3.0V-5.0H2.0V-6.0H1.0Z"/>
+    <path id="dot-0063" d="M0.0 -6.0H1.0V-7.0H6.0V-6.0H7.0V-5.0H5.0V-6.0H2.0V-1.0H5.0V-2.0H7.0V-1.0H6.0V0.0H1.0V-1.0H0.0Z"/>
+    <path id="dot-0064" d="M0.0 -6.0H1.0V-7.0H5.0V-10.0H7.0V0.0H1.0V-1.0H0.0ZM2.0 -6.0V-1.0H5.0V-6.0Z"/>
+    <path id="dot-0065" d="M0.0 -6.0H1.0V-7.0H6.0V-6.0H7.0V-4.0H2.0V-1.0H5.0V-2.0H7.0V-1.0H6.0V0.0H1.0V-1.0H0.0ZM2.0 -6.0V-5.0H5.0V-6.0Z"/>
+    <path id="dot-006e" d="M0.0 -7.0H2.0V-6.0H3.0V-7.0H6.0V-6.0H7.0V0.0H5.0V-6.0H3.0V-5.0H2.0V0.0H0.0Z"/>
+    <path id="dot-006f" d="M0.0 -6.0H1.0V-7.0H6.0V-6.0H7.0V-1.0H6.0V0.0H1.0V-1.0H0.0ZM2.0 -6.0V-1.0H5.0V-6.0Z"/>
+    <path id="dot-0074" d="M0.0 -7.0H1.0V-10.0H3.0V-7.0H5.0V-6.0H3.0V-1.0H5.0V-2.0H7.0V-1.0H6.0V0.0H2.0V-1.0H1.0V-6.0H0.0Z"/>
   </defs>
   <path fill="#55f" d="M0 0h640v464H0z"/>
   <path fill="#00a" d="M0 228h640v236H0z"/>
@@ -24,7 +45,8 @@
   <path fill="url(#dots)" stroke="#000" d="M0 332h468v10H0z"/>
   <path fill="#aaa" stroke="#000" d="M452 342h10v7h-10z"/>
   <use href="#monitor" x="52" y="173"/>
-  <g font-family="monospace" font-size="12" text-anchor="middle"><text x="108" y="203" fill="#ff5">ATDT 1996</text><text x="108" y="219" fill="#f55">connected!</text></g>
+  <g fill="#ff5" aria-label="ATDT 1996"><title>ATDT 1996</title><use href="#dot-0041" x="72" y="203"/><use href="#dot-0054" x="80" y="203"/><use href="#dot-0044" x="88" y="203"/><use href="#dot-0054" x="96" y="203"/><use href="#dot-0031" x="112" y="203"/><use href="#dot-0039" x="120" y="203"/><use href="#dot-0039" x="128" y="203"/><use href="#dot-0036" x="136" y="203"/></g>
+  <g fill="#f55" aria-label="connected!"><title>connected!</title><use href="#dot-0063" x="68" y="219"/><use href="#dot-006f" x="76" y="219"/><use href="#dot-006e" x="84" y="219"/><use href="#dot-006e" x="92" y="219"/><use href="#dot-0065" x="100" y="219"/><use href="#dot-0063" x="108" y="219"/><use href="#dot-0074" x="116" y="219"/><use href="#dot-0065" x="124" y="219"/><use href="#dot-0064" x="132" y="219"/><use href="#dot-0021" x="140" y="219"/></g>
   <path fill="url(#dots)" stroke="#000" d="M184 110h67l7 6v149l-7 7h-72V116z"/>
   <path fill="#aaa" stroke="#fff" d="M185 117h66v148h-66z"/>
   <path fill="#555" stroke="#000" d="M194 126h48v22h-48zM194 155h48v7h-48z"/>
@@ -34,7 +56,8 @@
   <path fill="#f55" d="M244 168h5v6h-5z"/>
   <use href="#keyboard" x="7" y="268"/>
   <g transform="translate(267 208) scale(.94 .72)"><use href="#monitor"/></g>
-  <g font-family="monospace" font-size="12" text-anchor="middle"><text x="320" y="233" fill="#ff5">IYAGI</text><text x="320" y="249" fill="#f55">ONLINE</text></g>
+  <g fill="#ff5" aria-label="IYAGI"><title>IYAGI</title><use href="#dot-0049" x="300" y="231"/><use href="#dot-0059" x="308" y="231"/><use href="#dot-0041" x="316" y="231"/><use href="#dot-0047" x="324" y="231"/><use href="#dot-0049" x="332" y="231"/></g>
+  <g fill="#f55" aria-label="ONLINE"><title>ONLINE</title><use href="#dot-004f" x="296" y="245"/><use href="#dot-004e" x="304" y="245"/><use href="#dot-004c" x="312" y="245"/><use href="#dot-0049" x="320" y="245"/><use href="#dot-004e" x="328" y="245"/><use href="#dot-0045" x="336" y="245"/></g>
   <use href="#keyboard" transform="translate(268 273) scale(.64 1)"/>
   <path fill="none" stroke="#aaa" d="M216 282c26 16-21 14-20 29s50 16 29 3"/>
   <path fill="#fff" stroke="#555" d="M187 314l22-4 22 7-9 10-29 1-9-6z"/>
