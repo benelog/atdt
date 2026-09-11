@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="464" viewBox="0 0 640 464" shape-rendering="crispEdges">
+  <!-- 새로 그린 EGA 16색 사무실. 원본 I.GRM을 포함하지 않는다. -->
+  <defs>
+    <pattern id="dots" width="2" height="2" patternUnits="userSpaceOnUse"><path fill="#fff" d="M0 0h2v2H0z"/><path fill="#555" d="M0 0h1v1H0zM1 1h1v1H1z"/></pattern>
+    <pattern id="vents" width="4" height="2" patternUnits="userSpaceOnUse"><path fill="#aaa" d="M0 0h4v2H0z"/><path fill="#555" d="M0 0h2v2H0z"/></pattern>
+    <pattern id="keys" width="14" height="7" patternUnits="userSpaceOnUse"><path fill="#000" d="M0 0h14v7H0z"/><path fill="#fff" d="M1 1h11v4H1z"/><path fill="#aaa" d="M2 2h10v3H2z"/></pattern>
+    <g id="keyboard"><path fill="#fff" stroke="#000" d="M18 0h164l24 30H0z"/><path fill="url(#keys)" stroke="#555" d="M22 4h156l16 21H7z"/><path fill="#aaa" stroke="#000" d="M0 30h206v4H4z"/><path fill="#aaa" stroke="#000" d="M57 22h79v4H57z"/></g>
+    <g id="monitor"><path fill="url(#dots)" stroke="#000" d="M4 0h104l4 4v63l-4 4H4l-4-4V4z"/><path fill="#aaa" stroke="#fff" d="M5 5h102v59H5z"/><path fill="#555" stroke="#000" d="M12 10h88v48H12z"/><path fill="#000" stroke="#fff" d="M16 13h80v42H16z"/><path fill="#aaa" stroke="#000" d="M38 71h36l5 9H32zM29 80h51l9 9H20z"/><path fill="#fff" d="M28 81h50v2H28z"/><path fill="#55ff55" d="M91 63h3v2h-3z"/></g>
+  </defs>
+  <path fill="#55f" d="M0 0h640v464H0z"/>
+  <path fill="#00a" d="M0 228h640v236H0z"/>
+  <path fill="none" stroke="#000" d="M0 218h431M0 228h431"/>
+  <!-- 원근감 있는 수납장 -->
+  <path fill="#aaa" stroke="#000" d="M430 46L494 0h146v321l-49 7-161-99z"/>
+  <path fill="url(#dots)" stroke="#000" d="M473 94l65-20v157l-65-21z"/>
+  <path fill="#aaa" stroke="#000" d="M451 31v208l22 13V15M506 0v87M539 0v302M473 94l66-20M473 159l66 4M473 210l66 21"/>
+  <path fill="#555" stroke="#000" d="M473 154l66 7v7l-66-8z"/>
+  <path fill="#0a0" stroke="#000" d="M485 138l-2-37 10 1 8 41z"/>
+  <path fill="#55f" stroke="#000" d="M502 146l-13-38 11-1 14 42z"/>
+  <path fill="#fff" stroke="#000" d="M510 148l-13-33h28l13 40z"/>
+  <path fill="none" stroke="#000" d="M496 47l9-3v20l-9-3zM500 45v18M485 203l10 4v20l-10-5zM489 205v20"/>
+  <!-- 책상과 데스크톱, 노트북 -->
+  <path fill="#fff" stroke="#000" d="M0 255h417l51 77H0z"/>
+  <path fill="url(#dots)" stroke="#000" d="M0 332h468v10H0z"/>
+  <path fill="#aaa" stroke="#000" d="M452 342h10v7h-10z"/>
+  <use href="#monitor" x="52" y="173"/>
+  <g font-family="monospace" font-size="12" text-anchor="middle"><text x="108" y="203" fill="#ff5">ATDT 1996</text><text x="108" y="219" fill="#f55">connected!</text></g>
+  <path fill="url(#dots)" stroke="#000" d="M184 110h67l7 6v149l-7 7h-72V116z"/>
+  <path fill="#aaa" stroke="#fff" d="M185 117h66v148h-66z"/>
+  <path fill="#555" stroke="#000" d="M194 126h48v22h-48zM194 155h48v7h-48z"/>
+  <path fill="url(#vents)" stroke="#555" d="M204 198h40v59h-40z"/>
+  <path fill="#000" d="M243 128h8v48h-8z"/>
+  <path fill="#55ff55" d="M244 134h5v2h-5zM244 140h5v2h-5z"/>
+  <path fill="#f55" d="M244 168h5v6h-5z"/>
+  <use href="#keyboard" x="7" y="268"/>
+  <g transform="translate(267 208) scale(.94 .72)"><use href="#monitor"/></g>
+  <g font-family="monospace" font-size="12" text-anchor="middle"><text x="320" y="233" fill="#ff5">IYAGI</text><text x="320" y="249" fill="#f55">ONLINE</text></g>
+  <use href="#keyboard" transform="translate(268 273) scale(.64 1)"/>
+  <path fill="none" stroke="#aaa" d="M216 282c26 16-21 14-20 29s50 16 29 3"/>
+  <path fill="#fff" stroke="#555" d="M187 314l22-4 22 7-9 10-29 1-9-6z"/>
+  <path fill="none" stroke="#aaa" d="M187 318l26-3 14 4-8 5-27 1M208 313l7 7"/>
+  <!-- 화분: 단색 선으로 그린 잎 -->
+  <path fill="#555" stroke="#000" d="M588 294h44l-6 43q-16 12-32 0z"/>
+  <path fill="#aaa" d="M595 302h8v35l-6-2z"/>
+  <ellipse cx="610" cy="295" rx="23" ry="7" fill="#000"/>
+  <g fill="none" stroke="#000" stroke-width="3">
+    <path d="M610 307q-14-85-75-107M610 305q-21-68-64-58M610 308q15-81 28-107M609 305q-5-77-31-111M610 310q-28-39-71-30M610 307q10-53 29-43M610 299q-35-60-63-34M610 306q0-103 12-111M610 305q-45-17-59 0M610 310q16-52 30-28"/>
+  </g>
+  <g fill="none" stroke="#55ff55">
+    <path d="M610 307q-14-85-75-107M610 305q-21-68-64-58M610 308q15-81 28-107M609 305q-5-77-31-111M610 310q-28-39-71-30M610 307q10-53 29-43M610 299q-35-60-63-34M610 306q0-103 12-111M610 305q-45-17-59 0M610 310q16-52 30-28M592 260l-42-40M596 272l-52-16M604 261l-24-53M614 268l23-50M600 288l-48 3M620 287l20-14"/>
+  </g>
+</svg>

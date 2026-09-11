@@ -47,10 +47,12 @@
     soundOn: () => cnf.sound,
     onConnect: () => {
       connectedAt = Date.now();
+      updateOffice();
       updateStatus();
     },
     onDisconnect: () => {
       connectedAt = 0;
+      updateOffice();
       updateStatus();
     },
     onRoute: (h) => setRoute(h),
@@ -167,17 +169,23 @@
   }
 
   // ------------------------------------------------------------ 모드
+  function updateOffice() {
+    const visible = mode === "splash" || (mode === "term" && modem.state !== "online");
+    $("office").hidden = !visible;
+    stage.classList.toggle("offline", visible);
+  }
   function setMode(m) {
     mode = m;
     const termish = m === "term" || m === "backscroll";
     screenEl.hidden = !termish;
-    statusEl.hidden = !termish;
+    statusEl.hidden = !termish && m !== "splash";
     editorEl.hidden = m !== "editor";
     dosEl.hidden = !(m === "dos" || m === "boot");
     splash.hidden = m !== "splash";
     kbd.value = "";
     if (m === "backscroll") buildStatus("back");
-    else if (m === "term") buildStatus("term");
+    else if (m === "term" || m === "splash") buildStatus("term");
+    updateOffice();
     updateStatus();
     placeKbd();
     focusKbd();
@@ -186,8 +194,8 @@
   // ------------------------------------------------------------ 상태줄
   let statusKind = "";
   const STATUS_TERM = [
-    { w: 84, id: "ime" }, { w: 50, id: "led" }, { w: 94, id: "conn", act: "conn" }, { w: 112, id: "han", act: "hangul" },
-    { w: 136, id: "line", act: "speed" }, { w: 98, id: "cap", act: "capture" }, { w: 66, id: "clk" },
+    { w: 84, id: "ime" }, { w: 48, id: "led" }, { w: 96, id: "conn", act: "conn" }, { w: 112, id: "han", act: "hangul" },
+    { w: 136, id: "line", act: "speed" }, { w: 96, id: "cap", act: "capture" }, { w: 68, id: "clk" },
   ];
   const STATUS_BACK = [
     { w: 84, id: "ime" }, { w: 50, id: "pos" }, { w: 24, id: "up", act: "bsUp", text: "▲" }, { w: 24, id: "dn", act: "bsDn", text: "▼" },
@@ -230,6 +238,7 @@
     if (estat && mode === "editor") editor.renderStatus();
   }
   statusEl.addEventListener("click", (e) => {
+    if (mode === "splash") return;
     const s = e.target.closest("span[data-act]");
     if (!s || dialogs.length) return;
     const a = s.dataset.act;
@@ -420,20 +429,21 @@
     render() {
       menubar.hidden = false;
       menubar.textContent = "";
-      let x = 2;
+      const positions = [8, 40, 120, 216, 288, 360, 432];
+      const widths = [24, 64, 80, 56, 56, 56, 56];
       MENUS.forEach((m, i) => {
         const s = document.createElement("span");
         s.className = "mi" + (i === this.col ? " sel" : "");
         s.textContent = m.title;
-        s.style.left = x + "px";
+        s.style.left = positions[i] + "px";
+        s.style.width = widths[i] + "px";
         s.dataset.col = i;
         menubar.appendChild(s);
-        m._x = x;
-        x += (m.icon ? 24 : strWidth(m.title) * 8) + 14 + 6;
+        m._x = positions[i];
       });
       const brand = document.createElement("span");
       brand.className = "brand";
-      brand.textContent = "갈무리 보관소";
+      brand.textContent = "이야기 5.3";
       menubar.appendChild(brand);
       const m = MENUS[this.col];
       const dd = document.createElement("div");
@@ -668,16 +678,24 @@
     const el = document.createElement("div");
     el.className = "dial";
     const rows = () =>
-      book.map((e, i) => `<div class="li${i === sel ? " sel" : ""}" data-i="${i}">${esc(fit(String(i + 1), 2, true))}  ${e.star ? "*" : " "}${esc(fit(e.name, 22))} ${esc(fit(e.number, 9))} ${esc(e.speed)}[${esc(e.memo)}]</div>`).join("") +
-      "<div class=\"li\"> </div>".repeat(Math.max(0, 8 - book.length));
+      book.map((e, i) => `<div class="li${i === sel ? " sel" : ""}" data-i="${i}">${esc(fit(String(i + 1), 2, true))} ${e.star ? "*" : " "}${esc(fit(e.name, 24))}${esc(fit(e.number, 12))}${esc(e.speed)}[${esc(e.memo)}]</div>`).join("") +
+      '<div class="li"> </div>'.repeat(Math.max(0, 10 - book.length));
+    const key = (label, action) => `<button type="button" data-a="${action}">${label}</button>`;
+    const command = (label, letter) => `<span>${label} <b>${letter}</b></span>`;
+    el.setAttribute("role", "dialog");
+    el.setAttribute("aria-label", "전화 걸기");
     el.innerHTML =
-      `<div class="ttl">전 화   걸 기</div>` +
-      `<div class="band"><span class="btn">이 름 [ 곳 ]</span><span class="btn">전 화 번 호 ☎</span><span class="btn">선 택 사 항</span></div>` +
+      '<div class="band"><span>이 름 [ 곳 ]</span><span>전 화 번 호 ☎</span><span>선 택 사 항</span></div>' +
       `<div class="list">${rows()}</div>` +
-      `<div class="keys"><div> ▲ PgUp Home <b>V</b>  │ 읽기<b>R</b> 순서<b>S</b> 청소<b>A</b> 고침<b>E</b></div>` +
-      `<div> ▼ PgDn End <i class="act" data-a="dial">☎</i>    │ 저장<b>W</b> 찾기<b>F</b> 반전<b>V</b> 설명<b>H</b></div>` +
-      `<div> 이야기 동시걸기 TAB ♪ │ 삽입<b>I</b> 지움<b>D</b> 옮김<b>M</b> 멈춤<b>T</b></div>` +
-      `<div class="hint" style="color:#fff;margin-top:4px"> Enter, ☎ : 고른 곳에 전화 걸기       Esc : 닫기</div></div>`;
+      '<div class="keys"><div class="keyrow"><div class="keygroup">' +
+      key("▲", "up") + key("PgUp", "first") + key("Home", "first") + key("∨", "down") +
+      '</div><div class="keygroup commands">' + command("읽기", "R") + command("순서", "S") + command("청소", "A") + command("고침", "E") +
+      '</div></div><div class="keyrow"><div class="keygroup">' +
+      key("▼", "down") + key("PgDn", "last") + key("End", "last") + key("☎", "dial") +
+      '</div><div class="keygroup commands">' + command("저장", "W") + command("찾기", "F") + command("반전", "V") + key('설명 <b>H</b>', "help") +
+      '</div></div><div class="keyrow"><div class="keygroup"><span class="together">이야기 <b>동시걸기 TAB ♪</b></span></div>' +
+      '<div class="keygroup commands">' + command("삽입", "I") + command("지움", "D") + command("옮김", "M") + key('멈춤 <b>Esc</b>', "close") +
+      '</div></div></div><div class="dial-hint">Enter · 두 번 누르기: 전화 걸기 / Esc: 닫기</div>';
     const list = el.querySelector(".list");
     const draw = () => (list.innerHTML = rows());
     const go = () => {
@@ -686,7 +704,7 @@
       modem.dial(e.number, false);
     };
     const d = {
-      el,
+      el, x: 72, y: 8,
       onKey(e, k) {
         if (k === "ArrowUp") sel = (sel + book.length - 1) % book.length;
         else if (k === "ArrowDown") sel = (sel + 1) % book.length;
@@ -706,7 +724,15 @@
         sel = +li.dataset.i;
         draw();
       }
-      if (e.target.closest("[data-a=dial]")) go();
+      const action = e.target.closest("[data-a]")?.dataset.a;
+      if (action === "dial") return go();
+      if (action === "close") return closeDialog(d);
+      if (action === "help") return helpBox();
+      if (action === "up") sel = (sel + book.length - 1) % book.length;
+      if (action === "down") sel = (sel + 1) % book.length;
+      if (action === "first") sel = 0;
+      if (action === "last") sel = book.length - 1;
+      if (action) draw();
     });
     el.addEventListener("dblclick", (e) => {
       if (e.target.closest(".li[data-i]")) go();
@@ -855,7 +881,7 @@
       el.innerHTML =
         `<div class="ttl">사 용 설 명 서   (${pg + 1}/${HELP_PAGES.length})</div>` +
         `<div class="pane"><div class="hbox">${esc(title)}</div>` +
-        rows.map(([k, v]) => `<div class="hl"><b>${esc(fit(k, 16))}</b>${esc(v)}</div>`).join("") +
+        rows.map(([k, v]) => `<div class="hl"><b>${esc(fit(k, 16))}</b><span>${esc(v)}</span></div>`).join("") +
         "<div class=\"hl\"> </div>".repeat(Math.max(0, 15 - rows.length)) +
         `</div><div class="foot"><span class="kb" data-k="PageUp">▲</span><span class="kb" data-k="PageDown">▼</span>` +
         `<span class="red">남은 기억용량: 259 Kbytes</span>` +
@@ -1342,8 +1368,8 @@
     const vv = window.visualViewport;
     const W = vv ? vv.width : window.innerWidth;
     const Hh = (vv ? vv.height : window.innerHeight) - (getComputedStyle(softkeys).display === "none" ? 0 : softkeys.offsetHeight);
-    let s = Math.min(W / 640, Hh / 480);
-    s = Math.max(0.25, Math.floor(s * 8) / 8);
+    // 가로세로 비율을 유지하면서 소프트 키를 제외한 가용 화면을 최대한 채운다.
+    const s = Math.min(W / 640, Hh / 480);
     stage.style.transform = `scale(${s})`;
     stage.style.left = Math.floor((W - 640 * s) / 2) + "px";
     stage.style.top = Math.floor((Hh - 480 * s) / 2) + "px";
