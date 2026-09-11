@@ -1,0 +1,345 @@
+
+ 김현종   (kbcc    )
+[강좌] 한글 입력 알고리즘 #2                 06/12 12:52   338 line
+
+
+ 한글 입력 알고리즘 강좌 #2
+
+
+ 안녕하세요! 아이디 빌려쓰는 farer조현근 입니다.
+
+
+ 이번에는 이 강좌에서 만들어나갈 '글샘'에서 사용된 한글 입력루틴의 설
+계 방향에 대해 살펴보도록 하겠습니다.
+
+ 글샘에서 사용되는 한글 입력루틴의 저의 단독적인 코딩에 의한 루틴으로
+다른 한글 강좌에서 나오는 루틴과는 많은 차이점이 있습니다.
+
+ 저 같은 경우는 기억력이 과히 좋은편은 못  되어서  한번  생각해내었던
+알고리즘이라도 자꾸 잊어버려 그때그때 새로이 만들어내는 타입입니다.그
+래서 '글샘'같은 경우도 버전업시 초기버전의 입력루틴에서 수정해 사용하
+기란 변수의 기능을 다 알지못하는 관계로 상당한 시간과 노력이 필요하고
+, 부득이 다시 만들어 내는 수 밖에 없었습니다.  그때 생각해서 만들어낸
+알고리즘이 다음에 나올 InputProc()루틴입니다. 입력에 관계된  전반적인
+사항은 이곳에서 대부분 관리해 주기때문에 입력 루틴을 다시  구성할때도
+골아픈 부분은 생각하지 않고 문자열 관리나 커서, 화면 갱신같은  부분만
+재 구성하면 되도록 해 보았습니다.
+
+ 일련의 흐름도나 코딩같은 작업을 거치지 않은 루틴이기 때문에 매끄럽게
+연결되지 않는 경우도 많을것입니다. 그러나 이 강좌가 끝날때쯤 여러분은
+이정도는 충분히 재구성 할 수 있으리라 생각합니다.
+
+
+ 여기에 글샘에서 발췌한 InputProc()를 소개합니다.
+
+---------------------------------------------------------------------
+
+DEFINT A-Z
+DECLARE FUNCTION InputProc ()
+
+
+DEFINT A-Z
+FUNCTION InputProc ()
+
+ IF RemainCode = "CODEREMAIN" THEN
+    InputProc = 2
+    RemainCode = ""
+    EXIT FUNCTION
+ ELSEIF RemainCode <> "" THEN
+    Key$ = RemainCode
+    RemainCode = ""
+ ELSE
+    Key$ = INKEY$
+ END IF
+
+ IF Key$ = "" THEN InputProc = 0: EXIT FUNCTION
+
+ InRegs.ax = &H200
+ INTERRUPTX &H16, InRegs, OutRegs
+ ShiftStatus = StripLow8Bit(OutRegs.ax) AND &H2
+
+ IF ShiftStatus <> 0 AND ASC(Key$) = 32 AND InputMode = 2 THEN
+    InputProc = 6
+    VerifiedCode = "SHIFT-SPACE"
+    EXIT FUNCTION
+ END IF
+
+ SELECT CASE Key$
+    CASE CHR$(8)
+        IF CodeStatus <> 0 THEN
+            InputProc = 3
+            CodeStack(CodeStatus) = 0
+            CodeStatus = CodeStatus - 1
+            VerifiedCode = CompleteVerify$
+            IF CodeStatus = 0 THEN InputProc = 5
+        ELSE
+            InputProc = 6
+            VerifiedCode = "BACKSPACE"
+        END IF
+        EXIT FUNCTION
+    CASE CHR$(13)
+        InputProc = 6
+        VerifiedCode = "ENTER"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(67)
+        InputProc = 6
+        VerifiedCode = "F9"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(71)
+        InputProc = 6
+        VerifiedCode = "HOME"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(72)
+        InputProc = 6
+        VerifiedCode = "UP"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(73)
+        InputProc = 6
+        VerifiedCode = "PAGEUP"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(75)
+        InputProc = 6
+        VerifiedCode = "LEFT"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(77)
+        InputProc = 6
+        VerifiedCode = "RIGHT"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(79)
+        InputProc = 6
+        VerifiedCode = "END"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(80)
+        InputProc = 6
+        VerifiedCode = "DOWN"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(81)
+        InputProc = 6
+        VerifiedCode = "PAGEDOWN"
+        EXIT FUNCTION
+    CASE CHR$(0) + CHR$(83)
+        IF CodeStatus <> 0 THEN
+            InputProc = 5
+            ClearInputBuffer
+        ELSE
+            InputProc = 6
+            VerifiedCode = "DELETE"
+        END IF
+        EXIT FUNCTION
+    CASE ELSE
+        IF LEN(Key$) = 2 THEN InputProc = 0: EXIT FUNCTION
+ END SELECT
+
+ SELECT CASE InputMode
+    CASE 0
+        IF ASC(Key$) >= 48 AND ASC(Key$) <= 57 THEN
+            InputProc = 1
+            VerifiedCode = Key$
+        ELSE
+            InputProc = 0
+        END IF
+    CASE 1
+        InputProc = 1
+        VerifiedCode = Key$
+    CASE 2
+        IF ASC(UCASE$(Key$)) - 65 < 0 OR ASC(UCASE$(Key$)) - 65_
+> 25 THEN
+            IF CodeStatus <> 0 THEN
+                InputProc = 4
+                VerifiedCode = CompleteVerify$
+                RemainCode = Key$
+                ClearInputBuffer
+            ELSE
+                InputProc = 1
+                VerifiedCode = Key$
+            END IF
+            EXIT FUNCTION
+        END IF
+        IF InputStatus = 0 THEN
+            VerifiedCode = Key$
+            InputProc = 1
+        ELSE
+            IF ShiftStatus <> 0 THEN
+                InputCode = Shift(ASC(UCASE$(Key$)) - 65)
+            ELSE
+                InputCode = NoShift(ASC(UCASE$(Key$)) - 65)
+            END IF
+            IF InputCode < 100 THEN
+                IF CodeStatus = 0 THEN
+                    CodeStatus = CodeStatus + 1: InputProc = 2
+                    CodeStack(CodeStatus) = InputCode
+                ELSEIF CodeStatus = 1 THEN
+                    VerifiedCode = CompleteVerify$
+                    ClearInputBuffer
+                    RemainCode = "CODEREMAIN"
+                    CodeStatus = 1: InputProc = 4
+                    CodeStack(1) = InputCode
+                ELSEIF CodeStatus = 2 THEN
+                    CodeStatus = 3: InputProc = 3
+                    CodeStack(CodeStatus) = InputCode
+                ELSEIF CodeStatus = 3 THEN
+                    FOR I = 0 TO 10
+                        IF JongBokja(I, 0) = NoBokJaTB(CodeStack_
+(3)) AND JongBokja(I, 1) = InputCode THEN
+                            CodeStatus = 4: InputProc = 3
+                            CodeStack(4) = InputCode
+                            EXIT FUNCTION
+                        END IF
+                    NEXT I
+                    VerifiedCode = CompleteVerify$
+                    ClearInputBuffer
+                    RemainCode = "CODEREMAIN"
+                    CodeStatus = 1: InputProc = 4
+                    CodeStack(1) = InputCode
+                ELSEIF CodeStatus = 4 THEN
+                    VerifiedCode = CompleteVerify$
+                    ClearInputBuffer
+                    RemainCode = "CODEREMAIN"
+                    CodeStatus = 1: InputProc = 4
+                    CodeStack(1) = InputCode
+                END IF
+            ELSE
+                InputCode = InputCode - 100
+                IF CodeStatus = 0 THEN
+                    CodeStatus = 2: InputProc = 2
+                    CodeStack(2) = InputCode
+                ELSEIF CodeStatus = 1 THEN
+                    CodeStatus = 2: InputProc = 3
+                    CodeStack(2) = InputCode
+                ELSEIF CodeStatus = 2 THEN
+                    FOR I = 0 TO 6
+                        IF SecondTB(I, 0) = CodeStack(2) AND_
+SecondTB(I, 1) = InputCode THEN
+                            CodeStatus = 2: InputProc = 3
+                            CodeStack(2) = SecondTB(I, 2)
+                            EXIT FUNCTION
+                        END IF
+                    NEXT I
+                    VerifiedCode = CompleteVerify$
+                    ClearInputBuffer
+                    RemainCode = "CODEREMAIN"
+                    CodeStatus = 2: InputProc = 4
+                    CodeStack(2) = InputCode
+                ELSEIF CodeStatus = 3 OR CodeStatus = 4 THEN
+                    StackBackUp = CodeStack(CodeStatus)
+                    CodeStack(CodeStatus) = 0
+                    VerifiedCode = CompleteVerify$
+                    ClearInputBuffer
+                    RemainCode = "CODEREMAIN"
+                    CodeStatus = 2: InputProc = 4
+                    CodeStack(1) = StackBackUp
+                    CodeStack(2) = InputCode
+                END IF
+            END IF
+        END IF
+    CASE ELSE
+ END SELECT
+
+END FUNCTION
+
+----------------------------------------------------------------
+
+ 위의 소스에서 알 수 있듯이 한글의 입력시 자동으로 코드의 합성및
+한글 입력에 관계되는 일련의 작업을  수행해주고,  특수키의 경우는
+그 키의 이름을 변수에 넣어 되돌려 주게 됩니다.   프로그래머는 이
+되돌려진 값에따라 입력된 글쇠가 무엇인지 파악 하게되고  다음에는
+어떤 작업과 연결해야 할것인지를 판단하게 됩니다.
+
+ 여기서 글샘의 전체적인 입력루틴의 흐름을 보도록 합시다.
+
+
+
+ □ 입력 루틴의 설계
+
+ 1) 입력루틴을 호출합니다.(예:HINPUT InputString$)
+
+ 2) 모든 사항을 초기화 합니다.
+
+ 3) InputProc()를 호출합니다.
+
+ 4) VerifiedCode AS STRING에 되돌려진 값에 따라 한글이 입력되었는
+   지, 아니면 영문이 입력되었는지 편집키가 입력되었는지의  여부를
+   판단하고 그에 맞도록 분기합니다.
+
+
+ □ 한글이 입력되었을경우
+
+ 1) 한글이 입력되었다면 스택처럼 꾸며진 CodeStack()에 코드가 저장
+   되게됩니다. CodeStack()은 한글이 입력되었을경우 자모의  구분에
+   따라 각 음소의 코드번호를 가지게 됩니다. 이 CodeStack()에 저장
+   된 각 코드번호를 조합해서 합성된 한 글자의 코드를 얻게 됩니다.
+
+ 2) 합성된 코드에따라 화면에 새로이 합성된 글자로 갱산하여 표현합
+   니다.
+
+ 3) -입력루틴 설계-의 3번으로 돌아가 새로운 입력을 받아 들입니다.
+
+
+ □ 영문이 입력되었을 경우
+
+ 1) VerifiedCode에의해 돌아온 글자를 화면에 출력한뒤 커서의 위치
+   를 한칸 뒤로 옮깁니다.
+
+ 2) -입력루틴 설계-의 3번으로 돌아가 새로운 입력을 받아 들입니다.
+
+
+ □ 편집키가 입력된경우
+
+ 1) VerifiedCode에 돌아온 편집키의 종류에 따라 각각의 작업으로 분
+   기합니다.
+
+   ⓛ 한글 한음절이 완성된 경우
+     ㉠ 완성된 한글의 코드를 조합해 화면에 갱신한뒤 커서를  한 칸
+       뒤로 옮깁니다.
+     ㉡ -입력루틴 설계-의 3번으로 돌아가 새로운 입력을 받아들입니
+       다.
+
+   ② Shift-Space가 입력된 경우
+     ㉠ 현재 입력상태에따라 InputMode변수의 값을 한글, 또는  영문
+       입력상태로 토글합니다.
+     ㉡ 현재 한글이 조합중이라면 강제로 조합을 중지하고 한 글자를
+       완성한 다음 커서를 한 칸 뒤로 옮깁니다.
+     ㉢ -입력루틴 설계-의 3번으로 돌아가 새로운 입력을 받아들입니
+       다.
+
+   ③ 백 스페이스가 입력된 경우
+     ㉠ 현재 한글이 조합중인 경우
+       ㉮ 음소별로 하나만 없앱니다.
+       ㉯ 코드를 다시 합성하여 화면을 갱신합니다.
+       ㉰ -입력루틴 설계-의 3번으로 돌아가 새로운 입력을 받아들입
+         니다.
+     ㉡ 한글 입력중이 아닌경우
+       ㉮ 커서의 앞에 있는 글자가 한글인지 영문이지 판별한뒤 한글
+         이라면 2바이트를 영문이라면 1바이트를 지우고 커서를 이동
+         합니다.
+       ㉯ -입력루틴 설계-의 3번으로 돌아가 새로운 입력을 받아  들
+         입니다.
+
+    ④ 편집키가 입력된경우
+      ㉠ 각 경우에 맞는 작업을 행합니다.
+      ㉡ -입력루틴 설계-의 3번으로 돌아가 새로운 입력을  받아들입
+        니다.
+
+
+
+ 이와같은 작업을 ENTER가 입력될때 까지 행하면서 입력을 받아 들입
+니다.
+
+ 이번 강좌는 이걸로 끝맺도록 하겠습니다. 한글 입력 알고리즘은  출
+력과는 달리 제작자의 주관적인 견해가 아주 많이 들어가는  부분이므
+로 이해하기도 힘들고 막상 제작하기도 힘든 부분입니다.  이해가  되
+지 않는 부분은 질문을 해 주시면 성의껏 답변해 드리도록 하겠습니다
+.
+ 다음에는 우선 위의 InputProc()루틴을 분석해 보도록 하겠습니다.그
+때 부터는 설명하기가 좀 어려워 질 것 같네요.
+ 또 지금까지의 설명은 대략적인 것으로 어느정도만 이해하고  있으면
+됩니다. 중요한건 다음부터니까요.
+
+
+
+                                             - 1994.5.18 조현근 -
+
+
+
+ PRINTER/CAPTURE를 OFF 하시고 Enter를 누르십시오.pr
+ PRINTER/CAPTURE를 준비하시고 Enter를 누르십시오

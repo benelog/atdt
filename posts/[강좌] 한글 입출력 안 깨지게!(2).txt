@@ -1,0 +1,169 @@
+
+ 김보년   (MrCom   )
+[강좌] 한글 입출력 안 깨지게!(2)             03/04 22:58   163 line
+
+ 자...이번엔 약속대로 INPUT와 같은 역할을 하는 겁니다.
+
+ 이건 서브로 지정해 줘야겠죠?함수로 지정해도 별 관계는 없지만...
+
+ 저는 서브로 지정하겠습니다.
+
+ SUB KINPUT (Mes$,A$)
+
+ 여기서 Mes$는 출력할 메세지입니다. A$는 변수죠. INPUT "입력:",A$
+
+ 처럼 동작하도록 지정한 겁니다. 메세지를 출력할 필요가 없으면 ""만
+
+ 하면 되죠.그러나! 안 넣는다면 에러가 납니다. 그리고 아직 한글 출
+
+ 력 함수는 올리질 않았기때문에...PRINT문으로 대신합니다.INPUT를 실
+
+ 행하면 '?'가 찍히죠?그래서 Mes$에 '?'를 덧 붙여서 출력해보죠.
+
+ Mes$=Mes$+"?"
+
+ PRINT Mes$;
+
+ 이제 입력을 받아야죠?그리고...백스페이스를 눌렀을때는 적당한 조치를
+
+ 취해야 합니다. 글자를 지워야죠. 한글은 한자,영숫자 같은 1바이트 코드
+
+ 는 1자씩...나중에 소스를 보면 어떻게 처리했는지 이해가 가실껍니다.
+
+ 입력 받는 부분은 앞에 설명한 HINPUT$랑 똑 같습니다.
+
+  IN.AX=&H700
+
+  INTERRUPT &H21,IN,OT
+
+ 문제는 여깁니다. 엔터를 입력받으면 입력을 그만 받아야 하죠.
+
+ Char1$=CHR$(OT.AX AND &HFF)
+
+ IF Char1$<>CHR$(13) THEN
+
+    Char$=Char$+Char1$
+
+ END IF
+
+ 근데 문제가 또..백스페이스를 입력 받으면 글자를 지워야 하니까 IF문을
+
+ 고쳐야죠.
+
+ IF Char1$<>CHR$(13) AND Char1$<>CHR$(8) THEN
+
+ 으로 말이죠. 그리고 백스페이스를 눌렀다면 앞의 글자를 지워야죠. 하지
+
+ 만 영숫자인지 한글 코드인지 구분하기 힘들죠?무작정 1바이트씩 지운다
+
+ 면 한글을 지울때는 한글이 깨지기도 해서 보기 좋지는 않죠. 2바이트씩
+
+ 지운다면 영숫자는 2자씩 지워지는데다가 만약 한글1자,영어1자로 되어
+
+ 있다면 한글은 계속 깨지게 되어 고생 하겠죠. 그래서 한글 코드인지 1바
+
+ 이트 짜리 영숫자 기호들인지 구분을 해쟈 하죠. 완벽하지는 않은 방법이
+
+ 지만 아래처럼 하면 됩니다.
+
+ IF ASC(RIGHT$(Char$,1))>127 THEN
+
+   Char$=LEFT$(Char$,LEN(Char$)-2)
+
+.
+
+ IF LEN(Char$)>=2 THEN
+
+  IF ASC(RIGHT$(Char$,1))>127 THEN
+
+    Char$=LEFT$(Char,LEN(Char$)-2)
+
+  ELSE
+
+    Char$=LEFT$(Char$,LEN(Char$)-1)
+
+  END IF
+
+ ELSE
+
+  IF LEN(Char$)=0 THEN
+
+     BEEP
+
+  ELSE
+
+    Char$=LEFT$(Char$,LEN(Char$)-1)
+
+  END IF
+
+ END IF
+
+ 이러면 해결되죠. 그러면 소스를 보실까요?
+
+ SUB KINPUT (Mes$,A$)
+
+ Mes$=Mes$+"?":A$=""
+
+ LOCATE ,POS(0),1 ' 에러가 안나냐구요?전혀.이건 LOCATE CSRLIN,POS(0),1와
+
+
+ PRINT Mes$;    ' 같아요.
+
+ DO
+
+  IN.AX=&H700
+
+  INTERRUPT &H21,IN,OT
+
+  Char1$=CHR$(OT.AX AND &HFF)
+
+  IF Char1$<>CHR$(13) AND Char1$<>CHR$(8) THEN
+
+    A$=A$+Char1$
+
+  END IF
+
+  IF Char$=CHR$(8) THEN
+
+   IF LEN(A$)>=2 THEN
+
+    IF ASC(RIGHT$(A$,1)>127 THEN
+
+     A$=LEFT$(A$,LEN(A$)-2)
+
+    ELSE
+
+     A$=LEFT$(A$,LEN(A$)-1)
+
+    END IF
+
+   ELSE
+
+    IF LEN(A$)=0 THEN
+
+       BEEP
+
+    ELSE
+
+     A$=LEFT$(A$,LEN(A$)-1)
+
+    END IF
+
+   END IF
+
+  END IF
+
+  LOCATE ,POS(0),1
+
+  ? Mes$;A$;
+
+ LOOP UNTIL Char1$=CHR$(13)
+
+ ?
+
+END SUB
+
+-컴-
+
+
+ PRINTER/CAPTURE를 OFF 하시고 Enter를 누르십시오.
