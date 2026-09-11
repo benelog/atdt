@@ -1368,8 +1368,9 @@
     const vv = window.visualViewport;
     const W = vv ? vv.width : window.innerWidth;
     const Hh = (vv ? vv.height : window.innerHeight) - (getComputedStyle(softkeys).display === "none" ? 0 : softkeys.offsetHeight);
-    // 가로세로 비율을 유지하면서 소프트 키를 제외한 가용 화면을 최대한 채운다.
-    const s = Math.min(W / 640, Hh / 480);
+    // 위아래에 얇은 검은 여백을 두고, 남은 화면을 4:3 비율로 최대한 채운다.
+    const marginY = Math.min(16, Hh * 0.03);
+    const s = Math.min(W / 640, (Hh - marginY * 2) / 480);
     stage.style.transform = `scale(${s})`;
     stage.style.left = Math.floor((W - 640 * s) / 2) + "px";
     stage.style.top = Math.floor((Hh - 480 * s) / 2) + "px";
