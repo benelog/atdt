@@ -89,5 +89,3 @@ END FUNCTION
 그럼..요것으로 텍스트의 비디오메모리제어 강좌는 마치도록 하
 겠습니다.
 dp.
-
- PRINTER/CAPTURE를 OFF 하시고 Enter를 누르십시오.

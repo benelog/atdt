@@ -21,7 +21,3 @@ DO
   POKE I, PEEK(I + 320)
  NEXT I
 LOOP
-
-
-
- PRINTER/CAPTURE를 OFF 하시고 Enter를 누르십시오.

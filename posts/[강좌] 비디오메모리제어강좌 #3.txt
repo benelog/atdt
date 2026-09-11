@@ -81,5 +81,3 @@ BP3=PEEK(0) ' 비트평면 3에서 읽음
 거기서 하겠습니다.
 그럼..이만.
 dp.
-
- PRINTER/CAPTURE를 OFF 하시고 Enter를 누르십시오.

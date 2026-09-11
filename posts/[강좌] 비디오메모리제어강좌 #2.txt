@@ -243,5 +243,3 @@ CLEARSCREEN   - P페이지를 지움,속도 느림
 궁금한 거 있으면 여기 게시판에 질문 써주세요
 그럼..
 dp.
-
- PRINTER/CAPTURE를 OFF 하시고 Enter를 누르십시오.

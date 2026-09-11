@@ -141,6 +141,3 @@ ace'로 통일 하겠습니다.
 
 
                                            - 1994.5.18  조 현근 -
-
-
- PRINTER/CAPTURE를 OFF 하시고 Enter를 누르십시오.

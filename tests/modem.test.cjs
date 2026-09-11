@@ -41,7 +41,7 @@ function setup({ sound = true } = {}) {
   return { modem, notes, output, timers, advance, Host: window.Host };
 }
 
-test('synthesized call connects at 7 seconds with only the 2-second swell', () => {
+test('synthesized call connects at 7.5 seconds with only the 2-second swell', () => {
   const { modem, notes, output, timers, advance } = setup();
   modem.dial('5551996', false);
   const noises = notes.filter(n => n.kind === 'noise');
@@ -51,9 +51,9 @@ test('synthesized call connects at 7 seconds with only the 2-second swell', () =
   assert.equal(swell.args[3], true);
   for (const { kind, args } of notes) {
     const [start, duration] = kind === 'tone' ? args.slice(1) : args;
-    assert.ok(start >= 0 && duration > 0 && start + duration <= 7);
+    assert.ok(start >= 0 && duration > 0 && start + duration <= 7.5);
   }
-  advance(6999);
+  advance(7499);
   assert.equal(modem.state, 'dialing');
   assert.ok(!output.join('').includes('CONNECT '));
   advance(1);
@@ -64,10 +64,10 @@ test('synthesized call connects at 7 seconds with only the 2-second swell', () =
   assert.equal(output.join('').match(/CONNECT /g).length, 1);
 });
 
-test('muted call waits 7 seconds without creating sounds', () => {
+test('muted call waits 7.5 seconds without creating sounds', () => {
   const { modem, notes, advance } = setup({ sound: false });
   modem.dial('5551996', false);
-  advance(6999);
+  advance(7499);
   assert.equal(modem.state, 'dialing');
   assert.equal(notes.length, 0);
   advance(1);
@@ -83,7 +83,7 @@ test('cancel stops the sounds and old timer cannot finish a new call', () => {
   assert.equal(modem.sound.nodes.length, 0);
   assert.equal(timers.size, 0);
   modem.dial('5551996', false);
-  advance(5000);
+  advance(5500);
   assert.equal(modem.state, 'dialing');
   advance(2000);
   assert.equal(modem.state, 'online');
@@ -94,7 +94,7 @@ test('no audio support does not prevent connection', () => {
   const { modem, notes, advance } = setup();
   modem.sound.ensure = () => null;
   modem.dial('5551996', false);
-  advance(7000);
+  advance(7500);
   assert.equal(modem.state, 'online');
   assert.equal(notes.length, 0);
 });

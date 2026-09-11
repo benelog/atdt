@@ -98,8 +98,3 @@
 
 
 ' 1번째 강좌는 끝입니당.2를 보세요..심상규(shimsg)..
-
-
-
-
- PRINTER/CAPTURE를 OFF 하시고 Enter를 누르십시오.

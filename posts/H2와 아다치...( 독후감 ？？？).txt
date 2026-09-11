@@ -174,4 +174,3 @@ PS: 1. 어디까지나 저의 주관적 판단입니다.
 
 
 .
- PRINTER/CAPTURE를 OFF 하시고 Enter를 누르십시오.

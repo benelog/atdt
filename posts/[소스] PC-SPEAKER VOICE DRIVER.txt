@@ -246,5 +246,3 @@ CLOSE
 PLAYVOC Array(), Lens&, 8000
 
 END
-
- PRINTER/CAPTURE를 OFF 하시고 Enter를 누르십시오.

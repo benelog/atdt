@@ -497,6 +497,3 @@ int machine( int newChar )
   oldState = newState;  oldChar = newChar;
   return 0;
 }
-
-
- PRINTER/CAPTURE를 OFF 하시고 Enter를 누르십시오.

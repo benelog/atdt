@@ -338,8 +338,3 @@ END FUNCTION
 
 
                                              - 1994.5.18 조현근 -
-
-
-
- PRINTER/CAPTURE를 OFF 하시고 Enter를 누르십시오.pr
- PRINTER/CAPTURE를 준비하시고 Enter를 누르십시오

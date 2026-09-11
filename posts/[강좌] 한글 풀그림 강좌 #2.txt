@@ -140,5 +140,3 @@ SCREEN 0
 
 
 그럼..
-
- PRINTER/CAPTURE를 OFF 하시고 Enter를 누르십시오.

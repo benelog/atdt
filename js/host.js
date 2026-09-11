@@ -68,7 +68,7 @@
     7: [852, 1209], 8: [852, 1336], 9: [852, 1477],
     "*": [941, 1209], 0: [941, 1336], "#": [941, 1477],
   };
-  const HANDSHAKE_SECONDS = 7;
+  const HANDSHAKE_SECONDS = 7.5;
 
   class Sound {
     constructor() {
@@ -271,12 +271,12 @@
       t += 0.4;
       const result = entry ? entry.result : "NO CARRIER";
       if (result === "CONNECT") {
-        // 짧은 '띠' → 완전5도 높은 '디~' → 잠깐의 간격 → '쏴~'.
+        // 짧은 '띠' → 장2도 높은 '디~' → 잠깐의 간격 → '쏴~'.
         const answerHz = 2100;
-        plan.push(["tone", [answerHz], t, 0.4]);
-        t += 0.5;
-        plan.push(["tone", [answerHz * 2 ** (7 / 12)], t, 0.9]);
-        t += 1.33; // 긴 음 뒤 0.43초 쉬고, 기존 시점에 잡음을 시작한다.
+        plan.push(["tone", [answerHz], t, 0.65]);
+        t += 0.75;
+        plan.push(["tone", [answerHz * 2 ** (2 / 12)], t, 1.15]);
+        t += 1.58; // 긴 음 뒤 0.43초 쉬고 잡음을 시작한다.
         plan.push(["noise", t, 2, true]);
         t = HANDSHAKE_SECONDS;
       } else if (result === "BUSY") {
