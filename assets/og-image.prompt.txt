@@ -1,0 +1,18 @@
+Generated with the built-in image_gen tool.
+Reference: the site's start screen, rendered from index.html and assets/office.svg.
+Output: assets/og-image.png (actual generated dimensions: 1731 x 909).
+
+Use case: ads-marketing.
+Asset type: Facebook Open Graph link preview for a Korean PC communications archive website.
+Create one finished landscape image at exactly 1200 x 630 pixels (1.905:1), PNG.
+The attached image is a STYLE AND SITE IDENTITY REFERENCE, not an edit target. It shows this website's actual retro DOS IYAGI 5.3 aesthetic. Make a dedicated share card that belongs to that exact website, with the same strict EGA palette, deep DOS blue (#0000AA), periwinkle (#5555FF), cyan (#00AAAA), grey (#AAAAAA), white, yellow and red. Crisp low-resolution pixel art, square bitmap pixel lettering like NeoDunggeunmo, no smooth fonts, no gradients, no photorealism, no soft shadows, no 3D render.
+Composition: a generously spaced large vintage DOS dialog slightly left of center, with a grey beveled pixel frame and cyan title bar, in front of the reference-style pixel office desk, a small grey CRT computer, detailed old keyboard and a plant to the right. The office details support the typography, not obscure it. The card must read clearly as a small shared-link thumbnail.
+Exact text, rendered accurately in Korean:
+Title bar: "이야기 5.3"
+Main headline, largest text, yellow or white, on a dark blue panel: "갈무리 보관소"
+Secondary text in white, much smaller but readable: "다시 펼쳐 보는 PC통신의 기억"
+Small date line: "1994 — 1997"
+Small footer URL: "atdt.benelog.net"
+Optional tiny CRT label: "ATDT 1996"
+Keep all essential words at least 64px away from the image edges. Make the headline the unmistakable focus. Do not include the reference screenshot's legal footer, status bar, startup button, or unrelated tiny UI text. No Facebook logo, no new branding, no watermark. Pixel-perfect nostalgic visual, visually polished composition, no rounded modern UI.
+

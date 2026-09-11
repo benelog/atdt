@@ -68,6 +68,7 @@
     7: [852, 1209], 8: [852, 1336], 9: [852, 1477],
     "*": [941, 1209], 0: [941, 1336], "#": [941, 1477],
   };
+  const HANDSHAKE_SECONDS = 7;
 
   class Sound {
     constructor() {
@@ -85,7 +86,7 @@
           }
         }
       }
-      if (this.ctx && this.ctx.state === "suspended") this.ctx.resume();
+      if (this.ctx && this.ctx.state === "suspended") this.ctx.resume().catch(() => {});
       return this.ctx;
     }
     tone(freqs, t0, dur, vol) {
@@ -107,28 +108,70 @@
         this.nodes.push(o);
       }
     }
-    noise(t0, dur, vol) {
+    noise(t0, dur, vol, swell = false) {
       const ctx = this.ctx;
+      const start = ctx.currentTime + t0;
       const n = Math.floor(ctx.sampleRate * dur);
       const buf = ctx.createBuffer(1, n, ctx.sampleRate);
       const d = buf.getChannelData(0);
+      // 녹음에서 들리는 거친 데이터음과 가는 금속성 울림을 신호 합성으로 흉내 낸다.
+      // 4단계 I/Q 심벌을 반송파에 얹고, 심벌 사이를 부드럽게 이어 거친 클릭을 줄인다.
+      const levels = [-1, -1 / 3, 1 / 3, 1];
+      const symbol = () => levels[Math.floor(Math.random() * levels.length)];
+      let prevI = 0, prevQ = 0, nextI = symbol(), nextQ = symbol(), phase = 0;
       for (let i = 0; i < n; i++) {
-        // 훈련 신호처럼 들리도록 구간마다 세기를 바꾼다.
-        const seg = Math.floor((i / n) * 12);
-        d[i] = (Math.random() * 2 - 1) * (seg % 3 === 2 ? 0.35 : 1);
+        const t = i / ctx.sampleRate, progress = i / n;
+        phase += 2400 / ctx.sampleRate;
+        if (phase >= 1) {
+          phase -= 1;
+          prevI = nextI; prevQ = nextQ;
+          nextI = symbol(); nextQ = symbol();
+        }
+        const blend = (1 - Math.cos(Math.PI * phase)) / 2;
+        const inPhase = prevI + (nextI - prevI) * blend;
+        const quadrature = prevQ + (nextQ - prevQ) * blend;
+        const carrier = 2 * Math.PI * 1800 * t;
+        const data = (inPhase * Math.cos(carrier) - quadrature * Math.sin(carrier)) / 2;
+        const hiss = Math.random() * 2 - 1;
+        // 초반의 떨리는 훈련음 → 넓은 잡음 → 잠깐의 재조정 → 안정된 데이터음.
+        const training = Math.max(0, 1 - progress / 0.22);
+        const retrain = Math.max(0, 1 - Math.abs(progress - 0.68) / 0.04);
+        const probe = (Math.sin(2 * Math.PI * 1200 * t) + Math.sin(2 * Math.PI * 2400 * t)) / 2;
+        const flutter = 0.96 + 0.04 * Math.sin(2 * Math.PI * 45 * t);
+        const envelope = Math.min(1, t / 0.008, (dur - t) / 0.025);
+        const air = swell ? 0.22 + 0.24 * progress : 0.43;
+        d[i] = (0.5 * data + air * hiss + (0.12 * training + 0.05 * retrain) * probe) * flutter * envelope;
       }
       const src = ctx.createBufferSource();
       src.buffer = buf;
-      const bp = ctx.createBiquadFilter();
-      bp.type = "bandpass";
-      bp.frequency.value = 1700;
-      bp.Q.value = 0.5;
+      // 전화선처럼 저음/초고음을 덜어내고, 녹음의 밝고 거친 중고역을 살린다.
+      const hp = ctx.createBiquadFilter();
+      hp.type = "highpass";
+      hp.frequency.value = 400;
+      hp.Q.value = 0.7;
+      const presence = ctx.createBiquadFilter();
+      presence.type = "peaking";
+      presence.frequency.value = 2600;
+      presence.Q.value = 0.8;
+      presence.gain.value = 4;
+      const lp = ctx.createBiquadFilter();
+      lp.type = "lowpass";
+      lp.frequency.value = 3600;
+      lp.Q.value = 0.7;
       const g = ctx.createGain();
       g.gain.value = vol;
-      src.connect(bp);
-      bp.connect(g);
+      if (swell) {
+        // 2초 동안 고역과 음량이 함께 열리며 '쏴' 하고 커진다.
+        lp.frequency.setValueAtTime(1800, start);
+        lp.frequency.linearRampToValueAtTime(3600, start + dur);
+        g.gain.setValueAtTime(vol * 0.45, start);
+        g.gain.linearRampToValueAtTime(vol, start + dur - 0.025);
+      }
+      src.connect(hp);
+      hp.connect(presence);
+      presence.connect(lp);
+      lp.connect(g);
       g.connect(ctx.destination);
-      const start = ctx.currentTime + t0;
       src.start(start);
       src.stop(start + dur);
       this.nodes.push(src);
@@ -208,6 +251,7 @@
 
     dial(number, typed) {
       if (this.state !== "cmd") return;
+      this.sound.stop();
       const digits = digitsOf(number);
       const entry = PHONEBOOK.find((e) => digitsOf(e.number) === digits) || null;
       if (!typed) this.send("ATDT " + digits + CRLF);
@@ -215,7 +259,7 @@
       this.term.inputPos = null;
       if (this.opts.onDial) this.opts.onDial(entry);
 
-      // 소리 계획: [종류, ...] 와 그 시각. 소리가 꺼져 있어도 시간표는 같다.
+      // 발신·협상·통화중/응답없음의 합성음 시간표.
       const plan = [];
       let t = 0.3;
       plan.push(["tone", [350, 440], t, 0.7]);
@@ -227,12 +271,14 @@
       t += 0.4;
       const result = entry ? entry.result : "NO CARRIER";
       if (result === "CONNECT") {
-        plan.push(["tone", [440, 480], t, 0.9]);
-        t += 1.4;
-        plan.push(["tone", [2100], t, 0.7]);
-        t += 0.8;
-        plan.push(["noise", t, 1.8]);
-        t += 1.9;
+        // 짧은 '띠' → 완전5도 높은 '디~' → 잠깐의 간격 → '쏴~'.
+        const answerHz = 2100;
+        plan.push(["tone", [answerHz], t, 0.4]);
+        t += 0.5;
+        plan.push(["tone", [answerHz * 2 ** (7 / 12)], t, 0.9]);
+        t += 1.33; // 긴 음 뒤 0.43초 쉬고, 기존 시점에 잡음을 시작한다.
+        plan.push(["noise", t, 2, true]);
+        t = HANDSHAKE_SECONDS;
       } else if (result === "BUSY") {
         for (let i = 0; i < 3; i++) {
           plan.push(["tone", [480, 620], t, 0.5]);
@@ -248,14 +294,17 @@
       if (this.soundOn() && this.sound.ensure()) {
         for (const p of plan) {
           if (p[0] === "tone") this.sound.tone(p[1], p[2], p[3], 0.05);
-          else this.sound.noise(p[1], p[2], 0.03);
+          else this.sound.noise(p[1], p[2], p[3] ? 0.1 : 0.08, !!p[3]);
         }
       }
       this.dialTimer = setTimeout(() => this.finishDial(result, entry), t * 1000);
     }
 
     finishDial(result, entry) {
+      if (this.state !== "dialing") return;
+      clearTimeout(this.dialTimer);
       this.dialTimer = 0;
+      this.sound.stop();
       if (result === "CONNECT") {
         this.state = "online";
         this.send("CONNECT " + this.bps + "/ARQ/V42BIS" + CRLF);
