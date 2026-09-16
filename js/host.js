@@ -261,9 +261,10 @@
 
       // 발신·협상·통화중/응답없음의 합성음 시간표.
       const plan = [];
-      let t = 0.3;
-      plan.push(["tone", [350, 440], t, 0.7]);
-      t += 0.8;
+      let t = 0.1;
+      // 수화기를 들었을 때의 연속 발신음 뒤에 번호를 누른다.
+      plan.push(["tone", [350, 440], t, 1.2]);
+      t += 1.3;
       for (const d of digits) {
         if (DTMF[d]) plan.push(["tone", DTMF[d], t, 0.12]);
         t += 0.18;
@@ -514,7 +515,7 @@
       for (let i = slice.length; i < PER_PAGE; i++) s += CRLF;
       s += CRLF + " ";
       s += (page + 1 < pages ? lk("N", "다음쪽 [N]") : "다음쪽 [N]") + "  ";
-      s += (page > 0 ? lk("P", "이전쪽 [P]") : "이전쪽 [P]") + "  ";
+      s += lk("P", page > 0 ? "이전쪽 [P]" : "윗메뉴 [P]") + "  ";
       s += lk("T", "처음 [T]") + "  " + lk("S", "찾기 [S]") + "  " + lk("H", "도움말 [H]") + "  " + lk("X", "접속 끝 [X]") + CRLF;
       s += this.prompt();
       this.send(s);
@@ -693,6 +694,9 @@
           if (this.list) return this.showList(this.list.ids, this.list.title, this.list.page + 1);
           return this.allList();
         case "P":
+          // 목록의 첫 쪽에서 P 는 옛 BBS 처럼 윗 메뉴(주 메뉴)로 올라간다.
+          if (this.ctx === "list" && this.list.page > 0) return this.showList(this.list.ids, this.list.title, this.list.page - 1);
+          if (this.ctx === "list") return this.mainMenu();
           if (this.list) return this.showList(this.list.ids, this.list.title, this.list.page - 1);
           return this.send(this.prompt());
         case "B":
@@ -749,6 +753,7 @@
         "   번호      : 그 번호의 글을 읽습니다. (글 번호는 1 ~ " + POSTS.length + ")",
         "   1 ~ 8     : 주 메뉴에서 게시판을 고릅니다.      9 : 전체 목록",
         "   N, P      : 다음 쪽 / 이전 쪽.  글을 읽은 뒤에는 N 이 다음 글입니다.",
+        "               목록의 첫 쪽에서 P 를 치면 처음 메뉴로 올라갑니다.",
         "   L         : 목록으로            T : 처음 메뉴로",
         "   S 낱말    : 제목과 본문에서 낱말을 찾습니다.  (보기: S 오토마타)",
         "   H, ?      : 이 도움말           X : 접속 끝",
