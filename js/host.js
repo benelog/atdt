@@ -68,7 +68,7 @@
     7: [852, 1209], 8: [852, 1336], 9: [852, 1477],
     "*": [941, 1209], 0: [941, 1336], "#": [941, 1477],
   };
-  const HANDSHAKE_SECONDS = 7.5;
+  const HANDSHAKE_SECONDS = 7.8;
 
   class Sound {
     constructor() {
@@ -272,6 +272,7 @@
       t += 0.4;
       const result = entry ? entry.result : "NO CARRIER";
       if (result === "CONNECT") {
+        t += 0.3; // 번호를 다 누른 뒤 모뎀 응답음까지 조금 더 기다린다.
         // 짧은 '띠' → 장2도 높은 '디~' → 잠깐의 간격 → '쏴~'.
         const answerHz = 2100;
         plan.push(["tone", [answerHz], t, 0.65]);
