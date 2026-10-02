@@ -1,0 +1,314 @@
+영문법 정리                                4. 대명사(Pronoun)Ⅰ
+────────────────────────────────────────
+-  -
+
+   대 명 사 (Pronoun) Ⅰ
+
+1. 인칭대명사
+2. It의 용법
+   ①앞에 언급한 명사를 받는다.
+     * He took a stone and threw it. (= a stone)
+   ②앞에 나온 구나 절을 받는다.
+     * The prisoner attempted to escape, but found it impossible.
+     * He is innocent, I know it quite well.
+   ③가주어로 쓰일 때.
+     * It is very pretty that doll.
+   ④가목적어로 쓰일 때.
+     * I make it a rule to get up early.
+                        to have breakfast at eight.
+   ⑤ It가 비인칭대명사로 쓰일 때.
+      ⓐ날씨, 명암, 시간, 거리, 계절.
+        * It is fine today. (날씨)
+        * It is spring now. (계절)
+        * What time is it, now? (시간)
+        * How far is it from hrer to the station? (거리)
+        * It is dark in the room. (명암)
+      ⓑ막연한 상황을 나타낼 때
+        * How goes it with you? (요즘 경기가 어떻습니까?)
+        * How is it in the market?
+3. It ～ that  강조구문.
+  ①평서문의 강조.
+    * I bought the book yesterday.
+    →  It was I that(who) bought the book yesterday.
+    →  It was the book that I bought yesterday.
+    →  It was yesterday that(when) I bought the book.
+    ◇진주어, 가주어 구문인 경우.
+      * that절을 it 자리에 놓아도 문장이 성립함.
+      * It is that을 생략하면 문장이 성립하지 않음.
+    ◇강조구문인 경우.
+      * that절을 it 자리에 놓으면 문장이 성립하지 않음.
+      * It is that을 생략해도 문장이 성립함.
+
+  ②의문문의 강조.
+    * Did you send me the flower?
+    → You sent me the flower.
+    → It was you that sent me the flower.
+    → Was it you that sent me the flower?
+    ◇의문문 → 평서문 → 강조구문 → 다시 의문문의 순으로 고침.
+4. 인칭대명사의 수, 성, 격.
+    인칭대명사란 사람의 호칭인 I, he, him, you 등이며, 인칭대명사가 문
+    장에서 주어, 주격보어 자리에 있을 땐 주격, 타동사와 전치사의 목적
+    어나 목적격보어 자리에 있으면 목적격을 사용한다.
+    ◇전치사 다음에 타동사의 목적어에는 반드시 목적격을 사용한다.
+5. 소유대명사
+  ①소유대명사 = 소유격 + 명사
+    * This dictionary is mine. (= my dictionary)
+    ◇소유대명사는 ｢소유격 + 명사｣ 대신 독립적으로 쓰이며 mine, ours,
+      yours, his, hers, theirs 등이 있음.
+  ②이중소유격에서 of 다음에 소유대명사 a, an, this, that, any, no,
+    which, some, these, another 등은 소유격과 함께 쓸 수 없으므로 ‘a,
+    an … + 명사 + of + 소유대명사’로 쓴다.
+    * Show me another book of hers.
+  ③소유격의 의미를 강조하기 위해 “own”을 사용한다.
+    * a, any, some, this … 등 + 명사 + of one's own 의 형태로 사용.
+    * I have no house of my own.
+6. 재귀대명사
+  ①재귀적 용법: self형의 재귀대명사가 타동사의 목적어로 쓰이는 경우,
+    주어의 행위 결과가 다시 주어 자신에게 미치는 경우. (동사에만 stress).
+    * She killed herself.
+          committed suicide.
+          took her own life.
+      → 그녀는 자살했다.
+    * History repeats itself.
+
+  ②강조용법.
+    * I myself wrote this book.
+      = I wrote this book myself.
+    ◇재귀대명사가 강조용법일 땐 재귀대명사를 생략해도 문장이 성립하
+      며, 재귀대명사에 stress가 옴.
+
+7. 전치사 + 재귀대명사
+  ① for oneself: 자기 자신을 위하여(for one's sake),
+                  혼자 힘으로(without another's help)
+  ② by oneself: 외로이, 홀로(all alone)
+    * He lives in that house by himself.
+  ③기타.
+    * The candle went out of itself. (저절로)
+    * to oneself: 자기 혼자에게만.
+    * beside oneself = insane = mad = at the end of self-control
+      : 제정신이 아닌, 미친.
+    * come to oneself = become conscious: 의식을 찾다, 제정신이 들다.
+    * pride oneself on = be proud of = take (a) pride in.
+    * absent oneself from = be absent from.
+    * present oneself at = be present at.
+    * avail oneself of: ～을 이용하다.
+    * accustom oneself to: ～에 익숙해지다.
+    * overdrink oneself: 과음하다.
+    * overwork oneself : 과로하다.
+    * oversleep oneself: 늦잠자다.
+    * in itself: 본질적으로
+8. That of～, Those of～
+    * The population of Japan is much larger than korea. (×)
+      → The population of Japan is much larger that of korea. (○)
+    ◇반복을 피하기 위하여 that of korea라고 해야함.
+    ◇앞에 나온 단어가 단수일 땐 that, 복수일 땐 those를 사용.
+9. This, That의 용법
+  ① the one          the other
+     the former       the latter
+     that             this
+     전자             후자
+    ◇ the one이 후자 the other가 전자를 가리킬 때도 있음.
+      * We keep a dog and a cat; I like the one better than the other.
+  ② This, That이 앞문장 또는 뒷문장의 내용을 가리킬 때.
+     * He did not answer the letter, and this made me all the more angry.
+     * Those who like borrowing dislike paying.
+       (those who: ～하는 사람들, He who: ～하는 사람)
+10. Such의 용법
+  ① Such was my reward. (내가 받은 보답은 이런 것이었다.)
+     * Such는 보어이다. 이것은 단수,복수에 두루 쓰인다.
+
+  ② as such의 형태로 앞에 나온 어구나 문장을 받음.
+    * He is a child and must be treated as such.(= a child)
+      그는 어린아이 이므로 그렇게(어린아이로) 취급되어야 한다.
+  ③ such ～ as …: …과 같은 ～
+     such as: 가령 ～과 같은.
+    * Such men as Washington and Lincoln are rare. (워싱턴과 같은 이는 드물다.)
+    * Autumn gives us fruits, such as pears, persimmons, and apples.
+      (가을은 우리에게 배, 감, 사과 같은 과일을 준다.)
+  ③기타.
+    * Such + 명사 + that  ─┐ 너무 ～ 하므로.
+      So + 형용사/부사 + that        ─┘
+    * She is such a lovely child that every body loves her.
+    * He had such a fever that he nearly died.
+      = He was so ferverish that nearly died.
+11. The same의 용법
+  ① We must do the same. (우리는 같은 것을 해야한다.)
+     ◇ 이 same에는 항상 the가 따른다. 여기서는 do의 목적어이다.
+  ② This is the same watch as I gave her. (동일종류)
+     This is the same watch that I gave her. (동일물)
+     ◇ 이 same은 형용사이다.
+        보통 the same ～ as 은 동일종류를
+             the same ～ that 은 동일물을 나타낸다.
+  ③ Are these the same people who came here yesterday?
+     (이분들이 어제 여기에 왔던 그분들인가?)
+     ◇ the same은 that 이외의 관계대명사나 관계부사와도 같이 쓰인다.
+        the same ～ where (when, who, as)...
+  ④ They do not think the same as we do. (그들은 우리처럼 생각하지 않는다.)
+     ◇ 부사로서의 the same.   the same = in like manner.
+12. So의 용법
+  ①대명사로서 목적어로 쓰임.
+    So는 대명사로서 do, say, tell, speak, think, suppose, imagine,
+    hope, belive 등의 타동사의 목적어로 쓰인다.
+    * Is he comming?  * I think so.
+  ②보어로 쓰일 때.
+    * He had been weak, but he wouldn't be so no longer.
+13. So am I, So I am.
+    A: I am pretty.
+    B: I am pretty, too.
+       = So am I.
+
+    A: You are pretty.
+    B: Yes, I am pretty, indeed.
+       = So I am.
+15. 부정대명사 one의 용법
+  ①총인칭의 용법
+    * One should keep one's word.
+    ◇ one이 일반적인 뜻으로 사람, 세상사람, 누구나와 같이 사용되는 경
+       우 → 총인칭 용법.
+       총인칭 용법으로 사람의 뜻인 경우에도 he, him, himself, she,
+       her, herself가 쓰임.
+    * One took his book and the other took his pen.
+       ◇one이 막연하게 사람을 가리키지 않고, 한사람을 가리킬 때에는
+         him, his, himself 등으로 받고 있음.
+  ② 명사의 반복을 피할 때.
+     A + 단수보통명사 → one. (같은 종류이나 다른 물건)
+     the, this, that + 단수보통명사 → it (똑같은 그 물건)
+    * If you need a book, I will lend you one.
+    * I bought a book, but I lost it.
+  ③성질형용사 또는 지시형용사 + one(s).
+    * Your plan is a good one on paper.
+    ◇ one: 성질형용사나 지시형용사(the, this, that 등) 다음에 오는 명
+       사의 대용으로 쓰이는데 단수이면 one, 복수이면 ones를 사용함.
+  ④ a certain의 뜻으로 쓰임.
+    * I received a letter from one Mr. Jones.
+16. one을 사용할 수 없는 경우
+  ①셀 수 없는 명사(물질․추상명사) 다음의 one은 생략됨.
+    * I like a red rose better than a white one.
+    * I like red wine better than white. (one 생략, wine이 물질명사)
+  ②명사, 대명사의 소유격 다음이나 소유격 + own 다음에는 one을 생략한다.
+    * Your father's house is larger than my father's.
+    * This bed is my own.
+  ③기수나 서수 다음에 one은 생략한다.
+    * He has three cars and I have two.
+  ④최상급의 형용사, ｢the + 비교급｣ 뒤의 one은 생략한다.
+    * He has two sisters; the elder is more beautiful than the younger.
+17. One, Other, Another
+  ① one, the other: 하나는, 또 하나는.  (순서없음)
+     the one, the other: 전자는, 후자는. (순서있음)
+    * I have two brothers; One is in England, and the other in America.
+    * Mary has a white and a red rose; the one is lovelier than the other.
+
+  ② one, another(또는 a second), the other: 셋 중에서 순서없이 열거할 때.
+     one, another, a third, the other: 넷 중에서 순서없이 열거할 때.
+     thr first, the second, the third: 셋 중에서 순서나 등급대로 열거할 때.
+    * There are three men. One is a doctor, another(is) a teacher, and
+     the other(is) a lawyer.
+    * There are four flowers in the vase; one is 'rose', another,
+     'tulip', a third, 'carnation' and the other (또는 the fourth) is 'lily'.
+  ③ some - , others: 약간은, 또 약간은. (집단이나 한계가 막연할 때)
+     some - , the others: 약간은 그리고 나머지는.(집단이나 한계가 명확할 때)
+    * Some went on foot; and others (went) by bus.
+    * There are ten students; some study German, and the others (study) French.
+18. Another의 네가지 용법
+  ①하나 더(the more)의 뜻.
+    * Will you have another cup of coffee?
+    * I am going to stay another week. (앞으로 또 일주일)
+  ②다른(different)의 뜻.
+    * I don't like this; show me another.
+  ③역시 같은 사람(also one, a similar one)의 뜻.
+    * If I am a fool, You are another.
+  ④ A is one thing and B is another: A와 B는 별개의 것이다.
+    * To know is one thing and to teach is another.
+  ⑤기타.
+    * They were helping one another in their work.
+    * They looked at each other.
+    ◇ one another는 셋 이상에서 each other는 둘 사이에서 “서로서로”의
+       뜻으로 쓰이는 것이 원칙이나 명확히 구별해서 사용하지는 않는다.
+19. Some, Any의 용법
+  ①긍정문에서는 some,
+    의문문, 조건문, 부정문에서는 any.
+    * I have a lot of pencils; if you want any, I will give you some.
+  ②권유, 의뢰의 의문문과 긍정의 대답을 기대하는 의문문 → some.
+    * Will you have some beer?
+    * Any one can do it.
+  ③긍정문의 any: 어떤 ～ 일지라도.
+    * Any child knows it.
+  ④ some = about, a certain.
+    * We waited some twenty minutes. (= about)
+    * He went to some place in Africa. (= a certain)
+20. None, No의 용법
+  * none: 단독으로 쓰여 부정대명사.
+     no  : 명사에 붙어 형용사로 쓰임.
+  * none은 원래 no one의 뜻으로 대명사로서 단수, 복수 어느 쪽에나 쓰
+    이지만 가산명사를 나타낼 때는 보통 복수 취급을 한다.
+  * no는 I have～, There is～ 문형에서 not any 대신에 쓰여 ｢조금도 ～
+    아닌｣의 뜻을 나타낸다.
+  * None have succeeded in solving the problem. (아무도 그 문제를 풀지 못했다.)
+    He sought rest and found none. (그는 휴식을 찾았으나 조금도 찾지 못했다.)
+  * I have no children. (나는 어린애가 없다.)
+    There is no hope. (희망은 조금도 없다.)
+    He is no genius. (그는 결코 천재가 아니다.)
+    ◇ He is no genius.는 He is not a genius. 보다 강한 뜻이다.
+21. 부분부정
+  ◇ each, every, all 등이 부정어와 함께 쓰이면 부분부정이 된다.
+  ① not + both: 둘 다 ～ 한 것은 아니다.
+    * I know both of them.        (완전긍정)
+    * I do not know both of them. (부분부정)
+    * I do not know either of them.
+      = I know neither of them.   (완전긍정)
+  ② not + all: 모두가(셋 이상일 때) ～ 한 것은 아니다.
+    * I invited all of them.        (완전긍정)
+    * I did not invite all of them. (부분부정)
+    * I did not invite any of them. (완전부정)
+      = I invited none of them.
+      ◇ not + any = none.
+    * All is not gold that glitters. (부분부정)
+  ③ not + every: 누구나(어느것이나) ～ 한 것은 아니다.
+    * Everybody likes her.         (완전긍정)
+    * Everybody does not like her. (부분부정)
+    * Nobody likes her.            (완전부정)
+    ◇ Every + not의 완전부정은 nobody(사람인 경우), nothing(사물인 경우).
+  ④부분부정.
+    * not + always: 항상 ～ 한 것은 아니다.
+      ◇ The rich are not always happy.
+         The rich are never happy.
+    * not + completely : 완전히 ～ 한 것은 아니다.
+      ◇ Not all of the crew completely happy.
+    * not + entirely = not + altogether: 전적으로 ～ 한 것은 아니다.
+      ◇ You are not entirely free from blame.
+      ◇ I do not altogether agree with him.
+    * not + necessairly: 반드시 ～ 한 것은 아니다.
+      ◇ The greatest minds do not necessarily ripen the quickest.
+
+    * not + absolutely : 절대적으로 ～ 한 것은 아니다.
+    ⇒ not ～ in the least = not ～ at all = never: 결코 ～ 이 아니
+        다. (완전부정)
+22. At all, -thing, -body의 용법
+  ① at all.
+    * They are not interested at all. (조금도 ～이 아니다)
+    * If you do it at all do it well. (조건문; 적어도, 기왕에)
+    * Do you believe it at all? (의문문; 도대체)
+    * I am surprised that he passed the exam at all. (평서문; 어쨌든)
+    * There are very little if at all. (관용적; 있다손치더라도)
+  ② -thing, -body.
+    : any와 some의 용법에 준한다.
+    * Is there anything interesting in today's paper?
+    * Is anybody in the room?
+    * I saw something white in the dark.
+      ◇ -thing의 대명사를 수식하는 형용사는 대개 그 뒤에 온다.
+    * everything: ｢둘 중 하나｣, something: ｢상당한 것｣, nothing: ｢하찮은
+    것｣.
+      ◇ Money is everything to her.
+         He thinks something of himself.
+         If want to be anybody, you must make efforts.
+         She was a humble nobody a few years ago.
+23. Either, Neither, both.
+  * Do you know either of the two sisters? (둘 중의 하나)
+    Do you know any of the sisters? (셋 이상 중의 하나)
+    ◇ either side = both side.
+  * If you do not go, I will not, either.
+    If you will not do so, neither will I.
+    ◇ not과 too는 같이 못쓰며 too 대신 either를 쓴다.
+       not either = neither, neither will I = nor will I.
+  * I do not know both of the sisters. (그 두자매를 다 알지는 못한다.)
+    ◇ … not + both = 부분부정.

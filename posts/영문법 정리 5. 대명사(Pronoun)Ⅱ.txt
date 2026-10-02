@@ -1,0 +1,366 @@
+영문법 정리                                5. 대명사(Pronoun)Ⅱ
+────────────────────────────────────────
+-  -
+
+      대명사 (Pronoun) Ⅱ
+
+1. 의문사의 용법: 의문문을 나타내는 who, whom, what, which, when 등을
+   의문사라고 하며 크게 의문대명사와 의문부사로 나눈다.
+   * 의문대명사: who, whom, whose.......
+     의문부사  : why, where, when, how.....
+  ①직접 의문문과 간접 의문문.
+    * Who is that man?
+    * I don't know who that man is.
+    ◇의문사 + 동사 + 주어형태 → 직접의문문.
+    ◇직접의문문이 다른 문장의 일부분(주어자리, 목적어자리, 주격보어자
+      리, 동격자리)이 되어 명사로 쓰이는 경우. (의문사 + 주어 + 동사 →
+      간접의문문)
+  ②의문사가 문두로 나가는 경우.
+    : 동사가 think, suppose, believe, imagine, guess...등의 생각동사
+      일때는 반드시 의문사를 문두로 도치.
+    * What does he want?        ─┐
+    * Do you know what he wants?        ─┘ → yes, no의 대답이 가능하다.
+    * Do you think what he wants? (×)
+      → What do you think he wants? (○) → yes, no로 대답 할 수 없다.
+    * 의문사절은 명사처럼 글의 주어, 목적어, 보어의 역할을 한다.
+      ◇ Who did it is a question to me.
+         (누가 그것을 했는지 나에게 문제가 된다. 주어의 역할.)
+      ◇ The question is who did it.
+         (문제는 누가 그것을 했느냐이다. 보어 역할.)
+      ◇ Tell me who did it.
+         (누가 그것을 했는지 말해다오. 동사의 목적어)
+      ◇ There is no doubt as to who did it.
+         (그것을 누가 했는지에 대해 의심할 바 없다. 전치사의 목적어.)
+    * 의문사절이 전치사의 목적어가 될 때, 전치사가 생략되는 경우가 많다.
+      ◇ They are ignorant what they are after.
+         (그들은 자기들이 무엇을 추구하고 있는지도 모른다.
+          be ignorant of의 of가 생략되었다.)｣
+      ◇ I have no idea who did it.
+         (누가 그것을 했는지 전혀 모른다.  …as to가 생략된 것이다.)
+         = I have no idea as to who did it.
+2. 수사의문문: 자기말을 강하게 표현.
+  * Who knows?     (수사의문문; 누가 알겠는가?)
+    = Nobody knows (평서문; 아무도 모른다.)
+  * Who does not know the fact?
+    = Everybody knows the fact.
+    ◇일반적으로 수사의문문이 긍정이면 평서문은 부정문, 부정이면 긍정문이다.
+  * Who is there but commits errors?
+    = There is nobody but commits errors.(관․대 주격으로 that ～ not).
+    = Everybody commits errors.
+    ∴ Who is there that does not commit errors? (형용사절)
+       There is nobody that does not commit errors. (형용사절)
+  * Who would do such a thing but a fool?
+    = Who but a fool would do such a thing.
+    = None(Only) but  a fool would do such a thing.
+    ◇ but은 전치사로서 ～을 제외하고는의 뜻. (save, except)
+    ◇ What is the use of ～ ?: ～하는 것이 무슨 소용이 있느냐?
+3. 부가의문문
+   주로 회화에서 쓰이며 앞문장(주절)이 긍정이면 부정의 부가의문을,
+   앞문장이 부정이면 긍정의 부가의문을 사용.
+  * They are listening to the raido, aren't they?
+  * She can't speak French, can she?
+    ◇주절에 be동사가 있을 땐 be동사, 조동사가 있을 땐 부가의문에서도
+      조동사를 사용한다.
+  * Tom has a book, doesn't he? (○)
+                    hasn't he?  (×)
+    ◇ have가 본동사로 쓰여져 ‘소유하다’의 뜻일 땐 부가의문에서는 do로 쓸 것.
+  * You've been to Busan, haven't you?
+    ◇ have가 조동사로 쓰일 땐 have로 쓴다.
+  * You have to study English, don't you?
+    ◇ have to는 부가의문문에서 반드시 have 대신 do를 사용한다.
+  * You bought a new car, didn't you?
+    ◇일반동사는 부가의문문에서 do를 사용한다.
+  * You should study harder, shouldn't you?
+  * I ought to go by plane, shouldn't I?
+    ◇조동사 should나 ought to는 반드시 shouldn't I 의 형태로 쓴다.
+  * She's doing her best, isn't she? (= She is doing her best.)
+    She's done her best, hasn't she? (= She has done her best.)
+    ◇ 윗 문장의 's는 is도 되고 has도 되나 본래의 문장은 She is doing
+       her best와 She has done her best이므로 isn't she와 hasn't she로
+       부가의문문을 써야한다.
+  * You'd better go at once, hadn't you?
+    ◇ You'd는 You had의 약자이며 had better의 부가의문문은 hadn't이다.
+  * Do it at once, will you?
+    Have a cup of coffee, won't you?
+   ◇명령문의 부가의문은 주절이 긍정이든 부정이든 언제나 will you?로 쓰며
+      단, 권유의 뜻으로 쓰인 명령문은 won't you? 를 사용한다.
+
+  * We have no time, do we?
+    He seldom came here, did he?
+    ◇주절에 no, nothing, seldom, hardly, scarcely 등이 있을 경우는
+      이들 자체가 부정의 뜻이 포함되어 있으므로 부가의문문은 긍정으로 쓴다.
+4. 관계대명사 Who
+  ① Who
+    * This is the girl.  She is a good typist.
+      → This is the girl who is a good typist. (형용사절)
+    ◇ She가 주격이므로 주격 who를 사용.
+  ② Whom
+    * This is the boy.  I wanted to see him.
+      → This is the boy whom I wanted to see.
+  ③ Whose
+    * A child is called an orphan.  His parents are dead.
+      → A child whose parents are dead is called an arphan.
+    ◇ A child와 His는 같은 사람, His가 소유격이므로 소유격 관계대명사
+      인 whose를 씀.
+5. 관계대명사 Which: 선행사가 동물이나 사물일 때 쓰이며 주격으로
+   which, 소유격으로 of which나 whose, 목적격으로 which가 쓰인다. 또한
+   which가 계속적 용법으로 쓰일 땐 구, 절, 형용사들을 선행사로 받는 용
+   법이 있다.
+  ①주격, 목적격으로 쓰일 때.
+    * I have a book.  It is very interesting.
+      → I have a book which is very interesting.
+    * This is the dictionary.  I bought it yesterday.
+      → This is the dictionary which I bought (목) yesterday.
+      ◇관계대명사 다음에 이어지는 문장에서 주어가 생략되었으면 주격,
+        전치사나 타동사의 목적어가 생략되었으면 목적격으로 사용한다.
+  ②소유격으로 쓰일 때.
+    * This is the word.  I don't know the meaning of it.
+      → This is the word which I don't know the meaning of.
+         ◇ which는 전치사 of의 목적격이므로 생략 가능.
+      → This is the word of which I don't know the meaning.
+      → This is the word the meaning of which I don't know.
+      → This is the word whose meaning I don't know.
+         ◇ which 앞에 전치사 of가 있을 땐 of which가 소유격이기 때문에
+            which를 생략 할 수 없다.
+  ③ which가 구, 절, 형용사를 선행사로 받을 때.
+    * He wanted to come, which was impossible. (= but it)
+      ◇관계대명사 앞에 comma가 있으면 계속적인 용법으로서 ｢접속사
+        (and,but, for, though) + 대명사｣의 형태이다.
+  ④신분, 지위, 성격을 선행사로 받을 때.
+    * He is a gentleman, which his brother is not.
+    ◇선행사가 사람일지라도 신분, 지위, 성격을 나타낼 때에는 who, whom
+      을 쓰지 않고 which나 that을 사용한다.
+    * She is no longer the shy girl which(또는 that) she was ten years ago.
+      ◇ that은 계속적인 용법에는 쓰이지 않고 제한적 용법에만 사용이 가능하다.
+6. 관계대명사와 전치사
+   * This is the house.  I spoke of it.
+     → This is the house  which I spoke of.
+     → This is the house  (which) I spoke of.
+     → This is the house  of which I spoke of. (전치사 + 관.대는 생략 불가)
+     → This is the house  that I spoke of. (that앞에서는 전치사를 쓸 수 없음.)
+7. 관계대명사 that
+  ※that은 한정용법에만 쓰이고, 계속적 용법에서는 쓸 수 없다.
+    that은 사물, 사람, 동물에 모두 쓰이며 소유격이 없다.
+    that 앞에는 전치사를 쓸 수 없다.
+  ①선행사가 사람과 동물일 때.
+    * A man and his dog that were passing by were injurd.
+  ②최상급, 서수사, the very, the only, the last, the same, every,
+    all, any, no 다음에서는 that을 쓴다.
+    * He is the greatest poet that korea has ever produced.
+  ③의문대명사 who, what, which 다음에서는 that을 쓴다.
+    * Who that has common sense can believe such a thing? (주격)
+    * Which is the book that you want to read. (목적격)
+8. That의 용법
+  ①지시대명사.
+    * Can you see that?
+    * The climate of korea is milder than that of china.
+  ②지시형용사.
+    * Give me that chair.
+    * from that hour: 2시간부터.
+    * at that time  : 2시간에.
+    ◇ that이 지시형용사로 쓰일 땐 ‘that + 명사’의 형태로 that이 다음
+      에오는 명사를 수식하는 형용사적으로 쓰이며 ‘저～’, ‘그～’의 뜻으
+      로 쓰인다.
+  ③지시부사.
+    * Don't eat that much. (그렇게 많이 먹지 마라)
+    ◇ that이 수량이나 정도를 나타내는 형용사나 부사를 수식하면서 그만
+       큼, 그렇게의 뜻으로 사용되는 경우 → 지시부사.
+
+  ④접속사로 쓰일 때.
+    * That he is innocent is certain.  (주어｢명사절｣)
+      = It is certain that he is innocent.   (진주어)
+    ◇ that 다음의 문장이 완전한 경우에는 that이 접속사로 쓰인 경우이다.
+  ⑤ It ～ that 강조구문.
+    * I bought the book on Monday.
+      = It was on Monday that I bought the book.
+  ⑥관계대명사로 쓰일 때.
+    * He is the greatest actor that has ever lived.
+    ◇ that이 관계대명사일 땐 that 앞에 선행사가 있어야 하며 that～의
+      문장에서 주어, 목적어, 또는 보어가 생략되어야 한다.
+  ⑦관계부사의 대용으로 쓰일 때.
+    * This is the last time that(when) I teach you.
+    * This is the village that(where) the poet was born.
+    ◇ that이 관계부사 when, where, why, how 등의 대용으로 쓰임.
+    ◇ That의 발음: 지시대명사, 지시형용사, 지시부사일 때 → [dæt].
+                    관계대명사, 접속사, 관계부사일 때     → [dət].
+9. 관계대명사 What
+  * What(that which) is beautiful is not always good. (주어｢명사절｣)
+  * I will do what(all that) I can. (목적어｢명사절｣)
+    ◇관계대명사 what은 선행사를 포함한다: what = 선행사 + 관계대명사.
+      what은 that which～, all that～, anything that～, the thing which～와
+      같은 용법이다.
+  ∴ what은 자체내에 선행사와 관계대명사가 포함되었으며 명사절을 유도한다.
+  * What one has: 재산, What one is : 인격.
+    ◇ You should judge a man not by what he has but by what he is.
+  * A is to B what C is to D
+    = Just as C is to D, so is A to B
+    = What C is to D, A is to B
+    = A가 B에 대한 관계는 C가  D에 대한 관계와 같다.
+    ◇ Reading is to the mind what(as) exercise is to the body.
+       = Just as exercise is to the body, so is reading to the mind.
+       = What exercise is to the body, reading is to the mind.
+         (독서가 마음에 대한 관계는 운동이 신체에 대한 관계와 같다.)
+  * What is + 비교급: 더욱 ～ 한 것은.
+    ◇ She is beautiful, and what is better still, tender-hearted.
+  * What with A and (what with) B
+    = 한편으로는 A 때문에, 또 한편으로는 B 때문에. (원인, 이유)
+    ◇ What with fatigue and (what with) hunger, he fell down as if he were
+    dead.
+       (피곤도 하고 배도 고프고 해서 그는 죽은 사람처럼 쓰러졌다.)
+
+  * What by A and (what by) B. (수단, 방법)
+    = 한편으로는 A에 의해서, 또 한편으로는 B에 의해서...
+    ◇ What by threats and (what by) entreaties, he achieved his aim.
+       (협박도 하고 또 간청도 해서, 그는 그의 목적을 달성했다.)
+  * He is, what we call, a self-made man.
+    (그는 소위 자수성가한 사람이다.)
+10. 관계대명사의 제한적 용법과 계속적 용법
+  * He had three sons, who became statesmen. (계속적용법, who = and they)
+  * He had three sons who became statesmen.  (제한적, 한정적 용법)
+    ◇제한적 용법: 관계대명사가 이끄는 형용사절이 앞에 있는 선행사를
+      수식하며 제한, 또는 한정하는 경우를 제한적 용법이라고 하며, 관계
+      대명사 앞에 ,(comma)가 없고 뒤에서 올려 번역한다.
+    ◇계속적 용법: 관계대명사 앞에 ,(comma)가 있으며 선행사를 수식, 그
+      것에 관해 설명을 하는 경우를 계속적 용법이라고 하며, 접속사(and,
+      but, for, though) + 대명사의 역할을 한다.  또한 이것은 위로부터
+      내려 번역하며 관계대명사의 생략이 불가능하고 that은 이 용법에 쓸
+      수 없다.
+  * He had four sons who became doctors.
+    → 제한적 용법 - 의사가 아닌 아들이 또 있었는지도 모른다.
+    He had four sons, who became doctors.
+    → 계속적 용법 - 아들 넷이 있었는데, 모두 의사가 되었다.
+  * Everybody likes Tom, who is kind. ( , who = for he)
+    (모두 Tom을 좋아한다. 왜냐하면 그는 친절하기 때문이다.)
+    I met a boy, who told me the news. ( , who = and he)
+    (나는 한 소년을 만났는데, 그가 그 소식을 나에게 말했다.)
+    The farmer, who is poor, is honest. ( , who = though he)
+    (그 농부는 비록 가난하지만 정직하다.)
+11. 관계대명사의 생략
+  ①타동사 또는 전치사의 목적격.
+    * This is the boy (whom) we saw yesterday. (동사의 목적어)
+    * He has no friend (whom) he can depend upon. (전치사의 목적어)
+    * This is the house (which) he lives in.
+      ◇ 관계대명사를 생략 할 때, 관계대명사 앞에 있는 전치사는 뒤에 온다.
+  ②주격보어, 목적격보어로 쓰일 때
+    * He is not the man (which or that) he was two years ago.
+  ③관계대명사 다음에 threr is, there are가 계속 될 때.
+    * He taught me the difference (that) there is between right and wrong.
+  ④There is, Here is, It is, What is, Who is로 시작되는 구문에서.
+    * There is a boy (who) wants to see you.
+    * It was he (that) met her yesterday.
+
+  ⑤예외적으로 관계대명사가 생략이 안되는 경우.
+    ⓐ 관계대명사의 계속적 용법에서는 생략이 불가능하다.
+      ◇ I bowed to the gentleman, whom I knew well.
+    ⓑ 전치사 + 관계대명사가 시간, 장소, 방법 등을 나타낼 때.
+      ◇ I remember the day on which he went to the front. (= when, 시간)
+    ⓒ of which, of whom이 어느 부분을 나타낼 때에는 생략이 불가능하다.
+      ◇ I bought ten pencils, the half of which I gave my brother.
+12. 구와 절
+  ◇구분: 두개 이상의 낱말이 모여 한개의 품사와 같은 역할을 하는 것을
+    구나 절이라고 하며, ｢주어 + 동사｣의 관계가 있으면 ‘절’이고, 없으면
+    ‘구’라 한다.
+13. 명사적, 형용사적, 부사적 용법
+  ①명사적 용법: 명사구, 명사절, 동명사, 부정사의 명사적용법.
+    ◇ 주어자리.
+      * Tom is a student.
+      * To solve this problem is difficult.
+    ◇ 명사보어 자리: 주격보어가 주어와 equal이 성립되면 명사보어라 하
+       며, 이 경우를 명사적 용법이라고 한다.  주어와 equal이 성립 되지
+       않고 주어의 동작을 나타내면 형용사적 용법이다.
+      * Tom is an impostor. (Tom = impostor)
+    ◇ 타동사의 목적어 자리. (4형식의 D․O 도 해당됨)
+      * I know Tom.
+      * I know that he is honest.
+    ◇ 전치사의 목적어 자리.
+      * We cannot rely on what he says.
+    ◇ 동격의 자리.
+      * He has one aim㏂ to make money. (one aim = to make money)
+  ②형용사적 용법: 형용사구, 형용사절, 현재분사.
+    ◇ 명사 뒤에서 직접 수식. (한정적용법)
+      * The house on that hill is my uncle's.    (형용사구)
+      * The girl playing the piano is my sister. (현재분사)
+    ◇cf) I am fond of playing the piano.  (명사적용법｢동명사｣)
+          → 현재분사는 형용사적 용법이며 동명사는 명사적 용법이다.
+    ◇ 형용사 보어 (주어 ≠ 보어)
+      * The book is of great value.
+      * We are to climb Mt. Hanra this summer.
+      * My plan is to climb Mt. Hanra this summer.
+  ③부사적 용법: 부사구, 부사절, 부정사의 부사적용법.
+    ◇부사적 용법은 생략해도 문장에 아무런 지장이 없다.
+      → 형용사적․명사적 용법을 제외한 나머지.
+      * He got up early that he might catch the bus.
+      * Though he was brave, he turned pale.
+14. 복합관계대명사: 관계사 + -ever.(whoever, whomever...)
+    ◇ What과 복합관계대명사는 모두 선행사의 역할과 관계대명사 역할을
+      동시에 하고 있음.
+  ①명사적 용법.
+    * Give it to whoever wants it. (= anyone who; wants의 주어)
+    * Give it to whomever you like. (= anyone whom; like의 목적어)
+    * Choose whichever you like. (= anything that)
+    * I will give you whatever you need. (= anything that)
+  ②형용사적 용법.
+    * You may read whatever book you like.(= any book that)
+    * Take whichever book you like. (= any of the books that)
+    * Whosever horse comes in first wins the prize. (= anyone whose)
+      ◇ whosever는 거의 쓰이지 않고 anyone whose가 쓰인다.
+  ②부사적 용법. (양보의 부사절을 유도)
+    * Whoever may come, he will be welcome. (= No matter who)
+    * Whatever you may do, do it well. (= No matter what)
+    * Whichever you choose, you will be pleased. (= No matter which)
+      ◇오늘의 영어에서는 may를 안 쓰고 직설법을 쓰는 경우가 많다.
+      ◇Whatever는 부정문, 의문문에서 강조어로 쓰인다.
+        * There can be no doubt whatever about it.
+        * Is there any chance whatever?
+          (조금이라도 가망이 있습니까?)
+15. 관계 형용사
+  * He spoke to me in french, which language I could not understand.
+    ◇관계대명사로서의 which가 명사 language를 수식한다.
+  * I gave them what money I had.
+    ◇what은 money를 수식하는 동시에 I had를 형용사절로 money에 연결시킨다.
+    = I gave them all the money that I had. (waht = all the....that)
+  * I will approve whichever(or whatever) course you decide on.(복합관계형용사)
+16. 의사 관계 대명사 As
+  ◇선행사에 such, the same, as등이 있을 때, 뒤의 as는 관계대명사로 본다.
+  * Choose such friends as will benefit you. (will의 주어; 주격)
+  * I have the same trouble as you have. (have의 목적어; 목적격)
+  * As many men as came were caught. (온 사람은 다 붙잡혔다; 주격)
+  * He is absent, as is often the case. (as의 선행사는 He is absent(절))
+  * He is American, as I knew from his accent.
+    (그의 말투로 안 일이지만 그는 미국인 이었다.)
+  * As was the custom with him, he went out for a walk after supper.
+    (여느때처럼 식사 후에 산책 나갔다.)
+
+17. But의 용법
+  ① 등위 접속사로 쓰이는 경우.
+    * Summer is hot, but winter is cold.
+    * He is a hard-working but not very intelligent boy.
+  ② 부사로 쓰이는 경우.
+    * He is but a child. (그는 단지 어린애에 지나지 않는다.)
+    * It is but a question of money. (그것은 단지 돈에 관한 문제이다.)
+      ◇ 부사로 쓰이면 단지, 오로지, 불과(only)의 뜻으로 쓰이며,
+         But을 생략해도 문장이 성립한다.
+  ③ 전치사로 쓰이는 경우.
+    * All but him were drowned. (그를 제외하고는 모두가 익사했다.)
+    * Nobody but me attended the meeting.
+      (나를 제외하고는 아무도 그 모임에 참석하지 않았다.)
+      ◇ but이 전치사로 쓰이면 except, save의 뜻으로 쓰이며,
+         but을 생략하면 문장이 성립하지 않는다. (but + 목적격 형태로 쓸 것.)
+  ④ 종속 접속사로 쓰이는 경우.
+    * No one is so old but he may learn.
+      = No one is so old that he may not learn.
+      ◇ 종속 접속사로 쓰이면 that ～ not의 뜻으로 쓰이며,
+         but이하의 문장은 완전한 문장이 된다.
+  ⑤ 관계 대명사로 쓰이는 경우.
+    ◇선행사에 부정어인 not, no 등이 있는 경우, but속에 not의 뜻 포함
+    * There is no rule but has some exceptions.
+      = There is no rule that has not some exceptions.
+      ◇ but이하의 문장 불완전
+18. 의사 관계 대명사 than
+  ◇선행사에 more가 있는 문장에서 주격 또는 목적격으로
+  * There are more books than are needed.
+  * Her service has been more valuable than was supposed.
+19. 이중 제한
+  ◇두개의 관계 대명사가 이끄는 형용사절이 하나의 선행사를 공동으로 수식하는 것.
+  * There is no one that we know who can do such a thing.
+  * Is there anything that you want which you do not have?

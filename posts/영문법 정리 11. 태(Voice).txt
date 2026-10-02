@@ -1,0 +1,261 @@
+영문법 정리                                      11. 태(Voice)
+────────────────────────────────────────
+-  -
+
+    태 (Voice)
+
+1. 수동태와 능동태
+  ①태의 의미 : 동작의 관점의 차이에 의해 생기는 동사의 표현 형식을 라고 한다.
+    능동태: 동작을 하는 쪽에 중점을 둠.
+    수동태: 동작을 받는 쪽에 중점을 둠.
+    △《능동태 → 수동태》
+      주어 … 능동태의 목적어가 됨.
+      동사 … ｢be + 과거분사｣로.
+      by～ … 능동태의 주어가 by 뒤에 와서 부사구를 이룸.
+    * He wrote this letter.  (능동태)
+      主   動      目
+      This letter was written by him. (수동태)
+           主         動      副詞句
+  * All the people in the world admire Kennedy. (능동태)
+    (모든 세상 사람들이 케네디를 칭찬한다.)
+    = Kennedy is admired by all the people in the world. (수동태)
+      (케네디는 모든 세상 사람들에 의해 칭찬 받는다.)
+    ②수동태로 쓸 수 없는 동사 : 목적어가 있는 문장이라고 모두 수동태로
+      바뀌지는 않는다.
+      have(가지고있다), resemble, lack, become 등은 수동태가 안되는 동사들이다.
+      △She resembles her mother. → Her mother is resembled by her.(×)
+      △let, have를 수동태로 할 때 → let - be allowed to, have - be asked to.
+        * He had me sing. → I was asked to sing by him.
+          He let me go.   → I was allowed to go by him.
+2. ｢By + 행위자｣를 표시하지 않는 경우
+  ①행위자가 일반적인 사람일 때.
+    * English is spoken in Hongkong (by them)
+  ②행위자가 명백하지 않을 때, 또는 누군지 알 수 없을 떄.
+    * The house was built in 1470 (by somebody).
+  ③행위자가 누군지 표현 할 필요가 없을 때.
+    * Mary and I were invited to Jane's house.
+3. 수동태의 시제
+  * Jack builds the house.
+    → The house is built by Jack. (현재)
+  * Jack built the house.
+    → The house was built by Jack. (과거)
+  * Jack will build the house.
+    → The house will be built by Jack. (미래)
+    ◇인칭에 따라 will, shall을 정한다.
+      △He will catch me. (단순미래)
+        → I shall be caught by him.
+        I will do it. (의지미래)
+        → It shall be done (by me)
+  * Jack has built the house. (현재완료)
+    → The house has been built by Jack.
+  * Jack had built the house.
+    → The house had been built by Jack. (과거완료)
+  * Jack will have built the house.
+    → The house will have been built by Jack. (미래완료)
+  * Jack is building the house.
+    → The house is being built by Jack. (진행형)
+  * Jack can build the house.
+    → The house can be built by Jack. (조동사)
+4. 4형식의 수동태
+    ◇4형식의 문장은 대개 간접목적어를 주어로 하든지, 직접목적어를 주어로
+      하여 두개의 수동태가 가능하다.  4형식의 수동태는 3형식의 문장이다.
+    * Tom gave me the book.  (4형식)
+      → I was given the book by Tom.  (직.목을 주어로, 3형식)
+      → The book was given me by Tom. (간.목을 주어로, 3형식)
+      → The book was given to me by Tom. (1형식)
+    ①I.O가 보류목적어가 될 때 : 일반적으로 I.O이 보류목적어가 될 땐 그 앞에
+    전치사
+      to, for, of 등을 사용.(S + V + I.O + D.O → S + V + D.O + pre +I.O)
+      to 사용동사 : send, tell, lend, give, offer, bring, owe, teach, show,
+                    write, read, 등...
+      for 사용동사: buy, make, find, choose, get, cook, build 등...
+      of  사용동사: ask, inquire, requier 등...
+      △A letter was sent (to) me by him.
+        A watch was bought for me by him.
+        Some questions were asked of me by him.
+    ② D.O만 수동태의 주어로 하는 동사 : write, make, get, bring,
+      carry, send, throw, pass, hand, read, sell, sing, do 등의 동사
+      는 D.O만 수동태의 주어가 될 수 있음.
+      △She made me a doll.   → A doll was made for me by her.
+        I wrote him a letter. → A letter was written him by me.
+    ③ I.O만 수동태의 주어로 하는 동사 : envy, call, kiss, answer,
+      save, spare 등은 I.O만 수동태의 주어가 됨.
+      △They envied him his luck. → He was envied his luck by them.
+
+5. 5형식의 수동태
+  * They elected him chairman. (5형식)
+    → He was elected chairman (by them). (2형식)
+    ◇5형식 → 2형식 수동태로 바꾸는데 있어 지각, 사역동사가 쓰이면
+      목적보어는 원형부정사를 쓴다.
+      △I saw him enter the room.
+        → He was seen to enter the room by me.
+  * 일반인을 나타내는 we, you, one, they, people, someone, somebody 등
+    은 수동태에서는 보통 생략하며, 보어는 주어가 될 수 없다.
+6. 5종 기본형식문 (Active ↔ Passive)
+         Active Voice        →         Passive Voice
+  (형식)                                (형식)
+  [+1] Spring has come.                 ｢없음｣
+  [+2] It is warm in spring.            ｢없음｣
+  [+3] He wrote this book.           → [-1] This book was written by him.
+  [+4] He told me the story.         → [-1] The story was told me by him.
+                                        (능동태 직접목적어를 주어로 한 것)
+                                        [-3] I was told the story by him.
+                                        (능동태 간접목적을 주어로 한 것)
+  [+5] People elected him president. → [-2] He was elected president by people.
+7. 능동태와 수동태를 합해 본 5종 기본형식문
+  제 1형식문 [+1] = (S + V)
+             [-1] = (S - V)         →   ┌─ [+3]에서 온 것.
+        └─ [+4]의 직접목적을 수동의 주어로 한 것.
+  제 2형식문 [+2] = (S + V + C)
+             [-2] = (S - V + C)     →      [+5]에서 온 것.
+  제 3형식문 [+3] = (S + V + O)
+             [-3] = (S - V + O) → [+4]의 간접목적을 수동의 주어로 한 것.
+  제 4형식문 [+4] = (S + V + O + O)
+  제 5형식문 [+5] = (S + V + O + C)
+  ◇cf) + : 능동태,  - : 수동태, 숫자: 문장의 형식.
+8. 보어가 원형부정사인 수동태
+  ◇술부동사가 지각동사 또는 사역동사일 경우, 원형부정사는 수동태에서는
+    ｢to 있는 부정사｣가 된다.
+  * We saw him enter the room.
+    → He was seen to enter the room.
+  * We heard him sing.
+    → He was heard to sing.
+9. 합성동사의 수동태
+  ◇합성동사는 수동태에서 한 단위로 취급된다.
+  ①자동사 + 전치사 = 타동사구.
+    * He laughed at me. (3형식)
+      → I was laughed at by him. (1형식)
+  ②타동사 + 추상명사 + 전치사 = 타동사구.
+    * They took good care of the child. (3형식)
+      → The child was taken good care of (by them). (1형식)
+      → Good care was taken of the child (by him).
+  ③동사 + 부사 + 전치사 = 타동사구.
+    * The villagers looked up to the doctor. (3형식)
+      → The doctor was looked up to by the villagers. (1형식)
+    ◇ speak well of, be well spoken of의 형태.
+      * They speak well of Mary.
+        → Mary is spoken well of (by them).  (×)
+        → Mary is well spoken of (by them).  (○)
+10. 목적어가 명사절인 수동태
+  ◇가주어 It를 내세우든지, that절 속의 주어를 수동태의 주어로 한다.
+    (본동사 시제 = that절 동사 시제 → 단순부정사.
+     본동사 시제보다 that절 동사 시제가 하나 더 과거 → 완료부정사.)
+    * They say that he is honest.
+      → That he is honest is said (by them).
+      → It is said (by them) that he is honest.
+      → He is said to be honest (by them).
+    * They say that he was honest.
+      → It is said (by them) that he was honest.
+      → He is said to have been honest (by them).
+11. 의문문 수동태
+  ◇의문문을 수동태로 고칠 경우는 평서문 → 수동태 → 의문문으로 바꾸어
+    가면 이해가 쉽다.
+  * Did you plant this tree?
+    → You planted this tree. (평서문)
+    → This tree was planted by you.  (수동태)
+    → Was this tree planted by you?  (의문문; 처음 문장의 의문문 수동태)
+  * Who saw the accident?
+    → Who saw the accident. (평서문; 非문장)
+    → The accident was seen by whom. (수동태; 非문장)
+    → By whom was the accident seen? (의문문; 처음 문장의 의문문 수동태)
+  * What did he write on the blackboard?
+    → What was written on the blackboard by him?
+12. 명령문 수동태
+  ◇｢Let + 목적어 + be + 과거분사｣의 형태를 사용한다.
+  * Do it at once.
+    → Let it be done at once.
+  * Don't touch the stone.
+    → Don't let the stone be touched.
+    → Let the stone not be bouched.
+    △명령문의 부정은 두가지가 있다.
+      ｢Don't let + 목적어 + be + 과거분사｣
+      ｢Let + 목적어 + not + be + 과거분사｣
+13. 부정문 수동태
+  * no ↔ not + any.          * nobody ↔ not + anybody.
+  * never ↔ not + ever.      * nothing ↔ not + anything.
+  * neither ↔ not + either.  * no one ↔ no + anyone.
+    ◇ not은 항상 문두로 가려는 성질이 있음.
+  * Anyone can not slove the problem. (×)
+    → No one can slove the problem.  (○)
+14. 동작의 행위를 나타내는 전치사
+  ◇능동문의 주어는 수동태에서 대개 전치사구로 나타나는데 그 때의 대표
+    적인 전치사는 by이지만, 동사에 따라 다른 전치사가 오는 경우가 있다.
+  * Snow covers the mountain.
+    → The mountain is covered with snow.
+  * Everybody knows the poet.
+    → The poet is known to everybody.
+    △A man is known by the company he keeps.
+  * His sudden death surprised me.
+    → I was surprised at his sudden death.
+    △기쁨, 슬픔, 놀람 따위의 감정을 나타내는 동사는 보통 수동태로
+      나타내며, 여기 수반하는 전치사는 대개 at, with 이다.
+      I am pleased with my students.
+      I am satisfied with the result.
+      I was astonished at his conduct.
+  * This book interests me.
+    → I am interested in this book.
+    △I was tired from the work.
+      I was tired of my quiet life.
+      The street is crowded with a lot of people.
+15. 수동태가 주로 사용될 때
+  ①능동태의 주어가 분명하지 않을 때.
+    * He was killed during the war.
+  ②수동태의 주어가 막연한 일반인을 나타낼 때.
+    * Spanish is spoken in Mexico, too.
+  ③능동태의 주어보다 수동태 주어에 관심이 클 때.
+    * Mr. Truman was elected president again.
+
+  ④수동의 의미가 거의 없이 자동사로 느껴지는 경우.
+    ⓐ종사, 위치, 사망, 출생의 동사.
+      * I am now engaged in writing a book.
+        ◇be absorbed in: ～에 몰두하다.
+          be situated = be located: ～에 위치하다.
+    ⓑ익사, 피해, 탈선, 부상의 동사.
+      * The river drowned him. (×)
+        → He was drowned in the river. (○)
+  ⑤앞문장과의 연결상으로.
+    * He made a speech and was asked many questions at the end.
+      (그는 연설을 했다. 그리고 그 연설 끝에 많은 질문을 받았다.)
+  ⑥행위자를 나타내지 않는 것이 좋다고 생각될 때.
+    * Some things have been said here tonight that ought not to have been
+    spoken.
+      (말하지 말았어야 할 것을 오늘밤 여기에서 몇가지 말했다.)
+16. 동작 수동태와 상태 수동태
+  * Our house is painted every year.  (동작)
+    = We paint our house every year.
+  * Our house is painted green.       (상태)
+    = We have painted our house green.
+  * The door is shut at seven every evening. (동작)
+  * The door is shut now. (상태)
+17. 주의할 수동태
+  * This novel sells well.
+    (이 소설은 잘 팔린다; 형식은 능동이나 뜻은 수동이다.)
+    ◇This orange peels well.
+      His novels read well.
+  * I was greatly astonished at the sight.
+    (나는 그 광경을 보고 매우 놀랐다; 형식은 수동이나 뜻은 능동이다.
+     특히 감정을 나타내는 말에 많다.)
+  * I had my purse stolen.
+    ◇｢have (get) + 목적어 + 과거분사｣
+       …을 ～당하다.  …을 ～시키다.
+       △I had my watch st/olen.  (당하다)
+         I h/ad my watch mended.  (시키다)
+  * This house is building.
+    = This house is being built. (이 집은 건축 중에 있다.)
+    ◇The meal is now cooking.
+  * He is to blame.
+    = He is to be blamed.
+    △a book to read = a book to be read.
+      a house to let: 셋집.
+      water to drink: 음료수.
+  * He sold the watch a at a good price.  (3형식)
+  * His new novel sells well.              (1형식)
+    ◇ sell, lock, read, translate, peel 등의 동사는 형태는 능동이나
+       의미는 수동의 뜻을 나타내는 경우도 있다.
+18. 시초수동
+    * I am acquainted with him.  (상태)
+    * I became acquainted with him at the party.  (동작의 시초)
+      ◇ be acquainted with ～: “～을 알고 있다”의 뜻으로 현재의 상태
+         를 나타내고 있는데 반하여 be 동사 대신에 ‘become, grow, get +
+         과거분사’의 형태가 되면 ｢ ～하게되다｣의 뜻으로 어떤일이 일어
+         나는 시초나 동기를 나타내므로 시초수동이라고 한다.

@@ -1,0 +1,167 @@
+영문법 정리                              7. 형용사(Adjective)Ⅱ
+────────────────────────────────────────
+-  -
+
+    형용사(Adjective) Ⅱ
+
+1. 규칙변화
+  ①일음절어.
+    * tall - taller - tallest.
+    * long - longer - longest.
+    ◇단모음 + 단자음의 경우는 자음을 하나 더 쓰고 -er, -est를 붙임.
+      * big - bigger - biggest.
+  ② -le, -ly, -some, -ow, -er 등의 어미로 끝나는 2음절어.
+    * able - abler - ablest.
+    * early - earlier - eariest.
+  ③ More, Most.
+    : 3음절 이상의 형용사인 beautiful, diligent, interesting 등과 2음
+     절어로서 어미가 -ful, -able, -less, -ous, -ive, -ing 등으로 끝나
+     는 단어는 more, most를 붙여서 비교급과 최상급을 만듬.
+    ◇복합형용사인 well-know, fine-looking 등은 3음절 이상일지라도
+      more, most를 사용하지 않고, 서술용법에만 쓰이는 형용사인 afraid,
+      fond, alive, alone, aware 등은 음절에 관계없이 more, most를 사용
+      한다.
+      ◇ well-know - better-known - best-known.
+         fine-looking - finer-looking - finest-looking: 잘생긴.
+2. 불규칙변화
+    * good (well) - better - best.
+    * bad (ill)   - worse  - worst.
+    * many (much) - more   - most.
+    * little      - less   - least.
+    * old - older    - oldest  : 나이먹은, 늙은.
+            elder    - eldest  : 연상의.(혈연관계의 장유의 순서)
+      ◇He is three years older than I.
+        He is my elder brother.
+    * late - later   - latest  : 늦은, 나중의. (시간적 개념)
+           - latter  - last    : 마지막의. (순서적 개념)
+      ◇the lastst news.(최근의 소식), the last news.(마지막 소식)
+    * far  - farther - farthest: 먼. (거리적 개념)
+           - further - furthest: 먼. (정도적 개념)
+      ◇As I was very tired, I could not walk any farther.
+        (내가 매우 피곤했으므로, 나는 더이상 걸을 수가 없었다.)
+        We must get further information.
+        (우리는 더 많은 정보를 입수해야한다.)
+
+3. 라틴어 비교급
+   : 어미가 -or인 형용사의 비교급은 than 대신에 to를 사용하며, 이 때
+     to는 전치사 “to + 목적격”, 즉 superior, inferior, senior, junior,
+     exterior, interior, anterior, posterior, major, minor 등으로 사용
+     한다.
+    ◇He is three years senior to me.
+      He is my senior by three years.
+4. 원급
+  * as ～ as    : 동등비교.
+  * not so ～ as: 열등비교.
+    ◇She is as tall as Tom.
+      She is not so tall as Tom.
+  * She is as kind as Tom.
+    She is as like as beautiful.
+    ◇동일인의 두가지면을 말할 땐 as A as B의 형식으로 ‘B하려니와 A하
+      다’와 같이 번역.
+  * He is as poor as (poor) can be.
+    = He is as poor as anything.
+    ◇ as A as (A) can be, as A as anything: 더할나위 없이, 극도로 A 하는.
+  * He walked as fast as possible.
+    = He walked as fast as he could.
+    ◇ as A as possible, as A as one can : 될수 있는 한 A하게
+  * He was as brave as any man in the world.
+    He is as great a statesman as ever lived.
+    ◇ as ～ as any + 명사 : 어느 누구에게도 못지 않게 ～한
+    ◇ as ～ as ever + 과거동사 : 지금까지 ～한,(최상급의 뜻)
+                                  누구에게도 못지않게 ～한
+5. 비교급
+  ①우등비교
+    * He is five inchs taller than Mary.
+    * This is much bigger than that. (이것은 그것보다 훨씬 크다.)
+      ◇much, still, even, (by) far 등이 비교급과 함께 쓰여서 비교급을
+        강조하며 ‘훨씬, 한층’의 뜻으로 쓰인다.
+  ②절대비교: 비교의 상대없이 비교급을 쓰는 경우.
+    * the younger generation. (젊은 세대)
+    * the higher classes. (상류계급)
+    * higher education. (고등교육)
+    * The greater part of the students are teen-agers.
+      (학생들의 대부분은 10대들이다.)
+    * Her upper teen have to be pulled. (그녀는 웃니를 빼야한다.)
+
+  ③열등비교.
+    * Mary is less tall than Tom.
+      = Mary is not so tall as Tom.
+6. 동일인, 동일인물의 비교
+    ◇같은 사람(동일인) 또는 같은 물건의 서로 다른 성질을 비교할 때는
+      음절에 관계없이 more + 원급 + than의 형태를 쓴다.
+    * He is cleverer than his brother.
+    * He is more clever than honest. (= rather)
+7. the + 비교급
+    : 비교급 앞에는 원칙적으로 정관사 the를 사용하지 않지만 다음의 경
+      우엔 예외적으로 정관사 the를 사용한다.
+  ① of A and B 또는 of the two 등의 구가 있을 때.
+    * Tom is the taller of the two.
+  ②원인이나 이유를 표시하는 부사구 또는 부사절이 있을 경우.
+    * He worked the harder, because his master praised him.
+  ③ the + 비교급 ..... the + 비교급 ......
+    * The more one has, the more wants.
+8. 부정구문
+  ① A is no more B than C is D
+     = A is not B any more than C is D
+     = A is not B just as C is not D
+     = A가 B가 아닌 것은 C가 D가 아닌 것과 같다. (양자부정)
+      ◇A whale is no more a fish than a horse is.
+        = A whale is not a fish any more than a horse is (a fish).
+  ② A is no less B than C is D
+     = C가 D인 것과 만찬가지로 A가 B이다. (양자긍정)
+    * He is no less guilty as you are.
+      = He is as much guilty as you are.
+        (네가 죄가 있는 것과 마찬가지로, 그도 죄가 있다.)
+    * He was no less a person than the president.
+      (그는 다른 사람이 아닌 바로 대통령 자신이었다.)
+      ◇no less a person than ～ : 다름아닌 바로 ～인.
+  ③ not ～ more than …  : 이상은 ～이 아니다.
+     not ～ less than …  : ～보다 덜 ～하지 않다, ～에 못지않게 ～하다.
+    * He is not more diligent than you are.
+    * Light is not less necessary than fresh air to health.
+      (빛은 신선한 공기 못지않게 건강에 필요하다.)
+  ④ no more than = only  : 겨우, 단지.
+     no less than = as many as = as much as : ～만큼이나.
+     not more than = at most  : 기껏해야.
+     not less than = at least : 적어도.
+    * He has no more than 10,000 won.(그는 겨우 만원밖에 없다.)
+      He has no less than 10,000 won.(그는 만원이나 갖고 있다.)
+    * I have not more than three hundred books.
+      (나는 기껏해야 300권의 책을 가지고 있다.)
+    * I have not less than three hundred books.
+      (나는 적어도 300권의 책을 가지고 있다.)
+9. 최상급
+  * She is the most diligent (girl) of our classmates. (= in our class)
+  * He is the tallest of all his classmates.
+    ◇최상급 앞에는 원칙적으로 정관사 the를 쓸 것. of 다음에는 복수보통명사를,
+      in 다음에는 단수명사를 쓸 것.
+  * The boy studies hardest of them all.
+  * He runs fastest of all.
+    ◇형용사의 최상급 앞에는 the를 사용, 부사의 최상급에는 the를 사용치 않음.
+  * She is by far the tallest player in the team.
+    ◇최상급을 강조할 땐 by far를 사용.
+  * 절대최상급
+    ◇This is a most interesting book to me.
+      △a most = a very.
+        most people: 대부분의 사람들.  the most: 가장 ～한.
+        at best: 기껏해야.   at most: 많아야.
+  * He is the last man to tell a lie. (그는 거짓말 할 사람이 절대 아니다.)
+
+10. 무관사 최상급
+  ①정관사가 명사 또는 대명사의 소유격으로 대체되는 경우.
+    * It is his greatest pleasure to read novels.
+  ②동일인, 동일물의 성질을 비교할 때.
+    * This river is deepest at this point.
+  ③부사의 최상급.
+    * He always works hardest in the office.
+11. 비교문장 전환
+  * Mt. Everest is the highest mountain in the world.의 내용을 네가지로
+    달리 나타낼 수 있다.
+    ◇No (other) mountain in the world is so high as Mt. Everest.
+      (부정주어 + so + 원급 + as ～ )
+      No (other) mountain in the world is higher than Mt. Everest.
+      (부정주어 + 비교급 + than ～ )
+      Mt. Everest is higher than any other mountain in the world.
+      (주어 + 비교급 + than any other + 단수명사)
+      Mt. Everest is the highest of all the mountain in the world.
+      (주어 + 최상급 + of all (the) + 복수명사)

@@ -1,0 +1,334 @@
+영문법 정리                             13. 부정사(Infinitive)
+────────────────────────────────────────
+-  -
+
+     부정사 (Infinitive)
+
+1. 명사적 용법 : to+R이 문장 안에서 주어, 목적어, 명사보어, 동격으로 쓰임.
+  ①주어로 쓰이는 경우 : To learn English is very easy.
+                        = It is very easy to learn English.
+  ②목적어로 쓰이는 경우 : I want to read this book
+    ◇의문사 + to 부정사가 명사구의 역할.- 동사의 목적어.
+      * I don't know  what to do.
+                      where to go.
+                      when to do it.
+                      whom to go with...............
+  ③명사보어로 쓰이는 경우 :
+    * To see is to believe
+  ④동격으로 쓰이는 경우 :
+    * He has one aim, to make money.
+2. 형용사적 용법 : To + R 이 문장 안에서 명사를 수식(한정적 용법)하거
+   나 서술(서술적 용법,be to 용법)함
+   ①한정적 용법 : 명사 뒤에서 수식.
+     * I have no friend to help me.
+       ◇전치사 + 관계 대명사 + to 부정사가 명사를 수식.
+         * I have no house in which to live.
+           = I have no house to live in.
+     * I have got letters to write.( 써야 할 편지 )
+     * I want something to write on. ( 쓸 것-종이 등-)
+     * I want something to write with. ( 쓸 도구-펜 등-)
+
+  ②서술적 용법 : be + to 부정사가 같은 형태로 쓰이나 문장 안에서 주격
+    보어(형용사 보어)로 쓰이며 각기 뜻을 달리하여 사용 되며 예정, 의
+    무, 가능, 의도, 운명 등을 나타냄.
+    * 예정 : We are to meet at the post office.
+    * 의무 : You are to finish it by six.
+    * 가능 : No one was to be seen on the street.
+          (주로 수동태, 부정문, 의문문에서 사용 됨)
+    * 의도 : If you are to succeed, you must work hard.
+          (If절 안에서의 to be는 주로 intend to의 뜻으로 쓰임)
+    * 운명 : He was never to see his home again.
+3. 부사적 용법 : to + 동사 원형이 문장 안에서 부사적 기능을 하며 목적,
+   결과, 원인, 조건, 양보, 이유.판단의 근거, 정도 등을 나타냄.
+
+  ①목적
+    * He works hard  that             He  may pass the exemination.
+                     so that              can
+                     in order that        will
+
+      = he works hard to          pass the exemination.
+                      so as to
+                      in order to
+      = He works hard for the purpose of      passing the exem.
+                      with thw view of
+                      with a view to
+                      with the intention of
+                      with the object of
+                  (전치사구～하기 위하여)
+    ◇전치사 다음은 항시 명사나 동명사가 온다. (전치사 다음은 전치사의
+      목적어가 와야하며 목적어는 명사나 동명사만이 가능하기 때문이다.)
+    ◇ 복문을 단문으로 고치는 방법 :
+      ⓐ접속사 that의 생략.
+      ⓑ주절의 주어와 종속절의 주어가 같으면 생략.
+      ⓒ조동사 생략.
+      ⓓto를 사용하여 부정사 구문으로 고침.
+        * She kept quiet so that she might not disturb her father.
+          = She kept quiet so as not to disturb her father.
+            (부정사의 부정은 부정어를 to 앞에 둔다)
+          = She kept quiet lest she should disturb her father.
+             (lest ～ should 구문, lest 다음은 절의 형태를 취함)
+          = She kept quiet for fear of disturbing her father.
+            (for fear of ～ing, of가 전치사. for fear (that)의 형태는 절을 취함)
+  ②결과:주로 무의지 동사인 awake, live, grow up 다음은 결과를 나타냄
+    * He awoke to find himself famous.
+    * He tried to rise, but it was useless.
+      = He tried to rise only to fail.
+      = He tried in vain(vainly) to rise.
+    ◇ so that ～, 과 so ～ that.
+      ⓐ so that～: 목적, 결과(therefor,and so), 조건(if only, so long as)
+        ㉠목적
+          * He got up early so that he might be in time for the train.
+            = He got up early so as to be in time for the train.
+        ㉡결과
+          * A great storm arose, so that the ship were wreched.
+
+        ㉢조건
+          * Any book will do, so that it is interesting.
+      ⓑ so ～ that (so that  이하가 결과 부사절)
+          * He got up so early that he was in time for the train.
+            = He got up so early as to be in time for the train.
+  ③원인 : 감정을 나타내는 동사나 형용사 다음의 부정사는 원인을 나타냄.
+    감정 동사  : smile, weep, agrieve.
+    감정 형용사: glad, happy, sorry, delighted, pleased, surprised.
+    * I was surprised to find her gone.
+      = To my surprised, I found her gone.
+   ◇ to one's + 추상 명사 (결과를 나타냄, ～하게도)
+  ④조건
+    * I should be glad to go with you.
+      = I should be very glad if I could go with you.
+    * I should be very happy to be of any service to you.
+      = I should be very glad if I could be of any service to you.
+  ⑤양보
+    * To do his best, he could not succeed in it.
+      = Though he did his best, he could not succeed in it.
+  ⑥이유, 판단의 근거
+    * must be
+      cannot be   +  to 부정사
+      감탄문
+    * He must be honest to say so.
+    * How foolish I was to trust him.
+  ⑦정도
+    ◇타동사나 전치사의 목적어는 본주어로 고칠 수 있다.
+    * It is not good to drink this water.
+      = This water is not good to drink (vt.의 목적어)
+    * It seems to be comfortable to sleep in this bed.
+      = This bed seems to be comfortable to sleep in (pre.의 목적어)
+  ⑧독립 부정사 : 문장 전체를 수식하므로 부사적 용법에 해당
+    * To tell the truth, I don't like your sister
+      (To do him justice, so to speak, to begin with, strange to say,
+       To make a long story short, To be sure, not to speak of,
+       To make matters worse)
+4. 부정사의 시제
+   ① 형태
+      ◇단순 부정사 : to + 동사 원형 (본동사의 시제와 일치)
+        완료 부정사 : to + have + p.p (본동사보다 하나 더 과거)
+
+      * He seems to be ill.
+        = He seems that he is ill.
+      * He seems to have been ill.
+        = He seems that he was(has been) ill.
+
+  ② * It seems    that + s + v --> s + seems   + to 부정사.
+          appears                       appears
+     * It happens  that + s+ v -->  s + happens  + to 부정사.
+          chances                       chances
+     * It seems that he studied hard.
+        = He seems to study hard.
+     * It appears that he was rich.
+        = He appeas to have been rich.
+     * It happened that we were on the same bus.
+       = We happenedto be on the same bus.
+5. 부정사의 미래 표시
+  (미래 동사 + to 부정사 : 부정사의 시제가  본동사보다 하나 더 미래)
+   미래 동사: want, intend, expect, wish, hope, be likely, be sure.
+   * I hope to see him
+     = I hope that I shallsee him.
+   * I hoped to see him.
+     = I hoped that I shall see him.
+   * It is likely that he will win.
+     = He is likely to win.
+      ( It is likely that ～ , 사람 주어 + be likely to～)
+6. 과거에 이루지 못한 소망
+   ◇형식 : s + had + 미래 동사의 p.p + that ～
+                had + 미래 동사의 p.p + 단순 부정사
+                미래 동사의 과거형 + 완료 부정사.
+    * I hoped to see her yesterday.
+      = I hoped that I should see her yesterday.
+       (그녀를 만나기를 희망 했음.만났는지 만나지 못했는지는 표현되지 않음)
+    * I ahd hoped that I would see her yesterday.
+      = I had hoped to see her yesterday.
+      = I hoped to have seen her yesterday.
+      = I had to see her yeaterday, but I couldn't.
+        (그녀를 만나기를 희망 했으나 만나지를 못함)
+7. 의미상의 주어
+   ◇부정사의 의미상의 주어는 원칙적으로 for + 목적격을 씀.
+   * I think it difficult that he should solve the problem.
+     = I think it difficult for him to solve the problem.
+  ◇부정사가 사람의 성질이나 특징을 나타내는 형용사 (good, fine, bad,
+    kind, unkind, wise, clever, spupid, foolish, silly, polite,
+    thoughtful, considerate, cruel, rude, careful, generous.....) 다음
+    에 올 때는 of + 목적격을 쓴다.
+   * It is very kind of you to say so.
+     = You are very kind to say so.
+     = How kind (it is) of you to say so.
+   ◇ of + 목적격에서는 목적격을 본주어로 고칠 수가 있다.
+      for + 목적격에서는 목적격을 본주어로 고칠 수가 없다.
+      (단, for + 목적격일지라도 타동사나 전치사의 목적어는 본주어로
+       고칠 수가 있다)
+    ◇의미상의 주어가 본주어와 같을 땐 생략한다.
+      * I expect to succeed.
+        = I expect that I shall succeed.
+    ◇의미상의 주어가 문장 전체의 목적어와 일치 할 땐 전치사를 생략한다.
+    * I expect (for) him to succeed.
+      = I expect that he will succeed.
+8. 사람을 주어로 할 수 없는 형용사.
+  : convienient, necessary, difficult, important, impossible,
+    possible, pleasant, easy, dangerous 등의 형용사와 a pity와 같은 명
+    사는 원칙적으로 사람을 주어로 할 수가 없다. 그러나 사람 주어가 부
+    정사의 타동사나 전치사의 목적어에서 온 경우엔 가능하다.
+  * It is easy for Tom to master English.
+    = English is easy for Tom to master. (○) → 타동사의 목적어
+    = Tom is easy to master English. (×) → 목적격
+  * It is cruel of him to beat the dog like that.
+    = He is cruel to beat the dog like that.(of + 목적격에서는 가능)
+  * It is possible for me to solve the problem.
+    = I am possible to solve the problem. (×)
+  * It is dangerous for her to bathe in this river.
+    = This river is dangerous for her to bathe in. (○) → 전치사의목적어
+    = She is dangerous to bathe in this river. (×)
+  * It is difficult to please him.
+    = He is difficult to please.
+      ◇ difficult는 사람을 주어로 할 수 없으나 him이 타동사의 목적어이므로 가능
+      ◇ unable, incapable, be sorry 등은 It을 주어로 할 수 없다.
+        * It is sorry for me to hear of your father's death.(×)
+          = I am sorry to hear of your father's death. (○)
+9. 부정사의 의미.
+   :부정사는 동명사에 비해 “미래적”, “ 구체적“, ”가상적“인 성질을 갖는다.
+
+  ①미래적 성질.
+     * Mery remembers to go. (In:미래성-->갈 것)
+     * Mery remembers going. (G:과거성-->간 것)
+  ②구체적 성질.
+     * To swim is better exercise than to row for older people.
+        (수영에 대한 구체성, 운동 효과 등등...)
+     * Swimming is better than exercise rowing for older people.
+        (수영에 대한 일반적인 견해)
+   ③가상적 성질.
+     * John likes Mery to stay at home.
+       (Mery가 집에 있다는 사실 여부는 표현되지 않음)
+     * John likes Mery staying at home.
+        (Mery가 집에 있음)
+     ◇이러한 의미적 성질을 중심으로 부정사나 동명사만을 목적어로 취
+       할 수 밖에 없는 동사들이 있다.
+       ◇주로 부정사만을 목적어로 취하는 동사
+         : want, wish, hope, expect, choose, decide, determine,
+           refuse, pretend, manage, offer, agree, promise.........
+      ◇주로 동명사만을 목적어로 취하는 동사
+        : admit, consider, give up, deny, finish, mind, stop, quit,
+          escape, postpone, practice, enjoy, avoid, put off.........
+        * He decided to leave school.
+          → He decided leaving school. (×)
+          → He decided on leaving school. (○)
+        * He gave up drinking and smoking.
+      ◇부정사와 동명사를 모두 목적어로 취하는 동사.
+        ⓐ like, hate, preper, love, dread, intend,
+           + 부정사 : 사실성의 언급이 없음.(I like her to sing)
+             동명사 : 사실성이 표현됨. ( I like her singing )
+        ⓑ forget, remember, regret, report, recall, anticipate,
+           acknowlege, amphasize, announce, suspect, admit....
+                + 부정사: 미래성 (I remember to post the letter),부칠 것.
+                + 동명사: 과거성 (I remember posting the letter),부친 것.
+        ⓒ stop + 부정사 : 부정사의 부사적 용법.(I stoped to smoke)
+                + 동명사 : stop의 목적어.       (I stoped smoking)
+        ⓓ try  + 부정사 : 노력하다.      (Mery tries to write a book)
+                  동명사 : 시험삼아해보다 (Mery tries writing a book)
+        ⓔ go on + 부정사: 쉬었다가 다시 계속하다.
+                   동명사: 계속해서 --하다.
+            * He went on to talk about his accident.
+            * He went on talking about his accident.
+10. 원형 부정사 : 지각 동사나 사역 동사 다음엔 to가 생략되고 동사 원형
+    만이 오는데 이를 원형 부정사라 한다.
+  ① 지각 동사 또는 사역 동사 + 목적어 + 원형 부정사.
+     * 지각 동사 : see, behold, hear, feel, watch, obserb, notice,
+                   look at, listen to..........
+     * 사역 동사 : make, let, have, bid, help(to도 가능)
+       * I saw him enter the room.
+       * I made him write a letter of apology.
+         = He was made to write a letter of apology by him.
+         (능동태에서의 원형부정사가 수동태로 고쳐지면 다시 to가 되살아난다)
+       * He let Betty use his dictionary.
+         = Betty was allowed to use his dictionary by him.
+  ② get, allow, order, cause, compel, force, oblige + 목적어 + to부정사
+     ◇ 열거한 동사는 사역의 의미는 갖고 있지만 사역 동사는 아니다)
+      * The rain made the river rise.
+        = The rain caused the river to rise.
+  ③관용어귀 다음의 원형 부정사.
+     * had better(best) + 동사 원형 (부정: had better not)
+     * cannot but + 동사원형 (cannot help ～ ing)
+     * do nothing but + 동사원형.
+     * would rather
+       would sooner    A   than   B  (A,B가 동사원형)
+       had   rather
+     * You had better stay in bed.
+       = It would be better for you to stay in bed.
+11. 부정사의 부정 : 부정어를 to 앞에 놓는다.
+    * He did not try to smile. (try를 부정)
+    * He tried not to smile. (to smile을 부정)
+12. 대부정사 : 부정사의 반복을 피하기 위하여 to만을 씀.
+    * You may go if you want to. (go; 생략)
+13. 분리 부정사 : 부사가 부정사를 수식한다는 것을 분명히 하기 위해
+    to + 동사원형이 부사에 의해 분리되는 것.
+    * He entirely failed to understand it.
+        (entirely가 failed를 수식, 완전부정)
+        He failed to entirely understand it.
+        (entirely가 understand를 수식하는 분리 부정사, 부분부정)
+14. 감탄문을 만드는 부정사.
+    * To think that such a little boy should have done it.
+15. 부정사의 태 : 능동형으로 수동의 의미를 나타내는 것.
+    * You are to blame
+      = You are to be blamed.
+    * To teach is to be taught.
+16. 관련구문
+  ① so～ that … , such ～ that ….
+     so   + a/ad + that + s + v
+     such + n    + that + s + v
+    * As the book is very small, I can put it in my pocket.
+      = The book is so small that I put it in my pocket.
+      = The book is small enough for me to put in my pocket.
+    * It was such a lovely day that he went out.
+      = It was so lovely a day that he went out.
+    ◇복문 ⇒ 단문
+      ⓐ a/ad + enough의 형태로
+      ⓑ 접속사 that 생략.
+      ⓒ that 이하의 절이 본주어와 같을 때는 생략, 다를 땐 for + 목적격
+      ⓓ 타동사의 목적어가 본주어와 같을 땐 생략, 다를 땐 써줌.
+  ② so ～ that … not
+     so  + a/ad + that … not
+     too + a/ad + for + 목적격 + to 부정사
+     * This stone is too heavy for me to lift.
+       = This stone is so heavy that I can not lift it.
+  ③ Too의 특수 용법
+     ◇ not too ～ to  =  not so that ～ not
+        * He is not too old to do the task.
+          = He is not so old that he can not do the task.
+          = However old he may be, he can do the task.
+          = He is not so old but he can do the task.
+     ◇ too ～ not to ＝ so ～ that cannot but …
+       * The statesman is too great not to be respected.(by us)
+         = The statesman is so great that he cannot but be respected.(by us)
+         = The statesman is so great that we cannot but respect him.
+           (cannot but = can의 의미)
+  ④기타
+     * ,too (I have much money.
+             I have much money, too.= So do I )
+       too = very, only too = very,
+       too liable to ～ , too ready to ～
+       (걸핏하면 ～ 하다,  ～하기 일쑤다)
+     * I am only too good to help you.
+        * He is too liable (ready, apt) to despise the poor.
+
+  ⑤ too ～ to, enough ～ to.
+    * This stone is too heavy for me to lift.
+      = This stone is so heavy that I cannot lift it.
+    * This book is easy  enough for me to read.
+      = This book is so easy that I can read it.

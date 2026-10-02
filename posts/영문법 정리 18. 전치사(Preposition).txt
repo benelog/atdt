@@ -1,0 +1,217 @@
+영문법 정리                            18. 전치사(Preposition)
+────────────────────────────────────────
+-  -
+
+    전치사(Preposition)
+
+1. 전치사의 형태 및 목적어
+  ①단순전치사: at, by, till, after, on, concerning, excepting,
+                considering...
+  ②전치사구  : for want of, in place of, on account of, in spite of..
+    * She left the house by the back door.
+    ◇전치사 뒤에 오는 목적어는 모두 목적격이어야하며, 전치사의 목적어
+      에는 명사, 대명사, 명사상당어구 (동명사, 부정사)가 됨.
+    * I want to the park with her.
+2. 전치사의 위치 및 역할
+  ①전치사는 그 목적어 바로 앞에 놓이는 것이 원칙이지만 다음의 경우
+    에서는 전치사가 목적어에서 분리되어 사용되고 있음.
+    * For whom are you looking?
+      = Whom (Who) are you looking for?
+  ②전치사의 목적어 역할
+    ⓐ of + 추상명사 → 형용사구.
+    ⓑ전치사 + 추상명사 → 부사구.
+    ⓒ부사적대격  : 시간, 거리, 방법, 정도 표시 → 전치사 생략, 부사구 역할.
+    ⓓ형용사적대격: 나이, 크기, 모양, 색채, 가격 등 → of 생략, 형용사구로 쓰임.
+      * He is a man of ability.
+        = He is an able man.
+      * He walked (for) ten miles.  (부사적대격)
+      * They are (of) the same age. (형용사적대격)
+3. 장소의 전치사
+    [그림]
+
+  ◇at은 좁은 장소, in은 넓은 장소.
+    천정이나 벽면에 부착된 것은 모두 on.
+    between은 2개 사이에, among은 3개 이상 사이.
+    * I was staying at a hotel in New York.
+    * There is a fly on the ceiling.
+    * The moon has risen above the horizon.
+    * They went up the mountain.
+    * Let's divide this money between you and me.
+    * My house is in fornt of the theater.
+4. 운동 방향의 전치사
+    [그림]
+  ① to → 도착지점,  from → 출발지점.
+  ②어느 범위 안의 정지된 상태에서 “～의 안에”의 뜻인 경우 → in.
+  ③밖에서 안으로 들어오는 운동의 뜻으로 ～의 안으로 → into.
+  ④안에서 밖으로 나가는 운동의 뜻으로 ～의 밖으로 → out of.
+  ⑤처음과 끝의 한계가 명확하며 ～을 가로질러, 횡단하여 → across.
+  ⑥처음과 끝의 한계가 명확하지 않은 상황 ～을 따라서 → along.
+  ⑦ through는 어느 곳을 관통하여 지나가는 것, 운동방향이 있음.
+  ⑧ for는 방향이나 행선지 표시, ～을 향하여.
+  ⑨ toward는 막연한 목표를 향하는 것.
+  ⑩강 또는 거리 등을 따라서 갈때 → along.
+    * He was standing in the corner of the room.
+    * He made a running dive into the river.
+    * A fish cannot live out of the water.
+    * We sailed sown along the river to see the beautiful scenery.
+    * The road goes through the forest.
+5.시간의 전치사
+  ① at : 몇시, 몇분, 밤, 정오, 새벽, 시각.
+     on : 날짜, 정해진 시간.
+     in : 월, 계절, 년, 세기, 아침, 저녁, 오후.
+     ◇어느 특정의 아침, 오후, 저녁은 in 대신에 on을 씀.
+     * at seven o'clock, at noon, on Sunday, on the tenth of April,
+     in April, in summer, in 1937...
+  ② in : ～이 지나면 (시제는 미래가 중심)
+     within : ～이내에 (일정한 기한내에)
+     after : ～후에 (동작의 완료 기준, 과거시제)
+     * Cancer will kill him in a few days.
+     * He will come back within a few months.
+     * The work was finished after a month.
+  ③ by : ～까지 (어느 때 까지 동작완료)
+     till : ～까지 (어느 때 까지 동작의 계속)
+     * I will be here by six. (나는 여섯시까지 여기에 오겠다; by는 한계점만
+     나타냄)
+     * I will be here till six. (나는 여섯시까지 여기에 있겠다; till은 계속을
+     표시함)
+  ④ since : ～이래 줄 곧 (과거로부터 현재까지 계속)
+     from : ～로 부터 (출발점만 표시)
+     * I have lived here since my birth.
+       (나는 태어난 이래 줄곧 여기서 살고있다.)
+     * He works hard form omrning till night.
+       (그는 아침부터 저녁까지 열심히 공부한다.)
+  ⑤ for     : ～동안 (일반적으로 숫자 앞)
+     during  : ～중에 (동작이나 상태의 계속, 특정의 사건, 기간 앞에)
+     through : ～동안 줄곧 (처음부터 끝까지 계속)
+     * The war lasted for seven years. (그 전쟁은 7년 동안 계속되었다.)
+     * He slept during the meeting. (그는 회의 도중에 잠을 잤다; 잠깐동안)
+     * He slept through the meeting.
+       (그는 회의가 시작해서 끝날 때까지 줄곧 잤다; 계속)
+     * I stayed in Seoul for three days. During the three days, I met him.
+6. 원인, 이유의 전치사
+  ① from    : 직접적 원인.
+  ② through : 간접적, 소극적 원인. (태만, 과오, 결점, 매개의 수단)
+  ③ at      : 감정의 원인 (～을 보고서 (듣고서) 기쁘다 (슬프다).)
+  ④ over    : 감정의 원인 (～에 대하여 울다 (웃다)).
+  ⑤ for     : 행위의 이유 (～때문에)
+  ⑥ with    : 행위의 원인 (～때문에; 추위, 두려움, 무서움, 흥분)
+    * He was taken ill from fatigue.
+    * He died of consumption (cholera).
+    * We lost ourselves through not knowing the way.
+    * I was surprised at the news of his death.
+    * We rejoiced over the victory.
+    * She couldn't speak for laughing.
+    * He was trembling with fear (rage).
+7. 재료, 원료의 전치사
+  ① of : 물리적 변화 (형태나 질은 변하지 않음)
+  ② from : 화학적 변화 (형태나 질이 변함)
+  ③ into : 원료가 제품이 될 때 ( A is made into B )
+  ④ in : 표현방법 (speak), 수단 (write), 재료 (paint), 착용.
+    * The house was made of stone. (그 집은 돌집이었다.)
+    * We can make chemical fibers from petroleum.
+      (석유에서 화학섬유를 만들 수 있다.)
+    * The huts can be made into temporary houses.
+      (그 오두막들은 임시 주택으로 개축될 수 있다.)
+    * This picture is painted in oils. (이 그림은 유채 재료로 그린 것이다.)
+    ◇the man in uniform = 제복을 입은 남자.  speaking in English = 영어로
+    말하는.
+      a statue in marble = 대리석으로 만든 조상.
+      bound in leather = 가죽으로 만들어진.
+      the woman in white = 흰 옷을 입은 여인.
+      dressed in rags = 누더기를 걸친.
+8. 수단, 도구의 전치사
+  ① wiht    : 도구 (～을 가지고, ～으로)
+  ② by      : 행위자 (수동태),  수단 (능동태)
+  ③ through : 중개, 경로 (～을 통하여), 매개, 수단.
+    * He was killed with a pistol.
+    * We eat soup with a spoon.
+    * He spoke through an interpreter.
+    * Our party went by bus and returned by train.
+9. 전치사구 Ⅰ
+  ① at the mercy of ～ ＝ in the power of : ～에 좌우되어, ～의 처분대로.
+    * The ship was at the mercy of the wind and the waves.
+  ② at the risk of one's life : 목숨을 걸고, 죽을 각오를 하고.
+    * He saved the child at the risk of his own life.
+  ③ by means of ～ ＝ by dint of ～ ＝ by virture of ～
+      : ～의 덕택으로, ～에 의해서.
+    * Thoughts are expressed by means of words.
+  ④ by way of ～ : ① ～을 경유하여.
+                    ② ～하기 위하여, ～하는 셈으로.
+    * I went to London by way of Paris.
+    * They are making inquiries by way os learning the facts.
+  ⑤ for the purpose of ～ = wiht the object of～ ＝ with a view to
+      ＝ with the view of ～ : ～할 목적으로.
+    * He entered college for the purpose of studying law.
+  ⑥ for the sake of ～ = for the good of ～ = for the benefit of ～
+     ＝ for the interest of ～ : ～을 위하여, ～의 이익을 위해.
+    * He argues for the sake of arguing.
+  ⑦ in accordance wiht ～ : ～에 따라서, ～와 일치하여.
+    * He acted in accordance with his words.
+  ⑧ in comparison with ～ = compared with ～  : ～과 비교하면.
+    * There is an over-supply in comparison with the demand.
+  ⑨ in consequence of ～ = as a result of ～ : ～의 결과로서.
+    * In consequence of the inflation of the currency, the prices of
+      things have greatly risen.
+  ⑩ according to + 명사 = in proportion to + 명사.
+    * According to the rule, we can choose neither of them.
+  ① according as + 주어 + 동사 = in proportion as + 주어 + 동사
+     : ～에 의하면, ～에 따라서.
+    * You will receive according as you give.
+  ② in case (that) + 주어 + 동사 : ～할 경우에는, ～에 대비하여.
+    * Take a sweater in case (that) the weather should turn cold.
+  ③ in case of + 명사 = in the event of : ～할 경우에는.
+    * In case of fire, ring the alarm bell.
+  ④ on account of ～ = because of ～ = on the ground of ～
+     = owing to ～ = due to ～ : ～때문에 (이유를 표시하는 전치사구)
+    * I cannot accept your invitation on account of my illness.
+  ⑤ in spite of ～ = despite ～ = in the face of ～ = with all ～
+     = for all ～ ＝ after all ～ : ～에도 불구하고.
+    * They went out in spite of the heavy rain.
+  ⑥ in company with ～ = together with ～ : ～과 함께.
+    * He came in company with a group of boys.
+  ⑦ in common with ～ = together with ～ : ～과 함께, ～처럼.
+     in the course of ～ = during ～ : ～하는 동안에.
+     in favor of ～ = in one's favor = for : ～에 찬성하여, ～에 이익이 되도록
+     in the light of ～ = in view of ～ : ～에 비추어서, ～의 관점에서.
+     in addition to ～ = besides : ～이외에도, ～뿐만 아니라.
+     in place of ～ = in one's place = instead of ～ : ～대신에.
+10. 전치사구 Ⅱ
+  ① in terns of ～ : ～의 면에서, ～의 견지에서.
+                     ～의 말투로, ～의 표현으로.
+  ② in honor of ～ : ～에 경의를 표하여, ～을 축하하여.
+  ③in (on) behalf of～=in (on) one's behalf～ :～을 위하여, ～을 대신하여.
+  ④ as for ～ = with reference to ～ : ～에 관해 말하자면, ～에 관하여.
+                                       (주로 문두에 사용)
+  ⑤ as to ～ = about ～ = concerning ～ = regarding ～ = as concerns
+     = in regard to ～ = in respect to ～ = with reference to ～
+     : ～에 관하여.
+  ⑥ apart from ～ : ～은 별문제로 하고, ～은 그만두고.
+  ⑦ at the cost of ～ : at the expense of ～ : ～을 희생하여.
+  ⑧ in pursuit of ～ = in search of ～ : ～을 찾아서, ～을 추구하여.
+  ⑨ without regard to ～ = regardless of ～ = irrespective of ～
+     : ～에 관계없이, ～에 상관없이.
+11. 동사 + 전치사의 유형
+  ① agree with + 사람
+     agree with + 제안
+     agree with + 의견
+  ② answer to ～ : 일치하다, 부합하다.
+     answer for ～ : ～을 책임지다.
+     ask a favor of ～ : ～을 부탁하다.
+     ask for ～ : ～을 요구하다.
+     ask after ～ : 문병하다.
+  ③ call on + 사람 : ～을 방문하다.
+     call at + 장소
+     call for ～ : 요구하다.
+  ④ correspond with ～ : 일치하다, 서신왕래를 하다.
+     correspond to ～  : 동등하다, 상당하다.
+  ⑤ compare A with B : A와 B를 비교하다.
+     compare A to B   : A를 B에 비유하다.
+  ⑥ deal in ～ : ～을 거래하다, 팔다.
+     deal with ～ : 취급하다, 다루다.
+  ⑦ inquire into ～ = look into ～ = investigate : 조사하다.
+     inquire after ～ = ask after ～ : 문병하다.
+     inquire of ～ : 질문하다.
+  ⑧ pass for ～ : ～으로 통하다.
+  ⑨ put up at = stop at : ～에 투숙하다.
+  ⑩ put up with = endure = bear = stand = tolerate : ～을 참다, 견디다.
+  ① stand by ～ = stand for ～ : 대신하다, 나타나다.

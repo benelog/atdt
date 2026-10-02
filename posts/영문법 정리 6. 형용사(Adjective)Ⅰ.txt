@@ -1,0 +1,303 @@
+영문법 정리                              6. 형용사(Adjective)Ⅰ
+────────────────────────────────────────
+-  -
+
+   형용사(Adjective) Ⅰ
+
+1. 한정용법: 형용사가 직접 명사 앞 또는 뒤에서 수식하는 용법.
+    * I found an empty box.
+    * He was awake all the night. (2형식)
+    * I found the cage empty.(서술용법; 5형식)
+    * I found the empty cage. (한정용법)
+      ◇형용사가 주격보어나 목적격보어로 쓰이는 경우를 형용사의 서술적
+        용법이라 한다.
+    ◇한정용법에만 쓰이는 형용사
+      * an inner pocket  : 안주머니.
+      * the outer world  : 외부세계.
+      * the former case  : 전자의 경우.
+      * the upper lip    : 윗입술.
+      * a woolen goods   : 모직물.
+      * a woolen box     : 나무상자.
+      * a golden saying  : 금언.
+      * a lone traveller : 외로운 나그네.
+      * drunken, elder, former, latter, only, inner, outer, lone,
+        mere, sheer, upper, utmost, utter, very, wooden, sole, this, that, etc.
+    ◇ He is a drunken man.
+       He is drunk.
+       ⇒ drunken은 반드시 한정용법에만 쓰이고, drunk는 서술용법에만 쓰임.
+2. 서술용법
+    ◇서술용법에만 쓰이는 형용사.
+      a-로 시작되는 형용사: afraid, awake, alone, asleep, ashamed,
+      aware 등과 fond, content, unable, worth 등이 모두 서술용법에만 사용됨.
+      * I am afraid of death.
+        ◇ be fond of～     : ～을 좋아하다.
+         * be ashamed of～  : ～을 부끄러워하다.
+         * be aware of～    : ～을 알다.
+         * be afraid of～   : ～을 두려워하다.
+    * The bird is still alive.
+      ◇ live는 동사 [liv]로서 “살다”이나 형용사로 쓰이면 [laiv]로 발
+         음, “살아있는”, “활기있는”의 뜻으로 한정용법에 쓰임. living
+         역시 살아있는의 뜻으로 한정용법에 쓰임.
+    * The baby is sound asleep. (부사, ‘깊이’)
+3. 한정용법과 서술용법의 차이에 따라 뜻이 달라지는 단어
+    * a certain lady.(어떤부인), It is quite certain. (확실한)
+    * Brown is late.(늦다) , the late Brown.(故 Brown)
+    * He is the present king. (한정용법; 현재의 왕)
+    * The king was present.   (서술용법; 참석하다)
+    ◇서술용법은 주격보어, 목적격보어, 명사 뒤에서 한정용법 등 세가지
+      로 쓰임.
+      * her late husband : 故人이된 남편.
+      * the late king    : 先王.
+      * right : 한정용법으로 쓰이면 “오른쪽의”
+                서술용법으로 쓰이면 “올바른”
+4. 형용사의 후위수식
+  ①두개 이상의 형용사가 명사 수식.
+    * She is a lady beautiful kind and rich.
+  ②형용사가 다른 요소와 결합되어 길어질 때.
+    * This is a useful dictionary.
+    * I have a dictionary useful for children. (형용사구)
+  ③ -thing, -body를 수식하는 형용사는 후위수식.
+    * Please give me something hot.
+  ④ -able, -ible로 끝나는 형용사가 최상급 all, every 다음에 오는 명사
+    를 수식할 때.
+    * I have tired every means possible.
+    * This is the best methed conceivable.
+  ⑤서술용법의 형용사가 명사 수식.
+    * He is the greastest poet alive.
+    ◇형용사절의 who is, which가 생략된 형식.
+      a boy (who is) ten years old.
+      the latter (which is) written in English.
+  ⑥관용어구.
+    * from time immemorial: 옛날부터.
+    * Asia Minor          : 소아시아.
+    * God almighty        : 전능의 신.
+    * the sum total       : 합계, 총계.
+    * the authorities concerned: 관계당국.
+    * a poet larreate     : 계관시인.
+
+5. 형용사의 어순.
+        ┌───────┬───────┬─────────┬─────────
+        │   1   │   2   │    3  │ 4 │   5   │    6  │ 7 │ 8 │
+        ├───────┼───────┼─────────┼─────────
+        │관사등    │서수 │ 기수    │ 성질    │대소 │상태,색   │신,구재료
+        │소속 │
+        ├───────┼───────┼─────────┼─────────
+        │ a, an │ first │  one  │  heavy │ large │  white │   new │
+        American │
+        ├───────┼───────┼─────────┼─────────
+        │ the   │ second│  two  │  valuable │ small │  yellow│   old │
+        Swiss │
+        ├───────┼───────┼─────────┼─────────
+        │ these │ last  │ several │ │ │  black │  wooden │ │
+        └───────┴───────┴─────────┴─────────
+    * My first new salary is spent.
+6. the + 형용사 (또는 p.p.)의 용법
+  ①복수보통명사
+    * The rich have troubles as well as the poor.
+  ②단수보통명사
+    * The deceased was a very up right statesman.
+    ◇ the deceased: 故人.
+       the accused : 피고인.
+       the dead    : 죽은 자
+       등은 단수보통명사로 단수 취급한다.
+  ③추상명사로 쓰일 때.
+    * The good and the beautiful do not always go together.
+      (선과 미가 항상 병행하는 것은 아니다.)
+7. 목적어를 취하는 형용사
+  * This book is worth reading.
+  * It is worth while to read this book.
+  * My house is near the lake.
+  * They are opposite each other.
+  * They are very like each other.
+    ◇이들을 전치사로 볼 수도 있음.
+8. 수량형용사 Many, Much
+  * Many a student has repeated the same mistake.
+    = Many students have repeated the same mistake.
+    ◇ many a + 단수명사는 복수의 의미지만 반드시 단수동사를 사용.
+    ◇ much + 복수명사는 복수동사를 사용.
+  * Much a time did I warn him, but to no purpose.
+    ◇ many a time은 many a times와 같은 의미이며, 부사구인 many
+       a time은 문두로 도치되었으므로 ‘조동사 + 주어 + 본동사’의
+       형태로 사용.
+  * a good many ──┐
+    a great many        │
+    a great number of   │ + 복수명사
+    a large number of   │   “많은”, “수많은”, 《수》에 쓰임.
+    a multitude of      ─┘
+    ◇I have a good many things to do today.
+      A large number of people visit the historic site.
+  * a good deal of      ──┐ + 물질․추상명사
+    a great deal of     ──┘   : 많은 양의, 상당한 양의.
+    ◇He has had to spend a good deal of money on medicines.
+  * a lot of    ──┐
+    lots of     │ + 복수 또는 단수명사
+    (a) plenty of       ──┘   : 많은, 수많은.  《수 또는 양》에 쓰임.
+    ◇She spend a lot of money on clothes.
+  * as many: 같은 정도의 수. 동수의.
+    as much: 같은 정도의 양, 동량의.
+  * like so many: 같은 수의 ～처럼.
+    like so much: 같은 양의 ～처럼.
+    ◇He made ten mistakes in as many lines. (as many = ten)
+      (그는 열 줄에서 열개의 잘못을 저질렀다.)
+      There were five accidents in as many days. (as many = five)
+      (5일 동안에 5건의 사고가 발생했다.)
+      She was respected, and her husband as much despised.
+      (그녀는 존경을 받았는데, 남편은 그만큼 멸시를 받았다.)
+      He drank two bottles of beer and as much wine.
+      (그는 맥주 두병과 포도주 두병을 마셨다.)
+      They worked like so many ants.
+      (그들은 개미 떼처럼 일했다.)
+      The wooden houses flamed up like so many match-boxes.
+      (목조 건물들은 마치 성냥갑처럼 불길이 타올랐다.)
+  * not so much A as B = not A so much as B = less A than B
+    = B rather than A = A라기 보다는 오히려 B이다.
+    ◇He is not so much a scholar as a statesman.
+      = He is not a scholar so much as a statesman.
+      = He is a statesman rather than a scholar.
+  * not so much as = not even = ～조차도 못한다.
+    ◇She can not so much as write her own name.
+      = She can not even write her own name.
+  * not much = 너무 ～은 아니다.
+    ◇He is not much of a scholar.(그는 대단한 학자는 아니다.)
+      I do not see much of him. (나는 그를 자주 만나지는 않는다.)
+  * without so much as = without even = ～조차도 없이.
+    ◇He left without so much as saying goodbye to me.
+9. 수량형용사 Few, Little
+  * few, a few: 수 표시에 사용.
+    few  : 거의없는, 별로없는; 부정을 나타냄.
+    a few: 조금있는; 긍정의 기분을 나타냄.
+    ◇He has few fiends. (거의 없다.)
+      He has a few fiends. (약간있다.)
+  * little, a little: 모두 양 표시에 사용.
+    little  : 별로없는; 부정의 기분.
+    a little: 약간있는; 긍정의 기분.
+    ◇I have a little money with me. (약간있다.)
+      I have little money with me. (거의 없다.)
+  * not a few = quite a few = no few = a good many = many
+    = 상당히 많은. 《수》에 사용.
+    ◇There are not a few such men.
+  * only a few = but few = 약간.
+    ◇He has only a few friends.
+  * the little
+    ◇I did the little (what little) I could.(나는 미력이나마 전력을 다했다.)
+      △the little은 뒤에 수식하는 말이 오므로 the가 붙는다.
+  * not a little = quite a little = no little = much = 꽤 많은.  《양》에 사용.
+    ◇It has caused me not a little anxiety. (not a little = considerable)
+  * I little dreamed that I should never see him again.
+    = Little did I dream that I should never see him again.
+      (내가 그를 다시는 보지 못하리라는 것은 꿈에도 생각하지 못했다.)
+    ◇little이 문두로 도치되면 little + 조동사 + 주어 + 본동사의 형태.
+  * He little knows that the police are about to arrest him.
+    = Little does he know that the police are about to arrest him.
+      (경찰이 체로하려하고 있다는 것을 그는 전혀 모르고 있다.)
+      ◇little이 know, think, imagine, guess suspect, realize 등의
+        동사 앞에 쓰여서 ｢전혀 ～하지 않은(not at all)｣의 뜻으로 쓰인다.
+  * little better than = as good as = ～과 거의 같은.
+    ◇He is little better than beggar.
+  * little short of = almost
+    ◇It is little short of a mirache. (그것은 기적이나 다름없다.)
+10. 수사
+  ① five hundred / five thousand / five millions.
+     hundreds of people / five million inhabitants.
+     ◇hundred, thousand는 복수가 없으나 million은 복수가 있다.(미어×)
+       △hundred (thousand) of = 많은, million을 형용사로 쓸 때는 단수.
+  ② $ 2,358 = two thousand three hundred and fifty-eight dollars.
+     ◇hundred 다음에 and를 넣어 읽는다.
+    * (the year) 1981 = nineteen eighty-one.
+     ◇3021처럼 100 단위가 없을 때에는 three thousand and twenty-one으로 읽는다.
+     ◇연대는 둘씩 나누어 읽는다.
+        1990: nineteen hundred.
+        1801: eighteen hundred and one. (or eighteen one)
+    * (at) 7: 55 ㏂ = seven fifty-five [/ei/em]
+    * a girl in her teens
+  ③ He was the first president of the university.
+     Do it a second time. (a second time = again)
+     Two-thirds of the apples were bad.
+     Two-thirds of the land was uncultivated.
+     ◇서수사: 서수사에는 the를 붙임.
+       first, second, third 이외는 기수사에 -th를 붙여 서수사를 만듬.
+       △철자에 주의: fifth, eighth, ninth, twelfth, twentieth, fourteenth,
+       fortieth.
+       △Napoleon Ⅲ = Napoleon the Third.
+         World War Ⅱ = World War Two 혹은 the Second World War.
+         a third world war.
+       △분수읽기. (분자는 기수, 분모는 서수)
+         ½ = a half (or one half),
+         ⅔ = two thirds, ⅓ = one third.
+         4 2/7 = four and two sevenths.
+       △분수의 수는 그 뒤의 말에 따라 결정됨.
+       △one and a half는 단수로 받는다.
+       △2.34 = two point three four.
+  ④ I had to pay double the usual price.
+     * He has twice as much money as I have.
+     * This is three times as large as that.
+       = This is three times the size of that.
+
+11. 고유형용사
+        ┌─────────┬──────────┬────────────┬─
+        │ 국   명 │고유형용사│국민 한사람   │ 국민의 복수 │ 국민 전체 │
+        ├─────────┼──────────┼────────────┼─
+        │ England │ English │ Englishman    │  Englishmen   │  English │
+        │ France │ French │ Frenchman │  Frenchmen    │  French │
+        │ China │ Chinese │ Chinese │  Chinese │  Chinese │
+        │ Korea │ Korean │ Korean │  Koreans │  Koreans │
+        │ America │ American │ American │  Americans    │  Americans    │
+        │ Germany │ German │ German │  Germans │  Germans │
+        │ Italy │ Italian │ Italian │  Italians │  Italians │
+        │ Spain │ Spanish │ Spaniard │  Spaniards    │  Spanish │
+        └─────────┴──────────┴────────────┴─
+  ◇국민 한 사람: a, an.  국민 전체: the.
+12. 혼동하기 쉬운 형용사
+  * comparative : 비교의, 비교상의.
+    comperable  : ～에 필적하는, ～과 비교할 수 있는.
+  * continual   : 계속적인, 번번이 일어나는.
+    continuous  : 연속적인.
+  * considerable: 많은, 상당한.
+    considerate : 동정심 많은, 사려깊은.
+    considering : ～을 고려하면, ～에 비해.
+  * credible [kredəbl]   : 신용할 수 있는, 믿을 수 있는.
+    credulous[kredjuləs] : 잘 속는, 잘 믿는.
+  * desirable[dizaiərəbl]: 바람직한, 호감이 가는.
+    desirous [dizaiərəs] : 원하는.
+  * economic    : 경제학의, 경제적인, 경제의.
+    economecal  : 절약하는, 낭비하지 않는.
+  * healthy     : 건강한, 건장한.
+    healthful   : 건강에 좋은.
+  * historic    : 역사적으로 유명한, 역사적인.
+    historical  : 역사에 관한.
+  * industrious : 근면한.
+    industrial  : 산업의, 공업의.
+  * imaginative : 상상력이 풍부한.
+    imaginary   : 가상적인, 비현실적인.
+    imaginable  : 상상할 수 있는.
+  * momentous   : 중대한.
+    momentary   : 순간적인.
+  * literal     : 문자의, 글자의, 원문에 충실한.
+    literary    : 문학의, 작가의.
+    literate    : 학식이 있는. (≠ illiterate; 문맹의)
+  * luxurious[lʌgʒuəriəs] : 사치스러운, 호화스러운.
+    luxuriant[lʌgʒuəriənt]: 번성한, 풍부한, 무성한.
+  * memorable   : 기억할만한.
+    memorial    : 기념의, 기념이 되는.
+  * practical   : 실제적인, 실천적인, 실용적인.
+    practicable : 사용할 수 있는, 실천할 수 있는.
+  * sensible    : 분별있는, 현명한, 깨닫고 있는.
+    sinsitive   : 민감한, 섬세한, 상하기 쉬운.
+  * respectable : 존경할만한, 훌륭한.
+    respectful  : 경의를 표하는, 공손한.
+    ◇ ‘명사 + ly’가 부사 아닌 형용사형인 것.
+  * likely      : 그럴듯한, 있음직한, ～할 것 같은.
+  * timely      : 때에 알맞은.
+  * orderly     : 정돈된, 규칙적인, 규율있는.
+  * lovely      : 사랑스러운, 아름다운.
+  * cowardly    : 겁많은, 비겁한.
+  * bodily      : 몸의, 신체의.
+  * friendly    : 친구다운, 우호적인, 친절한.
+  * daily       : 매일의, 나날의,  (부) 매일, 날마다.
+  * monthly     : 매달의, 월 1회의 (부) 매달, 달마다.
+  * motherly    : 어머니의, 모친의.
+  * fatherly    : 아버지의.
+   ◇직유 ‘as ～ as’ 의 형태
+  * as white as snow : 눈처럼 하얀.
+  * as blind as bat  : 박쥐처럼 눈이 먼.
+  * as poor as a church mouse: 교회 생앙쥐처럼 가난한.

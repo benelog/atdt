@@ -1,0 +1,174 @@
+영문법 정리                                      8. 동사의 종류
+────────────────────────────────────────
+-  -
+
+    동 사 의  종 류
+
+1. 1형식 문형: S + V (완전 자동사)
+   * I go to church on sundays.
+   * Nowdays farming doesn't pay.
+    ◇ pay는 타동사로 쓰이면 지불하다, 청산하다의 뜻.
+        자동사로 쓰이면 보답하다, 수지가 맞다의 뜻.
+    ◇ be가 완전자동사로 쓰이면 존재하다, 있다.
+    ◇ do가 완전자동사로 쓰이면 편리하다, 충분하다, 알맞다.
+2. 2형식 문형: S + V + C (불완전 자동사)
+  ①명사보어와 형용사보어.
+    * He is a soldier.  (He = soldier)  ( S = V;  명사 보어)
+    * He is gloomy.     (He ≠ gloomy)  ( S ≠ C; 형용사보어)
+  ② become형 동사
+    * become, grow, get, go, come, run, fall, turn 다음에 명사나 형용
+     사가 오면 주격보어로 쓰여서 2형식 문장으로“～이 되다”와 같은 불완
+     전 자동사가 됨.
+    * He become a composer.  (He = a composer)
+    * He went mad.
+    * become이 타동사로 쓰이면 “～에 어울리다”의 뜻으로 쓰인다.
+      ◇ Her new dress become her well.
+  ③ remain형 동사.
+    * remain, keep, lie, hold, continue 다음에 명사나 형용사가 오면 본
+      래의 뜻이 없어지고 계속해서 “～하다”, “～한 상태가 되다” 의 뜻인
+      2형식 문형이 된다.
+    * He remained silent.
+                  poor all his life.
+                  faithful to the last.
+  ④지각동사(감각동사) + 형용사.
+    ◇ feel, smell, sound, taste 등의 지작동사 다음에 형용사가 오면 2
+       형식 문장이 된다.
+    * feel ～  : ～처럼 느끼다.      * taste～  : ～하게 맛이나다.
+    * smell～  : ～하게 냄새가나다.  * sound～  : ～하게 들리다.
+      ◇반드시 형용사를 사용해야 한다.
+  ⑤기타.
+    * Helen looks happy.
+    * She appears sensible.
+    * The wound prove (to be) fatal.
+
+3. 유사보어
+    * S + live,die.     ──┐
+          marry.        │ + 명사보어  ; 주어와 equal.
+          go.   │   형용사보어; 주어의 상태 동작 설명.
+          be born.      │   현재분사  ; 주어의 능동적 동작.
+          stand.        │   과거분사  ; 주어의 수동적 동작.
+          sit,return.──┘
+          → 완전자동사이나 다음에 보어가 오면 모두 2형식문장이 됨.(유사보어)
+    * He died a beggar. (He died + He was a beggar)
+    * The old man sat surrounded by the children.
+4. 3형식 문형: S + V + O (완전타동사)
+    * S + 완전타동사 ──┐
+          타동사구  │ + 명사, 대명사, 부정사, 동명사,
+          자동사 + 전치사     ──┘   동족목족어, 재귀대명사 (S ≠ O)
+    * God made man.           (God ≠ man)    ; 3형식.
+    * He will make a scholar. (He = a scholar); 2형식.
+5. 동족목적어: 자동사가 같은 어원의 명사를 목적어로 취할 수 있으며, 같
+   은 어원의 목적어를 동족목적어라 함.
+    * He lived a happy life (3) → He lived happily. (1)
+    ◇최상급 다음에 오는 동족목적어는 생략함.
+      * She smiled her brightest (smile).
+      * He shouted his loudest (shout).
+6. 4형식 문형: S + V + I.O + D.O   (수여동사)
+    * I gave her the book.       (4형식)
+      = I gave the book to her.  (3형식)
+      ◇ to  + I.O → pay, bring, hand, deny, sell, send, lend, give...
+         for + I.O → buy, build, make, get, order...
+         of  + I.O → ask...
+         on  + I.O → play, impose, bestow, confer...
+        * I paid him the money.   → I paid the money to him.
+        * I will buy you a watch. → I will buy a watch for you.
+        * I asked him a question. → I asked a question of him.
+        * He played me a trick    → He played a trick on me.
+7. 간접목적어를 문미로 보낼 수 없는 동사
+   : envy, save, forgive, pardon 등......
+    * I envy him his patience.  (○)
+      → I envy his patience to him. (×)
+8. 수여동사로 착각하기 쉬운 동사
+   : explain, introduce, announce, confess, describe, prove, suggest,
+     propose 등...
+
+    ◇ explain... 등은 4형식 동사로는 쓸 수 없으며 우리말의 간접목적어
+       에 해당되는 부분은 ‘to + I.O’의 형태로 부사구와 같이 사용.
+      * I will explain to you what this means.
+9. 5형식 문형: S + V + O + O․C  (불완전 타동사)
+    ◇ S + V + O +  명사, 대명사 : 목적어와 equal
+                    형용사 : 목적어의 상태 설명
+                    부정사, 현재분사 : 목적어와의 관계 능동적
+                    과거분사 : 목적어와의 관계 수동적
+
+ ① O․C가 명사 또는 대명사
+    * He is a great scholar  : 2형식
+      = I believe him (to be) a great scholar. : 5형식
+    * I believe the author to be her  : 5형식
+      = The author is believed to be she by me  : 2형식
+      ◇ 주격 보어는 주격을 목적격 보어는 목적격을
+ ② 목적격 보어가 형용사일 때
+    * I believe him diligent.
+ ③ 목적격 보어가 부정사
+    * I ordered him  to go.
+                     to stay in bed.
+                     to take a rest.
+ ④ 목적격 보어가 원형 부정사 (지각․사역동사 다음)
+         지각동사               사역동사
+  ◇ S +  see    ──┐     ┌─ let  ─┐  + 목 + 원형부정사
+          be hold       │       │  make │
+          observe       │ 또는    │  have │
+          hear  │       │  bid  │
+          notice        │       └─ help ─┘
+          look at       │
+          listen to     ─┘
+    * I saw the suspected man (to) enter the building.
+ ⑤ 목적격 보어가 과거분사
+    * I had him (to) build my house.
+      = I had my house built by him.
+      ◇ 목적어 + to do 의 관계는 능동
+10. 타동사로 착각하기 쉬운 자동사
+    * ～을 좋아하다. :  graduate from + 목 (O) → graduate + 목 (X)
+    * ～을 불평하다. :  complain of + 목
+    * ～을 기다리다. :  wait for + 목
+    * ～을 실험하다. :  experiment with + 목
+    * ～을 동정하다. :  sympathize with + 목
+    * ～을 방해하다. :  interfere with + 목
+    * ～을 승낙하다. :  consent to + 목
+11. 자동사로 착각하기 쉬운 타동사
+    * ～에 참석하다
+      : attend to + 목 (×)     →  attend + 목 (○)
+    * ～에 어울리다         :  become + 목
+    * ～에 관하여 토의하다  :  discuss + 목
+    * ～과 닮다             :  resemble + 목
+    * ～에게 인사하다       :  greet + 목
+    * ～과 결혼하다         :  marry + 목
+    * ～에 다가서다         :  approach + 목
+    * ～에 대하여 언급하다  :  mention + 목
+12. 공급동사
+    * endow A with B   : A에게 B를 수여하다. 주다.
+    * entrust A with B =  entrust B to A  : A에게 B를 맡기다. 위임하다.
+    * supply A with B  =  supply B for A  : A에게 B를 공급하다.
+    * provide A with B =  provide B for A : A에게 B를 공급하다.
+    * furnish A with B =  furnish B to A  : A에게 B를 설치하다. 공급하다.
+    * present A with B =  present B to A  : A에게 B를 주다. 선사하다.
+    * fill A with B    : A에게 B를 채우다.
+    * equip A with B   : A에게 B를 갖추게하다, 장비하다.
+13. as soon as
+    ; as soon as = the moment = the instant = immediately = instantly
+      ～하자마자
+  ◇  As soon as ──┐
+      The moment        │
+      The instant       │ he saw me, he ran away.
+      Immediately       │
+      Instantly ──┘
+      = He had  no sooner   seen me  than           he ran away.
+                hardly               berore(when)
+                scarcely             when (before)
+      = No sooner   had he seen me  than      he ran away
+        Hardly                      before
+        Scarcely                    when
+      = On (Upon) seeing me, he ran away.
+14. 보어의 형식
+  ◇보어는 명사, 대명사, 형용사 외에 부사, 구, 절이 되기도 한다.
+  * She is a schoolgirl. (명사가 보어)
+    I thought it to be her. (대명사가 보어)
+    She is beautiful. (형용사가 보어)
+  * School is over. (수업이 끝났다; 부사가 보어)
+    He is away. (그는 가고 없다; 부사가 보어)
+  * He ran himself out of breath.(그는 너무 뛰어 숨이 찼다; 구가 보어)
+  * He seems to know me. (그는 나를 아는 것 같다; 부정사가 보어)
+  * The fact is that I know nothing about it. (The fact = that-clause)
+    (사실은 나는 그것에 대해 아무 것도 모른다; 절이 보어)
+  * His own efforts have made him what he is.(him = what he is)
+    (그가 이렇게 된 것은 그 자신의 노력 때문이다; 절이 보어)

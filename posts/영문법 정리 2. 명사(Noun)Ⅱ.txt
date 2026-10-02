@@ -1,0 +1,302 @@
+영문법 정리                                     2. 명사(Noun)Ⅱ
+────────────────────────────────────────
+-  -
+
+    名 詞 (Noun) Ⅱ
+
+1. 규칙변화 Ⅰ
+  ①무성음 [p,t,k,f,θ]       + s → [s]
+    유성음 [b,d,g,v,ð, 모음] + s → [z]
+    * desks [desks], beds [bedz].
+  ②어미가 [s],[z],[ʃ],[tʃ],[dʒ] 로 발음이 되면 -es를 붙이고 [iz]로 발음함.
+    * ass[æs] → asses [æsiz]
+      dish    → dishes[diʃiz]
+      breeze [bri:z] → breezes [bri:ziz]
+    ◇주의 : monarch[manək] → monarchs [manəks]
+             patriarch[peitria:k] → patriarchs [peitria:ks]:가장,족장
+             stomach[stʌmək] → stomachs[stʌməks] : 위.
+    ◇어미가 -ch인 단어의 복수형은 주의.
+      [tʃ]로 발음 → -es 붙이고 [iz]
+      [k ]로 발음 → -s만 붙이고 [s]로 발음.
+  ③어미가 -th로 끝나는 경우
+     단모음 + ths → [θs]로 발음.
+     myth[miθ] → myths[miθs] : 신화.
+     장모음 또는 2중모음 + ths → [ðz]
+     path[pæ:θ] → paths[pæðz] : 길.
+     bath[ba:θ] → baths[ba:ðz] : 목욕.
+     mouth[mauθ] → mouths[mauðz]
+     ◇mouth가 동사로 쓰일 땐 [mauð] : 먹다, 연설하다.
+       bath의 동사형은 bathe[beið] : 담그다, 목욕시키다.
+       bathing suit [beiðiŋ][su:t] : 수영복.
+    ◇장모음 + r + ths에서는 ths가 [θs]로 발음.
+      earth[ə:ʳθ] → earths[ə:ʳθs]
+2. 규칙변화 Ⅱ (자음 + y)
+   ①자음 + y는 y를 i로 고친 뒤 -es
+     lady → lades[- z]
+     ◇예외 : 1) 고유명사인 경우 -s만 붙인다.
+                 Henry → Henrys.
+              2) 모음 + y는 -s만 붙인다.
+                 day → days.
+              3) -quy로 끝나는 말은 모음 + y의 형태로 보고그냥 -s만 붙
+                 이면 안됨.  -quy는 비록 모음(u) + y의 형태이나 발음이
+                 qu[kw] 이므로 자음 + y로 보고 y를 i로 고친뒤 -es를 붙
+                 임.
+
+                 soliloquy[səliləkwi] : 혼잣말.
+                 → soliloquies[səliləkwiz]
+3. 규칙변화 Ⅲ (자음 + o)
+  ①자음 + o는 -es를 붙인 뒤 [z]로 발음.
+     potato → potatoes, hero → heroes, echo → echoes.
+     ◇예외 : 자음 + o로 끝나는 단어 중에서 일반적으로 줄여서 된 말
+              (automobile → auto)의 복수형은 -es 대신 -s를 붙임.
+              piano(pianoforte) → pianos.
+              curio(curiosity) → curious : 골동품.
+4. 규칙변화 Ⅳ (f, fe 형)
+  ①어미가 -f, -fe인 단어는 f를 -v로 고친 뒤 -es를 붙인다.
+    half[ha:ʳf] → halves[ha:ʳvz]
+    calf[ka:f] → calves[ka:vz] : 송아지.
+    ◇다음 단어는 -f, -fe로 끝나는 경우라도 -s만 붙일 것.
+    chief → chiefs,        roof   → roofs:지붕.
+    cliff → cliffs:절벽,   dwarf  → dwarfs:난장이.
+    safe  → safes:금고,    grief  → greifs:슬픔,비탄.
+    proof → proofs:증거,   strife → strifes: 투쟁,싸움.
+    gulf  → gulfs:만(해안에서 사용)
+  ②문자, 숫자, 약어의 복수형은 보통 's를 붙인다.
+    R → R's, 8 → 8's, M.P → M.P's
+5. 불규칙 변화
+ ①모음이 변하는 경우
+   man - men,     woman - women[wimin], foot - feet,
+   goose[gu:s] - geese[gi:s]:거위.     ox - oxen,
+   tooth - teeth, louse[laus] - lice[lais]:이.
+  ②단수,복수형이 같은 경우
+    deer, sheep,  swine[swain]:돼지,   trout[traut]:송어,
+    salmon[sæmən]:연어, corps[kɔ:ʳ] → corps[kɔ:ʳz]:군단(◇발음에주의)
+    ◇foot  “발”의 복수형      → feet.
+            “보병”의 복수형    → foot.
+      horse “말”의 복수형     → horses.
+            “기마병”의 복수형 → horse.
+      fish가 물고기의 종류    → fishes.
+             단순하게 물고기 마리수 → fish.
+6. 외래어 복수
+ ① -um, -on으로 끝나는 낱말은 -a로...
+   datum - data, memorandum - memoranda, medium - media:중간,매개체.
+   phenomenon - phenomena:현상,사건.
+
+ ②어미가 -us로 끝나는 단어는 -i로...
+   stimulus - stimuli:자극, focus - foci:촛점. fungus - fungi:균,버섯
+ ③어미가 -sis[sis]로 끝나는 낱말은 -ses[siz]로...
+    oasis[oueisis] → oases[oueisi:z], thesis[θi:sis] →theses[θi:siz]
+    analysis → analyses           synthesis→syntheses : 종합
+    crisis → crises : 위기        basis → bases
+    parenthesis[pərenθisis] → parentheses[pərenθisi:z]: 괄호
+7. 이중 복수
+  * brother [brʌðə]     ┌─ brothers [brʌðərz] : 형제의 복수
+        └─ brotheren[breðrin] : 동포,종교상의 형제
+  * genius  [dʒi:niəs]┌─ geniuses[dʒi:niəsiz]: 천재
+        └─ genii   [dʒi:niai] : 악마, 수호신
+  * penny   [peni]      ┌─ pennies[peniz]     : 동전 갯수의 복수
+        └─ pence  [pens]      : 가격, 값의 복수
+  * cloth   [klɔ:θ]     ┌─ cloths[klɔ:θs]     : 옷감, 천의 종류
+        └─ clothes[klou(ð)z]  : 의복, 옷
+  * staff   [stæf]      ┌─ staffs[stæfs]      : 직원, 간부
+        └─ staves[steivz]     : 지팡이, 막대기
+8. 복합 명사의 복수형
+ ①중요한 말이나 명사에 -s
+   * looker-on  → lookers-on : 구경꾼 (spectator)
+     by-stander → by-standers      passer-by → passers-by
+     commander-in-chief → commanders-in-chief : 사령관
+     dropper-in → droppers-in : 방문객
+     father-in-law → fathers-in-law : 장인, 시아버지
+     mother-in-law → mothers-in-law : 장모, 시어머니
+     brother-in-law → brothers-in-law : 처남
+     son-in-law → sons-in-law : 사위, 양자
+     tooth-brush → tooth-brushes : 칫솔
+     ♧ tooth--로 된 복합어는 뒤에 오는 명사만 복수로 고친다.
+ ②명사 또는 중요한 낱말이 없는 복합어는 끝에 --s 또는 --es
+   * forget-me-not → forget-me-nots, have-not → have-nots
+     go-between(중매인) → go-betweens(매개자)
+     merry-go-round → merry-go-rounds : 회전목마.
+     good-for-nothing → good-for-nothings : 쓸모없는 자.
+9. 상시복수
+  ①짝 또는 두 부분이 하나를 이루는 의류 및 도구의 명칭. (보통 복수 취급)
+    trousers, gloves, scissors, glasses, spectacles,
+    tongs[taŋz]:부젓가락, pants.
+
+  ②복수형태의 학과명 → 형태는 복수이나 단수 취급을 함(단수동사)
+    economics, politics, physics, mathematics, phonetics, ethics,
+    statistics[stətistiks]: 통계학→단수취급, 통계(표)→복수취급.
+  ③기타 상시복수로서 복수 취급
+    goods, riches:재산, valuables:귀중품, belongings,
+    savings:저금(saving은 구조, 절약의 뜻)
+  ④상시복수로서 단수 취급
+    news, means는 단수,복수 가능.
+10. 분화복수
+   * air       : 공기    -  airs      : 건방진 태도.
+     advice    : 충고    - adviecs    : 통치.
+     arm       : 팔      - arms       : 무기, 팔들.
+     manner    : 방법    - manners    : 예절, 방법들.
+     ash[æʃ]   : 재      - ashs       : 유골.
+     custom    : 습관    - customs    : 관세, 세관, 습관들.
+     provision : 준비    - provisions : 식량.
+     pain      : 고통    - pains      : 노력, 수고.
+     color     : 색      - colors     : 기, 색깔들.
+11. 상호복수 : 두개 이상의 것이 상호적으로 작용해야 할 경우에는 반드
+    시 복수형태를 해야한다.
+   * shake hands with      : 악수하다.
+     change cars           : 차를 갈아타다.
+     exchange seats with   : 자리를 바꾸다.
+     be friends with       : ～와 친구사이다.
+     take turns            : ～교대하다.
+     make friends with     : ～와 친구가 되다.
+     exchange letters with : 편지를 교환하다.
+     be on good terms with : ～와 사이가 좋다.
+12. 복수어미 생략 Ⅰ
+ ①복수형 명사가 수사 다음에 와서 형용사적으로 쓰일때 단수형.
+    * He is two years old.
+      → He has a three-year-old daughter.
+  ②수사 + 복수명사가 형용사적으로 쓰일땐 단수 사용.
+    * a ten-mile race : 10마일의 경주.
+      a six-line gun  : 6인치의 대포.
+      the three-power conference : 3대 강대국 회담.
+      two-horse carriage : 쌍두마차.
+
+13. 복수어미 생략 Ⅱ
+  ① dozen, score, hundred, thousand, percent 등이 수사 다음에 올때는
+     복수일지라도 반드시 단수형을 쓸 것.
+    * one dozen   - three dozen.
+      one hundred - five hundred.
+    ◇score : “득점”의 뜻도 있지만 20의 數도 나타냄.
+      two score → 40.  three score and ten → 70.
+  ② dozen, score, hundred, thousand, million 등이 막연한 수를 나타낼
+     땐 복수형을 사용한다.
+    * dozens of eggs    : 여러다스의 계란.
+      Hundred of people : 수백명의 학생들.
+      scores of books   : 수십권의 책.
+  ③ pair, couple 등이 짝을 나타낼 때에는 단수,복수가능. (head는 항상단수)
+    two pair(s) of shoes     : 구두 두켤레.
+    four couple(s) of hounds : 4쌍의 사냥개.
+    five head of oxen        : 소 5마리.
+    ◇head는 짐승의 머리수를 셀때 쓰이며 앞에 복수 수사가 와도 항상 단
+      수형으로 쓴다.
+14. 복수형의 낱말을 단수 취급하는 경우
+  ①학과명.
+  ②복수형태의 국가명.
+    * The Netherlands, The Philppines, The United States (of America)
+      등의 국가명은 반드시 정관사 The를 사용하며 복수 취급한다.
+      단, 형태는 복수이나 단수 취급하는 것은 단수 동사를 사용한다.
+  ③시간, 거리, 가격, 중량을 하나의 단위로 취급할때에는 단수 취급한다.
+    * Thirty miles is a good distance.
+  ④복수형태의 서적이름 : 형태는 복수이나 단수 취급.
+  ⑤부분을 나타내는 말.
+    half(반)     ───┐
+    the rest(나머지)       │ of + 단수명사     ─┐ → 단수동사.
+    a lot(많은)   │      물질명사     │
+    most(대부분)   │      추상명사     ─┘
+    the majority(대부분)   │ of + 복수명사    → 복수동사.
+    lost(많은)    ───┘
+15. 性
+  ①별개의 낱말을 사용하는 경우
+    *  husband : 남편       - wife  : 아내.
+    *  nephew  : 조카       - niece[ni:s]: 조카딸.
+    *  wizard  : 남자마법사 - witch : 마녀.
+    *  monk    : 남자수도승 - nun   : 수녀.
+    *  bull    : 황소       - cow   : 암소.
+    *  bachelor[bætʃələ]:독신남 - spinster : 독신녀.
+  ②남성명사의 어미에 -ess를 붙임
+    *  lion     : 숫사자     - lioness  : 암사자.
+    *  heir[ɛəʳ]: 상속인(男) - heiress  : 상속인(女).
+    *  prince   : 황태자     - princess : 공주.
+    *  host     : 남자주인   - hostess  : 여자주인.
+    *  empeoro  : 황제 - empress : 황후.
+    *  tiger - tigress,     God - Goddess,        actor - actress,
+    *  negro - negress,     waiter - waitress,    author - authoress
+    *  master - mistress.
+  ③기타
+    * he-goat : 숫염소 ≠ she-goat.      man-servant ≠ maid-servant.
+      bridegroom[braidgru:m]: 신랑  ≠  bride[braid]: 신부.
+      widower[widouə]: 홀아비 ≠ widow[widou]: 과부.
+      hero[hiərou]: 영웅 ≠ heroine[herouin]: 여장부, 여걸.
+16. 통성명사와 중성명사
+  ①통성명사 : parent, monarch, spouse(배우자)
+    동물을 나타내는 통성명사의 대명사는 it로 받지만 사자, 개와 같이 사
+    나운 동물은 남성 취급을 하며 he로 받고, 고양이, 앵무새 등과 같이
+    약한 동물은 여성 취급하여 she로  child, baby 등은 it로 받는다.
+  ②중성명사(무생물)의 의인화
+    * 강하고, 맹렬하고, 위대한 것. :남성명사 (sun, war...)
+    * 아름답고 우아하고 가련한 것. :여성명사 (moon, peace...)
+    ◇국가명은 경제․사회․문화적 측면은 여성 취급하여 she로, 국토나
+      지리적 측면은 중성 취급하여 it로 받는다.
+      * England is justly proud her poets. (국가, 여성)
+      * America is rich in its natural resauces. (국토, 중성)
+17. 소유격의 형성
+  ①사람이나 동물의 소유격은 원칙적으로 's를 쓴다.
+    * A man's stick.  The cat's ear.
+  ②무생물의 소유격은 ｢of + 명사｣의 형태로 표시한다.
+    * The legs of the table.
+  ③ -s로 끝나는 복수명사의 소유격은 '(apostrophe)만 붙인다.
+    * girls'.  rings.
+  ④고유명사는 어미가 -s로 끝나더라도 's를 붙인다.
+    * Charles's hat.  Jones's Dicttionary.
+    ◇예외: 고대 희랍인, 그리고 Jesus, Moses, Socrates, Columbus등의
+      고유명사는 -s로 끝날지라도 's만 붙여서 소유격을 만듬.
+
+  ⑤복합명사나 하나의 어군을 이루는 말의 소유격은 마지막에 's를 붙임.
+    * father-in-law  : 장인(복합명사).    fathers-in-law : 장인들.
+      father-in-law's hat  : 장인의 모자
+      fathers-in-law's hat : 장인들의 모자들.
+  ⑥동격명사의 소유격: 일반적으로 뒤에 있는 동격명사에 's를 붙인다.
+    * my friend John's wife.
+  ⑦각자소유와 공동소유
+    * Tom's and Frank's books : 별개의 책.
+    * Tom and Frank's books   : Tom과 Frank가 공유하는 책.
+18. 소유격의 의미
+  ①소유자 표시: Tom's book.
+  ②저자, 발명자 표시: Shakespeare's Macbeth.
+  ③사용목적․대상 표시: a girl's high school.
+  ④주격 관계(행위의 주체) 표시.
+    * My daughter's death: 내 딸의 죽음(＝ My daughter died. 주격)
+    * Mother's love of children.
+    * John's sucees.
+  ⑤목적격 관계(행위를 받는 것) 표시.
+    * My daughter's education: 내 딸의 교육. (목적격 관계)
+                              (＝Someone educates my daughter)
+    * Caesar's murderers = those who murdered Caesar.
+    * Shakespeare's admirers = those who admire Shakespeare.
+19. 소유격의 용법
+  ① 사람 또는 동물에 한해서는 원칙적으로 's를 쓴다.
+  ②무생물이 의인화 된 경우.
+    * Fortune's smile: 운명의 미소.
+    * Nature's works : 자연의 작품.
+  ③시간, 거리, 가격, 중량을 나타내는 명사.
+    *  today's paper: 오늘 신문.       tomorrow's lesson: 내일 수업.
+    *  a day's journey    : 일일간의 여행.
+    *  five minutes's walk: 도보로 5분거리.
+    *  ten miles' distance: 10마일의 거리.
+    *  a pound's weight: 1파운드의 무게.     ten pound's weight.
+    *  a dollar's worth of sugar.
+  ④ 독립 소유격
+     ㉠소유격('s) 다음에 오는 house, shop, office, store, place 등의
+       공공 건물, 상점, 집 등은 생략한다.
+       * My uncle's (house)
+     ㉡같은 명사가 되풀이 될때 반복을 피하기 위해서 소유격 다음에 오는
+       명사는 생략함.
+       * This book is my brother's (book)
+  ⑤ 이중소유격: a, an, this, these, that, these, some, any, no,
+     which, what, such, each, every 등은 소유격과 함께 나란히 쓸 수 없
+     고, 즉 a, an, this… + 명사 + of + 소유대명사의 형태로 써야한다.
+     * this my father's camera.    ( X )
+     * this camera of my father's. ( O )
+  ⑥ 관용적 표현.
+    *  for mercy's sake: 제발.  for conscience' sake: 양심상.
+    *  at once wits'(wit's) end: 어찌할바를 몰라.
+22. Cannot ～ without
+    * I  cannot  see this picture but I am reminded of him.
+         never
+      ＝ I cannot see this picture without being reminded of him.
+      ＝ Wherever  I see this picture, I am reminded of him.
+         Everytime
+      ＝ This picture always puts me in mind of him.
+      ＝ This picture always reminds me of him.
+23. 접두어
+  ①접두어 in-, im-, -inter, intro-는 모두 안(內)의 뜻.
+  ② ex-, e-, out- 는 밖의 뜻을 나타낸다.

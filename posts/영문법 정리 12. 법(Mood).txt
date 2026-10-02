@@ -1,0 +1,236 @@
+영문법 정리                                       12. 법(Mood)
+────────────────────────────────────────
+-  -
+
+       법 (Mood)
+
+1. 법의 종류
+  ◇말하는 사람의 심리 태도에 의한 동사의 표현 형식을 법이라 하며, 직설법,
+    명령법, 가정법이 있다.
+  * I am thirsty. (직설법)
+  * Give me something to drink. (명령법)
+  * I wish I had something to drink. (가정법)
+2. 법의 형식과 용법
+  ①명령법은 동사의 원형을 사용한다. 명령은 상대방에게 하므로 주어 You를
+    생략하는 것이 보통이지만, 특히 상대방의 주의를 끌려고 할 때는 사용한다.
+     * You read the first paragraph, John.
+     * And mind you don't forget to post the letter.
+  ②명령법은 접속사 and, or와 관련하여 조건을 나타낸다.
+    ⓐ명령법 + and
+       Hurry up, and you will be in time.
+       = If you hurry up, you will be in time.
+    ⓑ명령법 + or
+      Hurry up, or you will be late.
+      = If you do not hurry up, you will be late.
+      = Unless you hurry up, you will be late.
+  ③ Let him go there.
+     Let each man do his best.
+    ◇명령법에는 let를 사용하는 형식이 있다. 1인칭, 3인칭에 관하여든지
+      혹은 권유를 하는 형식이다.
+      △Let us ～. 의 형식에는 다음과 같은 구별이 있다.
+        Let us go. (갑시다)               … 권유 [lets]
+        Let us go. (저희들을 보내 주시오) … 허가 [l/et əs]
+      △Let에는 3인칭에 대한 명령을 나타내는 주의할 용법이 있다.
+        Let each man do his best.
+        = Each man should do his best. (각자 자기의 최선을 다하라.)
+2. 가정법 현재
+    * If + 주어 + 동사원형,  주어 + will.  can  + 동사원형
+         조건절(종속절)             shall. may
+                                     주절(귀결절)
+    * If it rain (rains) tomorrow, I will not go.
+    * If he is honest, I will employ him.     (조건절)
+    * If he is honest, I will not employ him. (양보절, ～할지라도)
+
+3. 가정법 미래
+    * If + 주어 + should (주어의 무의지) + 동사원형, ｢→ 조건절(종속절)｣
+                  would  (주어의 의지)
+      + 주어 + will(would),   can(could) + 동사원형. ｢→ 주절(귀결절)｣
+               shall(should), may(might)
+    * If it should rain tomorrow, I shall not come.
+      ◇ 가정법 미래는 미래에 대한 강한 의심, 의혹을 나타냄.
+         조건절에 should + 동사원형을 사용. ⇒ 미래에 대한 강한 의심.
+         would + 동사원형 ⇒ 주어의 의지.
+    * If you should meet him, tell him to write to me.
+      = Should you meet him, tell him to write to me.
+      ◇ 조동사 + should 문두로 도치: If를 생략시.
+        * If + 주어 + were to～, 주어 + would, should  + 동사원형.
+                                        could, might
+          * If the sun were to collite with the moon, what would become of the
+          earth?
+            ◇ 가정법 미래의 조건절에 were to～를 사용하면 전혀 불가능
+               한 일 또는 미래의 의혹 등을 나타내며 주절에는 would,
+               should 등만 가능. will, shall 등은 사용할 수가 없음.
+4. 가정법 과거
+    * If + S + Root, were,  S + would, should + Root
+               had,  did,       could,
+    * As I am ill, I cannot go there. (직설법 현재)
+      = If I were not ill, I could go there. (가정법 과거)
+      = Were I not ill, I could go there.    (if 생략)
+      = But for  my illness, I could go there.
+        Without
+      = If it were not for my illness, I could go there.
+      ◇ But for, Without은 전치사구로서 “～이 없다면”의 뜻.  다음에는
+         반드시 명사나 동명사형을 사용해야한다.
+         가정법 과거에서 If it were not for～ (만일 ～이 없다면)로 고
+         칠 수 있음.
+    ◇ It is (high) time (that) + S + 과거동사 ⇒ 긴급사항, 당연, 필요, 재촉.
+      * It is time (that) you went to bed.
+        = It is time (that) you shoul go to bed.
+        = It is time for you to go go bed.
+      * If I were a bird, I would fly to you. (가정법 과거)
+        = As I am not a bird, I do not fly to you. (직설법 현재)
+5. 가정법 과거완료
+    * If + S + had + p.p., S + would, should  + have + p.p.
+                               could, might
+
+    * As you helped me, I did not fail. (직설법 과거)
+      = If you had not helped me, I would have fail. (가정법 과거완료)
+      = Had you not helped me, I would have failed. (If 생략시)
+      = But for (Without) your help, I would have failed.
+      = If it had not been for your help, I would have failed.
+      = Had it not been for your help, I would have failed.
+  ◇ 과거사실의 정반대를 가정할 땐 가정법 과거완료 형식인 If + 주 + had + p.p,
+     주 + would(should...) + have + p.p
+  ◇ but for, without가 가정법 과거에서 쓰이면 if it were not for(만일 ～이
+  없다면)
+     로 고쳐지며 가정법 과거완료에서 쓰이면 if it had not been for(만일 ～이
+     없었더
+     라면)로 고쳐짐.
+  ◇ 조건절에서 접속사 if가 생략되면 be동사와 조동사는 바로 주어 앞으로 도치되며
+     일반동사는 조동사 did가 문두로 도치됨.
+6. But for, Without
+   → 가정법 과거     ┌── if it were not for
+        └── were it not for
+      가정법 과거완료  ┌── if it had not been for
+        └── had it not been for
+  * But for the heat of the sun, nothing could live.
+    (태양열이 없으면 아무도 살 수 없을 것이다.)
+  * Without your timely advice, he would have been ruined.
+    (당신의 시기적절한 충고가 없었더라면, 그는 파멸했을 것이다.)
+  * But for, Without의 뜻은 주절에 의하여 결정된다.
+    ◇But for his help, I couldn't succeed. (가정법 과거)
+      But for his help, I couldn't have succeeded. (가정법 과거완료)
+  * but for와 비슷한 것으로 but that이 있는데, 그 다음에는 절이 오며,
+    또 직설법이 온다.
+    but that = unless
+    △But that he had a family, he would have left England long ago.
+7. I wish + 가정법
+  ◇ I wish + 주어 + 복수 과거동사 : 가정법 과거 (현재사실의 반대)
+     * I wish   ──┐   I were a bird.  (가정법 과거)
+       would that       │
+       would to God     │   : 현재 실현할 수 없는 일에 대한 소망
+       If only  ──┘
+       = I am sorry     ──┐   I am not a bird.  (직설법 현재)
+         It is a pity   │
+         I regret       ──┘
+
+  ◇ I wish + 주 + had + p.p : 가정법 과거완료 (과거에 실현하지 못한 소망)
+     * I wish   ──┐   I had learned English. (가정법 과거완료)
+       Would that       │
+       If only  │
+       O that   ──┘
+       = I am sorry     ──┐   I didn't learn English. (직설법 과거)
+         It is a pity   │
+         I regret       ──┘
+       = I should       ─┐  have learned English.  : ～했어야 했는데
+           ought to     ─┘
+8. as if + 가정법
+  ◇ as if       ──┐   + 주 + 복수 과거동사
+     as though  ──┘   = 가정법 과거 : 마치 ～인 것 처럼
+     * He talks as if he knew everything.
+       = In fact he doesn't know everything.
+     * He talked as if he knew everything.
+       = In fact he did not know evertthing.
+  ◇ as if       ──┐   + 주 + had + p.p
+     as though  ──┘   = 가정법 과거완료 : 마치 ～였던 것 처럼
+     * He looks as if he had been ill.
+       = In fact he has not been ill.
+     * He looked as if he had been ill.
+       = In fact he had not been ill.
+     ◇ 주절동사가 현재시제이면 as if～는 과거 또는 현재완료를, 과거시제이면
+        과거완료시제를 각각 표시함.
+9. 혼합 가정법
+   * As I did not take your advice then, I am not happier now.
+     = If I had taken your advice then, I would be happier now.
+     ◇ 직설법 : as～는 과거, 주절은 현재이면
+        가정법 : as절은 가정법 과거완료(had + p.p)로, 주절은 가정법 과거(would +
+        원형)로
+10. 조건 접속사 . 구
+  ◇ unless = if ～ not : ～하지 않는다면
+     in case (that) + 주 + 동     ──┐   ～할 경우에는
+     in case of + 명     │    만일 ～한다면
+     in the event of + 명        ───┘
+     in case ～ should           : ～의 경우를 대비해서, ～하면 안되니까
+      * A tiger cannot be tamed, unless it is caught young.
+        = A tiger cannot be tamed, if it is not caught young.
+      * In case of trouble, call for any help.
+      * Take your umbrella in case it should rain.
+
+  ◇ provided (that)     ────┐
+     providing (that)   │
+     on condition that  │    ～하기만 한다면
+     so long as │
+     if only    ──────┘
+     suppose (that) = supposing (that)   :  ～한다면 (if)
+     granted (that)     ──┐  설령 ～한다 할지라도
+     granting (that)    ──┘  (even if : 양보를 나타냄)
+11. 조건절 상당어구 (전치사)
+    * With guns, we could defeat the enemy.
+      = If we had guns, we could defeat the enemy.
+12. 조건절 상당어구 (구)
+    * I would not do such a thing in your place.
+      = I would not do such a thing if I were in your place.
+
+13. 조건절 상당어구 (단어)
+    * A Korean would not do such a thing.
+      = If he were a Korean, he would not do such a thing.
+14. 조건절 상당어구 (접속사)
+  ◇ I am engaged now, or        ──┐ → if I were not engaged now,
+                       or else  │ : 가 . 과 → 그렇지 않다면
+                       otherwise ──┘   가 . 과 . 완 → 그렇지 않았더라면
+     I would accept your invitation.
+  ◇ but that    ───┐    ┌─  주 + 현재동사 : ～이 없다면
+     expect that        │       └─  주 + 과거동사 : ～이 없었더라면
+     but what   ───┘
+    * As I am poor, I can not go abroad.
+      = If I were not poor, I could go abroad.
+      = Were I not poor, I could go abroad.
+      = But that I am poor, I could go abroad.
+      ◇ but that 다음엔 직설법이 오며 부정의 뜻이 포함되어 있으므로 not를
+         쓰면 틀린다. 주절이 가정법 과거이면 but that + 직설법 현재 형태
+       * but that + 직설법 현재, 주절 (could + 원형동사)
+         but that + 직설법 과거, 주절 (would + have p.p : 가정법 과거완료)
+15. 조건을 포함하는 부정사와 분사
+  * I should be very glad to speak French : 가정법 과거
+    = I should be very glad if I could speak French.
+  * I should be happy to accompany you.
+    = I should be happy if I could acccompany you.
+      (당신을 동반 할 수 있다면 기쁘겠습니다.)
+
+  * The same thing, happening in wartime, would amount to disaster.
+    (이와 같은 일이 만약 전시에 일어난다면 큰 재난이 될 것이다.)
+    happening in wartime. (분사구문)
+    = if it should happen in wartime.
+  * Left to herself, she would have gone astray.
+    = If she had been left to herself, she ～ .
+16. 주절 또는 조건절의 생략
+    * I could have come yesterday (if I had wanted to come)
+    * What if they should be thieves?
+      = What would be the result if they should be thieves?
+17. 언외(言外)에 가정의 뜻을 포함하는 고정된 표현어구.
+  ◇이들은 주로 사양하는 겸손한 완곡 어법이다.
+  ① I should say he was a great scholar. (그는 아마 대학자이죠)
+    △여기에서의 was는 should가 과거형이므로 시제의 일치에 의한 것.
+  ② That would seem strange. (그는 아마 이상하게 보일 것입니다.)
+    △If you did not know the truth, (진상을 모르시면)의 뜻이 言外에 포함되어
+    있다.
+  ③ I should like to make a tour round the world.(나는 세계일주 여행을 하고
+  싶다.)
+    △If I could의 뜻이 言外에 포함되어 있다.
+      should like to: ～하고 싶다.
+  ④ Would you mind lending me your car?
+     (미안하지만, 당신의 차를 좀 빌려 주시겠습니까?)
+    △If I could ask you의 뜻이 言外에 포함되어 있다.
+  ⑤ A pin might have been heard to drop. (if it had dropped의 뜻이 숨어있다.)
+     I could do it now. (지금 그것을 하려면 할 수도 있다.)
+       △if I would의 뜻이 숨어있다.

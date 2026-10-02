@@ -1,0 +1,191 @@
+영문법 정리                               15. 분사(Participle)
+────────────────────────────────────────
+-  -
+
+   분사(Participle)
+
+1. 분사의 한정용법: 명사 앞이나 뒤에서 직접 수식.
+  ①전위수식 (앞에서 수식)
+    * Who is the sleeping baby?
+  ②후위수식.
+    * I received a latter writen in English.
+      = I received a latter which was written in English.
+2. 서술용법
+  ①주격보어로 쓰일 때
+    * He sat reading the magazine. (현재분사: 능동의 관계)
+    * He remained satisfied with his salary. (과거분사: 수동의 관계)
+  ②목적격보어로 쓰일 때
+    * I don't like to see you disappointed.
+    * I saw him crosing the street.  (O.C)
+    * Of those invited only a few came to the party.
+      (◇분사가 대명사를 수식할 경우 단독일지라도 뒤에 놓인다.)
+3. 분사의 비교
+  * 자동사의 현재분사 → 진행, ～하고 있는.
+    자동사의 과거분사 → 완료나 상태, ～한, ～해버린.
+  * playing children = children who are playing.
+    fallen leaves = leaves which are fallen. (낙엽)
+    (타동사의 현재분사: 능동 또는 사역, ～시키는, ～하게하는.
+     타동사의 과거분사: 수동의 뜻, ～된, ～당한, ～받은.)
+    ◇ an exciting game
+       = a game which excites the one. (열광적인 경기)
+      an excited spectator
+       = a spectator who is excited. (열광된 관중)
+4. 분사의 기타용법
+  ①의사분사: 명사의 어미에 -ed를 붙여서 과거분사의 형태로 ‘～을 가지
+              고 있는’의 뜻인 형용사로 쓰임.
+    * a long-tailed monkey = a monkey having a long tail.
+      a three-legged stool = a stool having three legs.
+      a blue-eyed girl  = a girl who has blue eyes.
+  ② 2형식동사 + 형용사(보어) → 형용사 + 현재분사.
+    * The rose smells sweet → the sweet-smelling rose. (향기나는 장미)
+    * The wine tastes nice  → the nice-tasting wine.   (맛이좋은 술)
+    주어 + be + p.p + by + 명사 → 명사 + p.p. + 주어.
+    * The fruit is dried by the sun. → the sun-dried fruit.(햇빛에 말린 과일)
+    * Citizens are struck by terror. → terror-stricken citizens. (공포에 질린
+    시민)
+    주어 + be + 부사 + p.p. → 부사 + p.p. + 주어.
+    * Engligh is widely spoken. → widely-spoken English. (널리쓰이는 영어)
+    * The worker is well trained. → the well-trained worker. (잘훈련된 일꾼)
+    주어 + 타동사 + 목적어 → 목적어 + 현재분사 + 주어.
+    * The drug kills pain. → the pain-killing drug. (진통제)
+    * The animals eat plants. → the plant-eating animals. (초식동물)
+  ③부사로 사용되는 분사 ⇒ 매우(very)의 뜻.
+    * It's biting (piercing, freezing) cold. (매우춥다)
+    * He got soaking wet. (그는 흠뻑 젖었다.)
+  ④ the + 분사.
+    * They dying and the dead were carried on stretchers.
+      (죽어가는 사람들과 죽은 사람들이 들 것에 실려갔다.)
+5. 분사의 시제
+┌─────────┬────────────────────────────┬
+│   ＼   │  단순형분사(수동형)   │  완료형분사(완료형 수동분사)      │
+├─────────┼────────────────────────────┼
+│ go    │  going   (無)  │  having gone    (無; 자동사이므로)   │
+├─────────┼────────────────────────────┼
+│ make  │  making  (being made) │  having made    (having been made)    │
+├─────────┼────────────────────────────┼
+│ write │  writing (being written) │  having written (having been written) │
+├─────────┼────────────────────────────┼
+│ │  주절 동사의 시제와 같음 │  주절동사의 시제보다 하나 더 과거시제 │
+└─────────┴────────────────────────────┴
+  * Living in the country I am very health.
+    = As I live in the country. I am very healthy.
+  * Living in the country, I was very healthy.
+    = As I lived in the country, I was very healthy.
+  * Having finished my work, I have nothing to do.
+    = As I have finished (finished) my work, I have nothing to do.
+  * Having written my letter, I posted it.
+    = After I had written my letter, I posted it.
+  * While bathing in the river, he was drowned.
+    → 분사구문의 뜻이 이유, 조건 등 어느 것인지 혼동을 방지하기 위해
+       해당 접속사를 분사구문 앞에 부가할 경우가 있다. 즉, Bathing in
+       the river를 As he bathed in the river로의 오역을 막기위해 While
+       을 두었다.
+6. 분사구문의 종류
+  ①시간 (～할 때)
+    * Walking along the street, he met an old friend of mine.
+      = While he walked along the street, he met an old friend of mine.
+    * Left alone, I began to read.
+      = When I was left alone, I began to read.
+  ②이유, 원인 (～이므로)
+    * Not knowing what to do, I asked for his advice. (부정어는 분사 앞에)
+      = As I didn't know what to do, I asked for his advice.
+    * Tired, I went to bed early.
+      = As I was tired, I went to bed early.
+  ③조건 (～한다면)
+    * Turning to the right, you will find the house.
+      = If you turn to the right, you will find the house.
+    * Some books, read carelessly, will do more harm than good.
+      = Some books, if they are read carelessly, will do more ～
+  ④양보 (비록 ～한다할지라도)
+    * Admitting what you say, I still don't believe it.
+      = Though I admit what you say, I still don't believe it.
+    * Born of the same parents, they bear no resemblance to each other.
+      = Though they were born of the same parents, they bear ～
+  ⑤부대상황 (동시동작: while, as; ～하면서)
+    * Smiling brightly, she extended her hand.
+      = While she smiled brightly, she extened her hand.
+    * Walking on tiptoe, I approached the window.
+      = I walked on tiptoe and approached the window.
+    * Singing and dancing together, we had a good time.
+      = As we sang and danced together, we had a good time.
+  ⑥부대상황 (연속동작: ～, and + 동사; 그리고 ～하다)
+    * We started in the morning, and arrived in Seoul at noon.
+      = We started in the morning arriving in Seoul at noon.
+7. 독립분사구문: 분사구문의 의미상의 주어가 따로 있는 경우.
+  ①때.
+    * The sun having set, we gave up looking for them.
+      = After the sun had set, we gave up looking for them.
+  ②이유.
+    * It being fine, we went for a walk.
+      = As it was fine, we went for a walk.
+  ③조건.
+    * We shall start tomorrow, weather permitting.
+      = We shall start tomorrow, if (the) weather permits.
+  ④부대상황.
+    * He was reading a book, his wife knitting beside him.
+      = He was reading a book, and his wife knitting beside him.
+        (그는 책을 읽고 있었고, 그의 부인은 남편 옆에서 뜨게질을 하고 있었다.)
+    ◇ Having read a book, it was thrown away. (×)
+       Having read a book, I was threw it away. (○)
+8. Being, Having been의 생략.
+   : 형용사, 명사, 과거분사 앞에 쓰인 being 또는 having been은 생략가능.
+     분사구문의 시제가 본동사 시제와 같을 때 being이 본동사 시제보다
+     하나 더 과거시제일 땐 having been 생략.
+  * (Being) Angry at my words, he made no reply.
+    = As he was angry at my words, he made no reply.
+  * Dinner (being) over, he went out for a walk.
+    = When dinner was over, he went out for a walk.
+  * (Having been) Born in better times, he would have been a great scholar.
+    = If he had been born in better times, he would have been a great scholar.
+9. 분사의 강조용법
+  * As I live in a remote village, I rarely have visitors.
+    = Living as I do in a remote village, I rarely have visitors.
+    ◇분사에 사용된 동사가 live, stand, write와 같이 일반동사일 땐 do
+      를 사용, be 동사일 땐 be를 사용한다.
+  ◇ being + 과거분사구문 강조 → as + 주어 + be 동사.
+  ◇ ～ing as it does 형.
+    * Standing as it does on the hill, the villa commands a fine view.
+      (저렇게 언덕 위에 서 있으므로, 그 별장은 전망이 좋다.)
+      (as; 양태접속사, it; the villa, does; stands의 대동사)
+    * I feel it as a rare occasion, occurring as it does only once in many
+    years.
+      (몇 년 만에 한 번밖에 일어나지 않는 드문 일이라고 나는 생각한다.)
+      (occurring의 의미상의 주어는 occasion이다.)
+10. 비인칭 독립분사구문: 분사구문의 의미상의 주어가 we, you, they,
+    people, one 등과 같이 막연한 일반인을 나타낼 땐 생략.
+  * Generally speaking, our country lacks natural resouces.
+    = If we speak generally, our country lacks natural resources.
+  * Strictly speaking, he is not an artist.
+    = If we speak strictly, he is not an artist.
+11. with + 목적어 + 분사 (부대상황) ⇒ 생생한 묘사적 효과.
+  ① with + 목적어 + 현재분사. (목적어의 능동적 행동)
+    * He sat silently, and the cat was dozing at his feet.
+      = He sat silently, the cat dozing at his feet.
+      = He sat silently, with the cat dozing at his feet.
+    * It was a mistry morning, with little wind blowing.
+      = It was a mistry morning and little wind was blowing.
+        (바람이 거의 불지 않는 안개 낀 아침 이었다.)
+        → 여기에서 with를 뺀다면 little wind blowing은 독립분사구문이다.
+
+  ② with + 목적어 + 과거분사. (목적어의 수동적 행동)
+    * He stood there, and he closed his eyes.
+      = He stood there, closing his eyes.
+      = He stood there, and his eyes were closed by him.
+      = He stood there, his eyes (being) losed (by him).
+      = He stood there, wiht his eyes closed. (with 분사구문)
+    * With an eye bandaged, I could not write properly.
+      (한 눈을 붕대 감고 있었으므로 나는 글을 잘 쓸 수 없었다.)
+  ③ with + 목적어 + 부사(구)
+    * I shall be lonely with you away. (당신이 멀리 떠나버린다면)
+    * with his feet on the pillow. (두 다리를 베게 위에 올려 놓은 채)
+      with his head against a cushion. (머리를 방석 위에 기댄 채)
+  ④ with + 목적어 + 형용사.
+    * Don't speak with your mouth full. (입에 음식을 가득 넣은 채)
+12. 문두에 나오는 주격보어
+    (Being을 보충하면 이유를 나타내는 분사구문이 된다.)
+  * Impatient of the heat, he left town for the country.
+    = Being impatient of ～
+      (더위를 참을 수 없어서, 그는 도시를 떠나 시골로 내려갔다.)
+  * A man of social instincts, he had many acquaintances.
+    = Being a man of ～
+      (사교성이 풍부한 사람이었으므로, 그는 아는 사람이 많았다.)

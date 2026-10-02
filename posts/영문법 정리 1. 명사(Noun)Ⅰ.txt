@@ -1,0 +1,310 @@
+영문법 정리                                     1. 명사(Noun)Ⅰ
+────────────────────────────────────────
+-  -
+
+  名 詞 (Noun) Ⅰ
+
+1. 명사의 종류: 고유, 보통, 집합, 물질, 추상명사
+   ① 셀 수 있는 명사 : 단,복수 가능
+             many, few로 수식. 보통, 집합명사.
+   ② 셀 수 없는 명사 : 단,복수 없음.
+             much, little 이 수식. 물질, 고유, 추상명사.
+
+2. 종족 대표 : 어떤 종족의 전체.
+   ① A(an) + 단수보통명사.(대표단수)
+             A horse is a useful animal.
+   ② The + 단수보통명사. (대표단수)
+             The horse is a useful animal.
+   ③ 복수보통명사. (대표복수)
+             Horse are useful animal.
+3. The + 단수보통명사 = 추상명사
+   * The pen is mightier than the sword.
+4. 집합명사와 군집명사
+   * The audience was a large one.
+   * The audience were deeply impressed
+     군집명사:복수동사 were, 개별적으로 깊은 감명.
+     ◇ 하나의 집합체 : 집합명사
+        개별적으로 취급 : 군집명사 → 복수동사
+
+5. consist of
+   * My class consist of       sixty students.
+              is composed of
+              is made up of
+              comprises → 타동사이므로 of 사용 못함.
+                = ～으로 구성되다.
+
+6. 항상 복수 취급되는 집합명사
+   ① Police형
+      * The police (경찰들)    → a policeman (경찰 한사람)
+        The clergy (성직자들)  → a clergyman (성직자)
+        The nobility (귀족들)  → a nobleman (귀족)
+        The peasantry (농민들) → a peasant (농민 한사람)
+        →  ～등의 집합 명사는 부정관사도 못 붙이고 복수형으로도
+            쓰지 않으며 보통 the와 함께 쓰여 복수 취급.
+  ② Cattle형
+     : Cattle, People, Poultry, vermin은 단지 약간 수의 모임이며, 집합
+       의 한계가 없으므로 관사도 안붙고 복수형도 없이 그대로 복수 취급
+       되어 복수동사를 받는다.
+      * Cattle are grazing in the pasture
+      ◇part, portion, half, the rest, the majority, most, the bulk 등
+        은 뒤에오는 말에 따라 그 수가 결정된다.
+        * The rest of the boys are playing baseball.
+  ③ Family형
+     Nation, Army, People, Party 등은 집합의 한계가 명료하며, 또한
+     집합체를 단위로 셀 수 있으므로 단,복수 가능.
+     ◇ many people (많은 사람들), some people (어떤 사람들)처럼
+        people이 “사람들”의 뜻으로서 군집명사로 쓰일 땐 복수 취급을 하
+        며 복수동사를 사용한다.  그러나 people이 국민, 민족의 뜻
+        으로 쓰일 땐 집합명사로 단수 취급을 한다.
+        * many people  = 많은 사람들.
+          many peoples = 많은 민족들.
+          people       = 사람들 (군집)
+          a peoples    = 하나의 민족 (집합)
+          two people   = 두개의 민족들 (집합)
+
+7. 집합적 물질명사
+   * furniture(가구), clothing(의류), merchandise(상품), produce(농산물),
+     game(사냥감), baggage(소포).
+     위의 단어는 물건의 집합체이지만 양을 나타내는 물질 명사로 취급.
+   ◇ 집합적 물질명사는
+      ①부정관사 a, an을 붙일 수 없다. (물질명사이므로)
+      ②항상 단수취급을 하므로 단수동사
+      ③양을 나타내는 much, little로 수식
+      ④하나, 둘 셀 때 → a piece of ～ , an article of ～
+
+8. 물질명사의 보통명사화
+  ①제품을 나타낼 때
+     * Glass is apt to break.   유리→물질명사
+     * He has a glass in his hand.  유리잔→보통명사
+        ┌─ paper(종이)           → 물질
+        └─ the paper(서류, 신문) → 보통
+        ┌─ copper(구리)          → 물질
+        └─ a copper(동전한닢)    → 보통
+  ②구체적으로 셀 수 있는 개체
+     * The bridge is built of stone.    돌 → 물질
+     * The boy picked up a stone.       돌멩이 → 보통
+
+  ③종류를 나타낼 때
+     * Wine is made from grapes.   술 → 물질
+     * This is a good wine for health.  좋은 술 → 보통
+     * They sell various wines at that store. 여러가지 술 → 보통
+  ④사건을 나타낼 때 (구체적 현상)
+     * Fire burns wood. 불 → 물질명사
+     * They was a fire last night. 화재 → 보통
+  ⑤물질명사가 한정이 될 때는 정관사 the를 사용.
+     * Water is turned into steam by heat. → 물질명사
+     * The water in this glass is not good to drink. (유리잔 속에 한정된 물)
+
+9. 고유명사의 보통명사화
+  ①국민 한사람, 가족, ～의 집안 사람의 뜻일 때
+     * He is a swiss. 스위스 사람.
+     * His father is a Lincoln. 링컨 가문의 사람.
+     * The Bakers loved to entertain others. 베이커씨 부부.
+     ◇The + 고유명사 복수형 : Baker씨 일가족
+                               Baker씨 부부.
+  ② ～라는 사람 (a certain)의 뜻.
+     * A Mr. Lee called you up in your absence.
+  ③제품,작품을 나타낼 때
+     * He bought a Ford. 포드 자동차 한대.
+     * There are two Rembrandts in the gallery. 두점의 렘브런트 작품.
+  ④ ～과 같은 사람, 사물(성질을 나타냄)을 나타낼 때
+     * A Newton cannot become a Shakespeare.
+     * He is the Newton of the age. 형용사구. (당대의)
+     ◇고유명사 다음에 형용사구가 와서 수식이 되는 경우에는 부정관사
+       a, an 대신 반드시 정관사 the를 사용.
+
+10. 추상명사의 보통명사 및 집합명사화
+   : 종류, 구체적행동, 어떤 성질의 소유자를 나타낼 때.
+     * He was wild in his youth. 추상(청춘시절)
+     * He is an ambitious youth. 청년 - 보통명사.
+     * Youth should respect age. 젊은이 - 집합. 늙은이들.
+     * She has beauty and intelligence. 추상.
+     * She was once a beauty. 미인 - 보통.
+     * The beauty of the scenery is beyond description.
+      ◇of the scenery 라는 형용사구에 한정되므로 The beauty.
+      * Happiness consists in contentment. 추상.
+      * I now have the happiness of being with you.
+      ♧형용사구로 수식되므로 the happiness.
+        한정된 행복이므로 the happiness.
+
+11. 물질명사의 수량표시
+    *  a piece  of  bread  :  빵 한조각.
+         slice      toast  :  토스트 한조각.
+    *  a glass of milk     : 우유 한.잔
+                  water    : 물 한잔.
+    *  a shoal  of fish    : 물고기 한마리.
+         school
+    *  a lump  of sugar    : 설탕 한덩어리.
+         pound             : 설탕 한파운드.
+         spoonful          : 설탕 한숫가락.
+    *  two cups of coffee  : 커피 두잔.
+    *  three cakes of soap : 비누 한장.
+    *  a sheet of paper    : 종이 한장.
+    *  a shower of rain    : 한차례의 소나기.
+    *  a bolt of thunder   : 한차례의 천둥소리.
+    *  a flash of lightning: 한차례의 번갯불.
+    *  a piece of chalk    : 분필 한조각.
+    *  a roar of laugnter  : 한바탕 웃음.
+      ◇shower  [ʃauə]:  소나기. 샤워.
+                [ʃouə]:  보이는 사람. 보이는 물건.
+12. 추상명사의 수량표시
+    * a piece of information. (good luck, advice)
+        한편의 정보. (한차례의 행운, 한마디의 충고)
+    *  a piece of news     : 뉴스 한편.
+    *  a piece of fully    : 한차례의 우둔한 짓.
+    *  a bit of nonsense   : 한마디의 허튼소리.
+    *  several cases of theft : 몇건의 절도.
+    *  a stroke of luck    : 한차례의 행운.
+13. Of + 추상명사 = 형용사구
+    *  a man of ability = an able man.
+    *  a man of experience = an experienced man.
+    *  a man of wisdom = a wise man.
+    *  a man of learning = a learned man.
+    *  a man of use = a useful man.
+    *  a man of sence = a sensible man.
+    *  of use = useful, of valuable = valuable,
+    *  of experience =  experienced, of importance = important.
+
+14. 전치사 + 추상명사 = 부사구
+    *  with ease = easily : 쉽게.
+    *  with kindness = kindly : 친절하게.
+    *  with fluency = fluently : 유창하게.
+    *  with safety = safely.
+    *  with care = carefully.
+    *  with patience = patiently.
+    *  with rapidity = rapidly : 재빨리.
+    *  without doubt : 의심할바없이.
+    *  without hesitation : 주저하지 않고.
+    *  in succession = successively : 연속적으로.
+    *  in reality = really : 사실상.
+    *  in haste = hastily : 급히.
+    *  in earnest = earnestly : 진지하게.
+    *  by accident = accidentally : 우연히.
+    *  to perfection = perfectly : 완전하게.
+    *  on purpose = purposely : 고의적으로.
+    *  on occasion = occasionally : 때때로.
+
+15. 추상명사의 관용어법
+    * He is kindness itself.──┐  추상명사 + itself
+            all kindness        │  = all + 추상명사
+            very kind   │  = very, extremely + 형용사.
+            extremely kind      ──┘  ( 매우 ～ 한)
+            그는 매우 친절하다.
+
+16. An angel of a wife
+    * She is an angel of a wife.(of-동격, 전치사와 같은 아내,
+             an angelic wife.           of 다음에 부정관사 a)
+      that fool of a ～  = that foolish ～
+      a saint of a   ～  = a saintly  ～
+      a devil of a   ～  = a devilish  ～
+
+17. Have + the + 추상명사 + to do
+    * He had the kindness to helf me.
+              (have + the + 추상명사 + to do)
+      = He was so kind that he helped me.
+              (so + 형 + that + S + V)
+      = He was so kind as to help me.
+              (so + 형 + as to do)
+      = He was kind enough to help me.
+              (형 + enough + to do)
+      = He kindly helped me.
+              (부사 + 동사)
+
+18. CH. GH의 발음
+   ◇ -CH의 발음은 [tʃ], [k], [ʃ] 세 종류로 발음이 됨.
+     * [tʃ]가 거의 대부분임.
+      church    [tʃə:tʃ]  : 교회.
+      chin      [tʃin]    : 턱.
+      chew      [tʃu:]    : 씹다.
+      cheek     [tʃi:k]   : 뺨.
+      cheat     [tʃi:t]   : 속이다.
+      choke     [tʃouk]   : 질식시키다.
+      choice    [tʃois]   : 선택.
+      cheer     [tʃiə]    : 환호.
+      charity   [tʃærəti] : 자선.
+      mischief  [mistʃif] : 손해.
+      approach  [əproutʃ] : 접근.
+     * [k] 로 발음.
+      mechanic   [mikænik]   : 기능업.
+      chaos      [keias]     : 혼란.
+      charalter  [kæriktər]  : 인격.
+      ache       [eik]       : 통증.
+      chasm      [kæzəm]     : 빈틈.
+      chemistry  [kæmistri]  : 화학.
+      choir      [kwaiə]     : 합창단.
+      chorus     [kɔ:rəs]    : 합창.
+      christ     [kraist]    : 예수.
+      chronicle  [kranik]    : 연대기.
+      stomach    [stʌmək]    : 위.
+      monarch    [manək]     : 군주.
+      christmas  [krisməs]
+      psychology [saikalədʒ] : 심리학.
+     * [ʃ] 로 발음.
+      chagrin    [ʃægrin]   : 원통.
+      champagne  [ʃæmpein]
+      chauffeur  [ʃoufə]    : 운전수.
+      chivalry   [ʃivəli]   : 기사도.
+      machine    [məʃi:n]   :
+      moustache  [məstæ:ʃ]  : 콧수염.
+      chandelier [ʃændəliə] : 샹델리아.
+      parachute  [pærəʃu:t] : 낙하산.
+
+   ◇ -GH의 발음은 묵음이거나 [f], [g]로 발음이 됨.
+     * 묵음이 될 때.
+      bough    [bau]  : 나뭇가지.
+      though   [ðou]  : ～할지라도.
+      dough    [dou]  : 가루반죽.
+      plough   [plau] : 쟁기.
+      weigh    [wei]  : 무게를 재다.
+      thought  [θɔ:t] : 생각.
+      through  [θru:] : ～을 통하여.
+      bought   [bɔ:t] :
+     * [f] 로 발음.
+      rough     [rʌf]   : 거칠은.
+      enough    [inʌf]  : 충분한.
+      tough     [tʌf]   : 단단한.
+      cough     [kɔ:f]  : 기침.
+      laugh     [la:f]  : 웃다.
+      draught   [draft] : 통풍.
+      drought   [draut] : 가뭄.
+     * [g]로 발음.
+      ghost     [goust] : 유령.
+      aghast    [aga:st]: 놀란.
+
+19. Accent 규칙
+  ①다음과 같은 어미로 끝나는 낱말은 2음절 앞에 accent가 있다.
+    -tion  : invention, function,
+    -sion  : occasion, confusion, decision,
+             ◇예외 : television.
+    -ian   : musician, comedian.
+    -cial  : official, especial.
+    -tial  : presidential.
+    -ious  : licentious.
+    -cience, -ciency, -cient : deficiency, sufficient.
+    -ity, -ety, : ability, activity, anxiety.
+    -sive  : exclusive.
+    -ical  : botonical, mechanical.
+    -ic    : energetic.
+           ◇예외 : catholic[kæθəlik], lunatic[lu:nətik] ,
+                    politic[palətik] , politics[palətiks].
+                    arithmetic[ərismətil]    : 산수.
+                    arithmetical[ærismetikal]: 산수의.
+    -logy  : geology.
+    -pathy : apathy.
+    -graphy: geography, photoghaphy.
+           ◇주의 : photograph [foutəgra:f]
+                    telegraph  [teligra:f]
+    -meter, -metry  : barometer, geometry.
+    -nomy  : astronomy.
+  ②다음 어미로 끝나는 낱말은 바로 그 음절에 accent.
+    -ee    : employee.
+    -eer   : engineer.
+    -ese   : chinese.
+    -oon   : baloon.
+    -oo    : bamboo, taboo.
+           ◇예외 : cuckoo[kuku:]
+    -esque : picturesque.
+    -ette  : cigarette.
+  ③다음 어미로 끝나는 낱말은 전전 음절에 accent.
+    -ate   : accurate.
+    -tude  : solitude.

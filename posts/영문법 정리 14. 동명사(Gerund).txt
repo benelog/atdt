@@ -1,0 +1,347 @@
+영문법 정리                                 14. 동명사(Gerund)
+────────────────────────────────────────
+-  -
+
+    동명사(Gerund)
+
+1. 동명사의 형태
+  ①일음절어로 단모음 + 단자음으로 끝날 때.
+    * swim → swimming.       run → running.
+  ② 2음절어로서 후강세어 (자음 하나 더)
+    * prefer → preferring.
+  ③ -ie + ing → -ying.      lie → lying.   die → dying.
+  ④기타: 어미가 c로 끝나는 단어가 [k]로 발음될 경우→k를 쓴 뒤에 ing.
+           어미가 발음되지 않는 e로 끝난 단어는 e를 생략하고 ing.
+    * mimic → mimicking.     picnic → picnicking.
+      smoke → smoking.       decide → deciding.
+      ◇예외: be → being.    see  →   seeing.
+              dye[dai] → dyeing. ; 염색하다.
+2. 동명사의 기능: 동사의 성질, 명사적 역할.
+  ①주어자리.
+    * Making much money is not the end aim of life.
+    * It is very pleasant walking in the country.  (진주어)
+  ②명사보어자리. (주어 = 명사보어)
+    * His hobby is collecting stamps.  (동명사)
+    * He is collecting stamps.         (현재분사)
+    * It is throwing your money away.
+      (그것은 돈을 버리는 일이다. 즉, 쓸데없는 낭비다.)
+  ③목적어자리.
+    * I don't like playing baseball.
+    * I found it unpleasant walking in the rain.
+    * Thank you for your answering so promptly.
+      △동사 answering은 전치사 for의 목적어이며(명사적 성질), 그리고
+        so promptly에 의해 수식(동사적 성질)되고 있다. 또 your가 동명사
+        앞에 있다.
+3. 동명사와 현재분사의 구별
+  * 명사(동명사)/  + 명사
+    형용사(현재분사) + 명사/
+    * a /sleeping car = a car for sleeping. (침대차)
+      a sleeping /child = a child who is sleeping.
+  ◇동명사로 쓰이면 목적이나 용도 ～하기 위하여, 현재분사는 상태나 동
+    작으로 ～하고 있는...
+  ◇동사원형 + ing + 명사에서 목적(～하기 위하여)으로 번역하여 문맥이
+    통하면 동명사이며 상태나 동작으로 통하면 현재분사이다.
+
+4. 동명사의 의미상의 주어
+  * That she come here was suprising.
+    = For her to come here was surprising. (부정사구문)
+    = Her coming here was surprising. (동명사구문)
+     ◇동명사의 의미상 주어가 명사일 땐 소유격이나 목적격 모두 가능.
+       의미상의 주어가 무생물이면 일방적으로 목적격. 동명사의 의미상의
+       주어가 일반인을 나타낼 땐 의미상의 주어를 생략.
+    * Studying English is no easy task. (의미상의 주어 생략 - 일반인)
+    * He insist that he should attend the party.
+      = He insist on (upon) attending the party. (his를 생략)
+      ◇ insist는 주장하다의 뜻이므로 that～ 에서는 반드시 should + 동사
+         원형을 쓰며 접속사 that은 생략, on이나 upon을 쓴 뒤 he는 본주어
+         와 같으므로 attending을 씀.
+      ◇동명사 attending의 의미상 주어가 생략되었다는 것은 본주어와 같다.
+    * He insist that Tom should attend the party. (복문)
+    = He insist on (upon) Tom('s) attending the party. (단문)
+    → that 생략, on 또는 upon을 쓴 뒤 that 다음의 주어가 본주어와 다
+       르므로 Tom을 Tom's 또는 Tom 등으로 고친 뒤 조동사 should 생략.
+5. 동명사의 시제
+  * 형태.
+┌─────────┬───────────────┬─────────────
+│ 원형동사│  단순동명사  │ 단순수동동명사 │  완료형동명사 │
+완료형수동동명사 │
+├─────────┼───────────────┼─────────────
+│  be   │   being │ 無 │  having been  │  無(자동사이므로)    │
+├─────────┼───────────────┼─────────────
+│  write │   writing │  being written │  having written │ having been
+written   │
+├─────────┼───────────────┼─────────────
+│  make │   making │  being made   │  having made  │ having been made │
+├─────────┴───────────────┴─────────────
+│ 본동사의 시제와 동일    │ 본동사보다 하나 더 과거시제 │
+└───────────────────────────────────────
+  * He is proud that he is a poet. (복문)
+    = He is proud of being a poet. (단문)
+    ◇접속사 that을 생략하고 of를 쓸 것. that～의 주어 he는 본주어와
+      같으므로 생략.
+    ◇미래동작을 의미하는 형용사, 동사, 명사 등의 다음에 오는 that절에
+      미래시제가 오고 본동사가 현재시제일지라도 단순동명사를 사용.
+      * There is no hope that of his succeeding.
+        → There is no hope that he will succeed.
+    ◇ remember, forget 등의 다음에는 완료형 동명사 대신 단순동명사를
+       사용할 것, remember 다음에 부정사가 오면 미래시제를 쓴다.
+
+     * I remember that I saw her.
+       = I remember having seen her. (×)
+       = I remember seeing her. (○)
+     * I am sure of his being a man of ability.
+       (나는 그가 유능한 사람임을 확신한다; 시제는 본동사와 일치)
+       = I am sure that he is a man of ability.
+     * I am sure of his having been a man of ability in his youth.
+       (나는 그가 젊었을 때는 유능한 사람이었다고 확신한다; 동명사의
+        완료형, 시제가 본동사보다 하나 앞선다.)
+       = I am sure that he was a man of ability in his youth.
+     * I don't like being asked to make a speech.
+       (나는 연설 부탁을 받는 것을 싫어한다; being asked는 수동태)
+     * I never heard of such a thing having been done.
+       (나는 그런 일이 이루어졌다고는 들어보지 못했다.)
+       = I never heard that such a thing had been done.
+6. 동명사와 부정사
+  ①동사의 특성에 따라 어떤 동사는 동명사만을 혹은 어떤 동사는 부정사
+    만을 목적어로 취한다.
+    ⓐ동명사만을 목적어로 취하는 동사.
+      : mind, enjoy, give up, avoid, finish, escape, admit, consider,
+        deny, postpone, practice 등...
+      △ I finished writing my composition.
+    ⓑ부정사만을 목적어로 취하는 동사.
+      : wish, hope, care, choose, expect, refuse, decide, mean, plan 등...
+      △ I hope to see you again.
+  ②동명사와 부정사를 모두 목적어로 취하나 의미가 달라지는 동사.
+    ⓐ remember, forget + ～ ing: 과거의 일.
+       remember, forget + 부정사: 미래의 일.
+       * I remember to see him. (만날 것)
+         I remember seeing him. (만난 것)
+       * I forget posting the letter. (나는 편지 부쳤던 일을 잊고있다.)
+         Don't forget to post the letter. (편지 부칠 것을 잊지 마세요.)
+    ⓑ stop + 동명사            : ～하는 것을 그만두다.
+       stop + 부정사            : ～하기위해 가던 길을 멈추다.
+       * I stopped smoking.
+         I stopped to smoke.
+    ⓒ try + 동명사             : 시험삼아 ～하다.
+       try + 부정사             : ～하려고 시도하다.
+       * He tried moving the piano.(그는 시험삼아 피아노를 옮겼다; 옮김)
+         He tried to move the piano. (그는 피아노를 옮기려고 시도했다; 옮기지
+         않음)
+
+   ⓓ go on + 동명사           : 계속해서 ～하다.
+      go on + 부정사           : 쉬었다가 다시 계속하다.
+       * He went on talking about his accident.
+         (그는 줄곳 그의 사고에 대해 이야기를 했다.)
+         He went on to talk about his accident.
+         (그는 잠시 쉬었다가 그의 사고에 대해 이야기를 했다.)
+7. There is no + ～ ing: ～을 할 수 없다.
+  * There is no knowing what may happen.
+    = It is impossible to know what may happen.
+    = We cannot know what may happen.
+    = 무슨일이 일어날지 알 수 없다.
+  * There is no trusting him.
+    = It is impossible to trust him.
+    = We cannot trust him.
+8. It is no use + ～ ing : ～해도 소용없다.
+  * It is no  use(good) crying over spilt milk.
+    = It is     ┌─ of no use    ─┐ to cry over spilt milk.
+        └─ useless      ─┘
+    = There is no use (in) crying over spilt milk.
+    = What is the use (the point) of crying over spilt milk?
+9. of one's own + ～ ing : 자기가 직접 ～하는
+  * This is a picture   of my own painting.
+                        which I have painted myself.
+                        (which is) painted by myself. (p.p + by oneself)
+10.It goes without saying      that health is above wealth.
+    It is needless to say
+    It is a matter of course
+    It is not too much to say
+    = 건강이 부보다 중요하다는 것은 두말할 필요가 없다.
+11. cannot help ～ing    : ～하지 않을 수 없다.
+    cannot but + 동사원형: ～할 수 밖에 없다.
+  * I cannot help admiring his courage.
+12. on + ～ ing, in + ～ ing
+  * on + ～ ing = as soon as (when) + 주어 +동사:～하자마자. ～할 때.
+    in + ～ ing = when + 주어 + 동사: ～할 때에는.
+  * As soon as he received the letter he turned pale.
+    = On (his) receiving the letter, he turned pale.
+    = He had  no sooner received the letter  than  he turned pale.
+              scarcely                       when
+              hardly                         before
+
+    = No sooner  had he received the letter,  than he turned pale.
+      Scarcely                                when
+      Hardly                                  before
+13. cannot too: 아무리 ～해도 지나치지 않다.
+  * We cannot be too careful when we choose friends.
+    = We cannot be too careful in choosing friends.
+14. What, Need + 능동동명사
+  * What      +   능동동명사 (○)
+    Need          수동동명사 (×)
+    Require       수동부정사 (○)  → ～을 필요로한다. ～을 해야한다.
+  * His house  needs     being painted. (×)
+               wants     painting.      (○)
+               requits   to be painted. (○)
+15. 동명사의 관용적 용법 Ⅰ
+  ① be busy  with + 명사.
+              (in) + ～ ing. : ～하는데 분주하다. 바쁘다.
+    * I am busy with my task.
+    * She was busy (in) tidying up his desk.
+  ② feel like + ～ ing.
+     feel inclined + to do : ～하고 싶은 생각이 나다.
+    * I feel like sleeping now.
+      = I feel inclined to  sleep now.
+          ware a mind to
+          am disposed to
+  ③ What do you say to + ～ ing? : ～하는 게 어때?
+    * Let's play baseball after lunch, shall we?
+      = How about       ─┐ playing baseball after lunch?
+        What about      ─┘
+      = What do you say to playing baseball after lunch.
+      = What do you think about playing baseball after lunch.
+        ◇ Let's로 시작되는 부가의문문은 shall we?
+  ④ be on the point of + ～ ing: ～하려는 찰라다, 막 ～하려고 하다.
+    * He was on the point of   being drowned.
+             on the verge of
+             on the brink of
+             on the edge of
+      = He was about to be drowned.
+  ⑤ cannot ～ without … ing: …않고 ～하는 일을 없다.
+     cannot ～ but …(S+V)   : …하면 반드시 ～하다.
+
+    * Whenever I met him, I think of his brother.
+      = I never meet him without thinking of his brother.
+      = I never meet him but I think of his brother.
+      = 그를 만날 때 마다 그의 동생이 생각나다.
+  ⑥ be worth ～ing
+     = be worth while + 동명사, 부정사
+     = be worthy of + 동명사, 명사
+     = ～할만한 가치가 있다.
+    * This is worth while to read this book.
+      = It is worth while to read this book.
+16. 관용적용법 Ⅱ
+  ① make a point of + ～ ing : ～을 규칙으로 하다.
+    * I make a point of getting up early.
+      = I am in the habit of getting up early.
+      = It is my rule to get up early.
+      = I make it a rule to get up early.
+  ② come near + ～ ing.
+     go   near + ～ ing.
+     nearly escape + ～ ing. : 하마터면 ～할 뻔하다.
+    * He came near being drawned.
+  ③ not A but B = instead of + ～ ing = not only A but also B
+     = besides           + ～ ing
+       in addition to
+    * She is not shy, but unsocial.
+      = Instead of being shy, she is unsocial.
+    * He is not only brare, but also wise.
+      = Besides being brave he is wwise.
+17. To + ～ ing
+  ① be opposed to
+     object to               + ～ ing : ～을 반대하다.
+     have an objection to
+     * I am very much opposed to going there.
+     * Have you any objection to my wearing this suit?
+  ② contribute to + ～ ing : ～에 공헌하다. 기여하다.
+     * He contributed to the growth of the city.
+  ③ turn one's attention to + ～ ing (명사) : ～에 주의를 돌리다.
+                                               ～에 관심을 갖다.
+     * He did not turn his attention to making a fortune until he was forty.
+       (그는 40이 되고나서야 재산 모으는데 관심을 가졌다.)
+  ④ with a view to + ～ ing : ～하기 위하여. (for the purpose)
+     * I study English with a view to going abroad.
+  ⑤ be equal to + ～ ing    : ～할 능력이 있다.
+     * I am equal to doing the task.
+  ⑥ revote      ─┐ A   to   B(동명사)
+     dedicate   ─┘              : A를 B에 바치다.
+     * He devoted all his time to studying history.
+  ⑦ be use to + ～ ing.
+     be accustomed to + 동사원형(동명사) : ～에 익숙하다.
+     * I am used to playing the piano.
+       = I am accustomed to playing (또는 play) the piano.
+  ⑧ what do you say to + ～ ing  : ～하는 게 어때?
+     * What do you say to playing tennis with me?
+  ⑨ take to + ～ ing        : ～에 빠지다, 정이들다.
+     * He took to writing after he retired from the college.
+  ⑩ look forward to + ～ ing : ～을 기대하다, 고대하다.
+     * I am looking forward to seeing you again.
+  ① fall to + ～ ing = begin to + 동사원형  : ～을 시작하다.
+     * They fell to discussing the serious problem.
+18. 동명사 구문의 문장 전환 Ⅰ
+  ① insist that + 주어 + 동사 = insist on + ～ ing: ～을 주장하다.
+     * I insisted he should be invited to the party.
+       = I insisted on his being invited to the party.
+  ② decide that + 주어 + 동사 = decide on + ～ ing: ～하기로 결정하다
+     * My father decided that I should marry her.
+       = My father decided on my marrying her.
+  ③ hear, think, complain, know, dream + that + 주어 + 동사
+     = hear, think, complain, know, dream + of + ～ ing
+     * I am glad to hear that you have succeeded.
+       = I am glad to hear of your having succeeded.
+  ④ repent that + 주어 + 동사  = repent + (of) + ～ ing.
+     * He respent that he was idle in his youth.
+       = He repents (of) having been idle in his youth.
+  ⑤ suggest, deny, regret, like + that + 주어 + 동사
+     = suggest, deny, regret, like + ～ ing. (타동사이므로 전치사×)
+     * I suggested that we should play tennis.
+       = I suggested our playing tennis.
+19. 문장전환 Ⅱ
+  ① be sorry that + 주어 + 동사 = be sorry for + ～ ing
+     :～에 대해 유감이다.(미안,감사,벌,꾸중 등을 나타낼 땐 이유전치사 for를
+     사용)
+     * I am sorry that I offended you.
+       = I am sorry for having offended you.
+
+  ② scold, blame A for B: B 때문에 A를 꾸짖다. 나무라다.
+     * He scolded me that I had neglected my duty.
+       = He scolded me for having neglected my duty.
+  ③ punish A for B: B 때문에 A를 벌주다.
+  ④ be glad (proud, afraid, ashamed, ignorant) + that + 주어 + 동사
+     = be glad (proud, afraid, ashamed, ignorant) + of + ～ ing
+    * I am glad that my brother passed the exam.
+      = I am glad of my brother having passed the exam.
+  ⑤ be sure (certain, convinced, confident) + that + 주어 + 동사
+     = be sure (certain, convinced, confident) + of + ～ ing
+     : ～을 확신하다.
+     * I am sure that he will live to eight.
+       = I am sure of his living to eighty.
+  ⑥ be aware (conscious) + that + 주어 + 동사
+     = be aware (conscious) + of + ～ ing : ～을 알다.
+     * He was conscious that the matter was important.
+       = He was conscious of the matter being important.
+20. 동격명사절의 문장전환
+  ◇주로 동격 명사절을 이끄는 문장.
+  * fact(사실), doubt(의심), evidence(증거), chance(기회), report(보
+    고), rumor(소문), proop(증거), hope(희망), news(소식), idea(생각),
+    certainty(확실), suggestion(제안), possibility = probability =
+    likelihood(가능성, 가망), conclusion(결론)
+  * The fact that he is honest is known to everybody.
+    = The fact of his being honest    is known to everybody.
+                  his honesty
+    ◇동격명사절인 that～는 주어나 목적어, 보어 등이 생략되지 않은 완
+      전한 문장.
+21. 풀어 볼 문제...
+  ①각 문장의 틀린 부분을 고쳐라.
+    ⓐ He insisted to go for a drive.
+    ⓑ The rain prevented me to go to the party.
+    ⓒ Are you sure of he will come?
+    ⓓ No one has ever succeeded to explain this phenomenon.
+    ⓔ Exercise strengthens instead of weakens the body.
+    ⓕ She came near to be drowned.
+    ⓖ I objected to be treated like that.
+    ⓗ I don't care running the risk.
+    ⓘ She devoted herself to look after him.
+    ⓙ You will have to speak a little louder. He is hard to hear.
+    ⓚ He is above to do such a mean thing.
+    ⓛ He regrets being not able to help me.
+  ②다음 각 문항의 뜻의 차이를 말하여라.
+    ⓐ I hate lying.
+       I hate to lie.
+    ⓑ I like swimming.
+       I like to swim now.
+    ⓒ He is sure of success.
+       He is sure of to succeed.
+  ③공란을 적당한 단어로 채워라
+    ⓐ This picture is (    ) her own painting.
+    ⓑ This book is (    ) reading intensively.
+    ⓒ The glass is very brittle; It wants (    ) with care.

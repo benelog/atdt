@@ -1,0 +1,173 @@
+영문법 정리             16. 일치와 화법(Agreement & Narration)
+────────────────────────────────────────
+-  -
+
+  일치와 화법(Agreement & Narration)
+
+1. 수의 일치
+  ① The poet and statesman is dead.
+     The poet and the statesman are dead.
+  ②부정사 + and + 부정사      ──┐
+    every  + 명사 + and + every + 명사      │ 단수동사 사용.
+    each                  each  │
+    no                    no    ──┘
+    단, 동명사 + and + 동명사는 복수동사 사용.
+    * Early to bed and early to rise makes a man healthy.
+    * Every policeman and official is on the alert.
+  ③ many a + 단수명사 + 단수동사
+     many   + 복수명사 + 복수동사.
+    * Many a soldier was killed at the field.
+    * Many boats have been wrecked.
+  ④ a number of   + 복수명사 + 복수동사.
+     the number of + 복수명사 + 단수동사.
+     a total of + 복수명사 + 단수동사.
+    * The number of patients is increasing.
+    * A number of patients are dying.
+    * A total of 300 Koreans lives in this country.
+      △a total of ～는 ‘총계, 합계’의 뜻으로 전체의 한 단위를 나타내
+        므로 단수동사를 쓴다.
+  ⑤ 분수  ───┐
+     most (대부분) │
+     a lot, lots        │ of + 복수보통명사  → 복수동사
+     half       │
+     the rest (나머지)     │ of + 단수보통명사
+     part       │       물질,추상명사 → 단수동사
+     a large part       │
+     all        ───┘
+    * Two-thirds of my books are novels.
+    * Most of his books are English novels.
+    * Half of the passengers were injured in the accident.
+    * A large part of the land is barren.
+  ⑥ either  A or  B : A이거나 B가 ～이다.  (양자택일)
+     neither A nor B : A도 B도 ～이 아니다. (양자부정)
+     not only A but also B = B as well as A
+     = A뿐만 아니라 B 역시 ～이다. ( B의 수와 인칭에 맞는 동사를 쓸 것)
+    * Either you or Tom has made the mistake.
+    * Neither of the answers you gave is satisfactory to us.
+    * Not only you but also he is interested in music.
+      = He as well as you is interested in music.
+  ⑦ 복수명의 학과명인 mathematics, politics, physics, ethics,
+     gymnastics, phonetics 등은 모두 단수 취급하여 단수동사를 사용한다.
+    * Mathematics is a difficult subject.
+  ⑧ 시간, 거리, 가격, 중량 등은 하나의 단일 개념으로 생각하면 단수동사
+    * There were ten people in line already when we arrived.
+    * Ten years is a long way to walk in a cold weather.
+2. 시제의 일치 및 예외
+  ①주절의 동사가 현재, 현재완료, 미래일땐 종속절에는 어느 시제나 사용
+    할 수 있으나,
+    주절의 동사가 현재 → 과거로 바뀌면 종속절의 동사는
+        현재, 미래     → 과거
+        현재완료, 과거 → 과거완료
+        현재형 조동사  → 과거형 조동사로 바뀜.
+    * He told me that he was going to write a letter.
+    * I went to his house that I might see him.
+    * She said that she would be all right by the next week.
+  ②시제일치의 예외.
+    ⓐ 불변의 진리, 속담, 현재의 습관적 동작, 성질 → 현재시제.
+    ⓑ 과거의 동작이 현재에 계속 → 현재시제.
+    ⓒ 역사적 사실 → 항상 과거시제.
+    ⓓthan, as 등에 이어지는 구문; 주절동사의 시제와 관련이 있음.
+    ⓔ종속절의 must, ought to, should, had, better 등은 그대로 사용.
+    ⓕ종속절의 가정법 시제는 변하지 않음.
+     * He said that the earth is round.
+     * I told him that I go to church on Sundays.
+     * She was not aware that those woolen clothes always shrink in the wash.
+     * He told us that the roads are still under repair.
+     * He said that he had been ill.
+     * He said that Columbus discovered America in 1492.
+     * He did it far better than you will do it.
+3. 화법 - 평서문의 전달.
+  ⓐ전달동사: say → say, say to → tell.
+  ⓑ인용부호안의 피전달문은 that- 절로 바꿀 것.
+  ⓒ피전달문의 1인칭(I, my, me)은 전달동사의 주어와 일치.
+  ⓓ피전달문의 2인칭(you, your)은 수화자 (say to + 사람)에 일치.
+  ⓔ전달동사가 과거시제이면 피전달문의 동사는 시제일치법칙에 준함.
+    * He said, "You are kind to my brother."
+      = He said that I was kind to his brother.
+    * He said to me "I have once seen you"
+      = He told me that he had once seen me.
+   ◇부사, 지시대명사의 변화
+      here → there,  come → go,  now → before,  this → that,
+      these → those, tomorrow → the next(follwing) day,
+      yesterday → the day before (the previous day)
+      last night → the night before (the previous night)
+      next week → the next week (the following week)
+4. 의문문의 전달
+  ⓐ 전달동사 say는 ask 또는 inquire of.
+  ⓑ 의문사 when, where, why, who, what 등이 있는 의문문은
+  ⓒ 의문사 + 주어 + 동사의 어순 (간접의문문으로 명사절)
+  ⓓ 의문사가 없는 의문문은 if(whether) + 주어 + 동사 → 명사절.
+    * He said to me "Who is he?"
+      = He asked me who he was.
+    * He said to me "Are you fond of this music?"
+      = He asked me if(whether) I was fond of that music.
+  ◇예외: 간접화법에서 의문사 + 주어 + 동사의 어순이 원칙이지만 주어부
+    분이 긴 경우는 의문사 + 주어의 어순이 된다.
+  ◇부탁, 권유를 나타내는 의문문은 형태는 비록 의문문이나 부탁, 권유를
+    나타내는 명령문의 내용이므로 ask(beg) + 목적어 + to do의 형태.
+    * He said tome "Which is the shortest way to the station?"
+      = He asked me which was the shortest way to the station.
+    * He said to me "Could you give me a lift?"
+      = He asked (begged) me to give him a lift.
+5. 명령문의 전달
+  ◇전달동사 say to ⇒
+  ⓐ일반적 명령문; tell + 목적어 + to do.
+  ⓑ상관이 부하에게; order(command) + 목적어 + to do.
+  ⓒ의사가 환자에게 충고; advice + 목적어 + to do.
+  ⓓ부탁, 의뢰의 명령문,의문문; ask(beg) + 목적어 + to do.
+  ⓔ제안,제의; propose, suggest + that + 주어 + should to do.
+    * He said to me, "Open the window."
+      = He told me to open the window.
+    * He said to me, "Don't come in till you are called."
+      = He told me not to come in till I was called.
+      = He forbade me to come in till I was called.
+    * The officer said to his men, "Stay where you are."
+      = The officer commanded (or order) his men to stay where they were.
+    * He said to me, "You had better work harder."
+      = He advised me to work harder.
+    * He said to me, "Let's go to the park."
+      = He suggested (or proposed) (to me) that we should go to the park.
+      = He proposed to go to the park.
+6. 감탄문의 전달
+  ⓐ 전달동사 say → exclaim, shout, cry(out), remark로...
+  ⓑ기쁜내용, Hurrah, Bravo 등의 감탄사 → with delight, with joy,
+    with  pleasure등의 부사구를 전달동사 다음에 첨가.
+  ⓒ슬픈내용, Alas 등의 감탄사 - with regret, with a sigh, in sorrow 등의
+    부사구 사용. (감탄문을 그대로 사용하거나 very를 사용, 평서문으로
+    고쳐서 간접화법으로 고친 것.)
+    * He said "What a beautiful sight it is!"
+      = He exclaimed (cried out) what a beautiful sight it is!
+      = He exclamed that it was a very beautiful sight.
+    * He said, "Oh, my friend has come!"
+      = He cried out with joy that his friend had come.
+7. 기원문의 전달
+  ⓐ피전달문에 God이 있을 때 → pray that God may～
+  ⓑ사람에 대한 소망 → express one's wish that + 주 + may～
+    * She said "God save my son!"
+      = She prayed that God might save her son.
+    * He said to he "May you have a happy life!"
+      = He expressed his wish that she might have a happy life.
+8. 중문과 복문의 전달
+  ⓐ피전달문이 and, but 으로 연결된 중문일 때 and와 but다음에 접속사
+    that을 쓸 것.
+  ⓑ피전달문이 for, because, as, since, so 등의 접속사로 연결되었을 때
+    에는 접속사 다음에 따로 that을 쓸 필요가 없음.
+  ⓒ명령문 + 의문문 → tell + 목 + to do, and ask ～
+    * He said "The sun has set, and the stars are out."
+      = He said (that) the sun had set, and that the stars were out.
+    * He said to me "Listen! Can you hear someone talking?"
+      = He told me to listen, and asked if I could hear someone talking.
+9. 묘출화법
+  ◇등장인물의 생각이나 심리를 생생하게 표현)과 생략문의 간접화법.
+  ⓐ문장의 어순, 구둣점 - 직접화법에 준함.
+  ⓑ인칭과 시제 - 간접화법과 같음.
+    * He said to me "Will you go to the movies?"  직접화법
+      = He asked me if I would go to the movies.  간접화법
+      = He asked me would I go to the movies.     묘출화법
+    * He said "Yes"
+      = He agreed.
+      = He answered in the affirmative.  (긍정적으로)
+    * He said "No"
+      = He answered in the negative.     (부정적으로)
+    * He said "Good morning"
+      = He wished me a good morning.

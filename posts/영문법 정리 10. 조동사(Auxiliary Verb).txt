@@ -1,0 +1,254 @@
+영문법 정리                         10. 조동사(Auxiliary Verb)
+────────────────────────────────────────
+-  -
+
+   조동사(Auxiliary Verb)
+
+1. May, Might의 용법
+  ①허락.
+    * May I smoke here?
+      - Yes, you may.
+      - No, you may (must) not.
+  ②추측.
+    * He may be rich.
+      = It is possible that he is rich. (현재의 추측, may + 원형)
+    * He may have been rich.
+      = It is possible that he was rich. (과거의 추측, may have + p.p)
+    *가정법 과거완료 = might have + p.p.
+    * He may meet her. (= It is possible that he meets her.)
+      (그는 그를 만날지도 모른다; 현재의 추측)
+      He may have meet her. (= It is possible that he met her.)
+      (그는 그녀를 과거에 만났을지도 모른다; 과거의 추측)
+      He might have met her.
+      = He might have met her, if he had not been busy. (가정법 과거완료)
+      = He did not meet her, as he was busy. (직설법 과거)
+    ③능력.
+      * Gather roses while you may. (시기를 놓치지 마라)
+      * A man may be known by his friends.
+    ④기타용법.
+    * Whatever he may do          he will not succeed.
+      No matter what he may do
+      Do what he will
+    * He may be called a poet, but he cannot be called a scholar.
+    * May be rest in peace ! (편히잠드소서!, 기원문)
+    * Might I ask your mane? (공손)
+    * He may well say so.  (～하는 것은 당연하다)
+      = He says so, and well he may.
+      = He has good reason to say so.
+      = It is  natural               that he should say so.
+               no wonder
+               a matter of course
+               not surprising
+      = I take it for granted that he says so.
+      ◇ may + well + 원형동사: ～하는 것은 당연하다.
+         과거: may well have + p.p.
+      * You may as well ──┐  begin at once.
+            might as well       │
+            had better  ──┘ → ～하는게 좋다.
+      ◇ may (might) as well A as B: B하느니 차라리 A하는게 낫다.
+        실현가능  : may ～
+        실현불가능: might ～
+        △You may as well not know a thing at all as know it imperfectly.
+          (그것을 불완전하게 아느니, 차라리 전혀 모르는 것이 낫다.)
+          You might as well reason with the wolf as try to persuade him.
+          (그를 설득하려고 시도하는 것은 이리를 설득하려는 것과 같다.)
+2. Can
+  ①능력.
+    * I can speak English.  (현재시제 = be able to)
+      과거    : I was able to speak English.
+      미래    : I will be able to speak English.
+      현재완료: I have been able to speak English.
+      과거완료: I had been able to speak English.
+      미래완료: I will have been able to speak English.
+      ◇ can의 과거: was able to.
+         be able to～의 부정: be unable to～
+  ②추측, 강한 의혹.
+    * Who can he be?  (도대체 누구일까?) (강한 부정적 추측)
+    * Can it be true? (도대체 그게 사실일까?) (강한 부정적 추측)
+    ◇ can, cannot 등의 의문, 부정문에서 ‘도대체 ～일까, ～일리가 없
+       다’의 뜻을 나타내어 강한 의혹이나 부정적인 추측을 표현하는데 쓰
+       임.
+      * He cannot be honest. (현재의 추측, 그는 정직할리가 없다)
+        = It is impossible that he is honest.
+      * He cannot have been honest. (과거의 추측)
+        = It is impossible that he was honest.
+        ◇ cannot이 추측을 나타낼 땐 과거형에 could not을 사용치 않고,
+           반드시 cannot + have + p.p. 형태를 사용할 것.
+  ③기타.
+    * You can go home now. (허가)
+    * Could you show me the way to the station? (공손)
+    * We cannot be too careful of our health.
+    * We cannot praise him too much. (아무리 ～해도 지나치지 않다)
+
+3. Must
+  ①필요, 의무 (must + 의지동사)
+    * You must go there.
+      = It is necessary that you should go there.
+      = It is necessary for you to go there.
+      ◇ must의 부정어는 need not, do not need to, do not have to,
+         have not to 등이 있음.
+        * You must go there.
+          의: Do you have to go there?
+          과: You had to go there.
+          미: You will have to go there.
+    * You have only to do your duty.  (～하기만하면 된다)
+  ②추측 (must + 무의지동사)
+    * He must be honest. (현재의 추측)
+      = I am sure       that he is honest.
+        It is certain
+      = It is impossible that he is honest.
+      ≠ He cannot be honest.
+    * He must have been honest.  (과거의 추측)
+      = I am sure that he was honest.
+      = It is impossible that he was honest.
+      ≠ He cannot have been honest.
+  ③기타.
+    * He must needs come. (꼭 ～한다고 고집하다)
+    * Sooner or later, death must come to us all!
+      (필연; 반드시 ～하다. 조만간 죽음은 우리 모두에게 다가온다)
+    * You must not tell a lie. (금지; ～해서는 안된다)
+      ≠ You may tell a lie.   (허가; ～해도 좋다)
+    * I think that I must go.
+      과거: I thought that I must go.
+4. Will, Would
+  ① Will : 현재의 불규칙적 습관. (～하곤하다)
+     Would: 과거의 불규칙적 습관. (～하곤했다)
+    * He will often sit up reading all night.
+    * He would often come home drunk, and beat his wife.
+  ②소망 (wish to, want to)
+    * He who would search for pearls, must dive deep.
+    * Would that       I were young again!
+      Would to God
+      I wish
+
+  ③거절, 고집.
+    * The door will not open. (현재의 고집)
+    * He would not help me.   (과거의 고집)
+  ④습관, 경향 (He'll과 같이 생략형을 쓸 수가 없다)
+    * Accident will happen.
+    * Dogs will bark when they see a stranger.
+  ⑤기타.
+    * This vessel will hold 2 hallons of water. (포용력)
+    * Would you pass me the salt? (공손)
+    * He would be about twenty, when he met her. (추측)
+    * He was a strong will.   (그는 강한 의지를 갖고 있다)
+    * He made his will before his death.
+      ◇ will이 명사로 쓰이면 “의지, 뜻, 의사, 유언” 등으로 쓰임.
+    * I would rather  die (than) live in dishonor.
+        would sooner
+        had   rather
+      = I would choose death before life in dishonor.
+      = I prefer dying to living in dishonor. (전치사 + 명사,동명사)
+      = I prefer to die rather than (to) live in dishonor.
+      = 불명예스럽게 사느니 죽는 것이 낫다.
+5. Should Ⅰ
+  ①의무 (should + 원형동사: ～해야한다)
+    * The young should respect the old.
+      ◇ ‘should + 동사원형’은 ‘ought to + 동사원형’과 마찬가지로 의무
+         “～해야한다”의 뜻.
+  ②과거의 비난, 유감, 후회 (should + have + p.p.; ～했어야했는데)
+    * You should     have worked harder.
+          ought to
+      = I am sorry (that) you didn't work harder.
+      = I wish           you had worked harder.
+        Would that
+        Would to God
+        If only
+      = You had to work harder, but you didn't.
+  ③강한의문, 놀람, 당연 (의문사 + should)
+    * Why should you stay in Seoul in this hot weather?
+      ◇ should가 why, how, who 등의 의문문에서 강한 의문, 놀람, 당연
+         등으로 쓰이면 “도대체 ～인가?”의 뜻.
+    * How should I know it? (수사의문문)
+      = I don't know it at all.
+    ◇ Who should A but b? : 도대체 누가 A하는가 했더니 다름아닌 바로 B이더라.
+  ④이성적 판단의 should.
+    * It is natural that he should get angry.
+      = It is natural for him to get angry.
+      = He may well get angry.
+      ◇ It is + 형 + that～ 구문에서 형용사 necessary, important,
+         natural, good, well, right, wrong, rational 등이 오면 that절
+         에 should를 사용한다. (해석할 필요는 없음)
+  ⑤감정적 판단의 should.
+    * It is strange that she should cry all day long.
+      ◇ It is 다음에 a pity, surprising, odd, strange, curious 등이
+         쓰이면 that～에 should를 사용하며, “～하다니”로 해석한다.
+         should + 동사원형    → 현재의 일.
+         should + have + p.p. → 과거의 일.
+  ⑥기타.
+    * He should arrive by the 6:15 train. (추측)
+    * I should like to go to America once more.  (완곡한 표현)
+    * Write it down in your notebook lest you should forget it.
+    * He lowered his voice for fear that he should be heard.
+      → “～하지 않도록”, 자체 속에 부정의 뜻 포함. should 다음에 not
+         을 쓰지 않도록 주의 할 것.
+6. Should Ⅱ
+    충고: advice, advisable.      ──┐
+    주장: insist, demand. │ + that + 주어 + should + 동사원형
+    소망: desire, expect. │
+    요구: require, request.       │
+    제안: propose, move, suggest. │
+    명령: order.  ──┘
+  * He insisted that he (should) go to the party.
+    = He insisted on (또는 upon) going to the party.
+  * I ordered that he (should) do it himself.
+7. Ought to
+  ①당연, 의무.
+    * You ought to start at once.  (～해야한다, should와 거의 같은 뜻)
+    * You ought not to say such things. (부정; ought not to～)
+  ②과거의 유감, 후회, 비난.
+    * You ought to have told me that matter yesterday.
+      = You should have told me that matter yesterday.
+      = I am sorry (that) you did not tell me that matter yesterday.
+      = I wish you had told me that matter yesterday.
+        (너는 어제 그일을 나에게 말했어야 했는데...)
+
+      ◇ought to + have + p.p는 과거에 실행되지 못한 일에 대해 유감, 비난,
+      후회를 나
+        타내며 ‘～했어야했는데’의 뜻을 갖는다.
+    * He ought to have arrived at Seoul Station by now.
+      (그는 지금쯤 마땅히 서울역에 도착해있을거야; 당연한 추측)
+  ③미래의 추측.
+    * It ought to be rainly tomorrow. (당연히 ～일 것이다)
+8. Dare
+  * I dare not to go there.
+  * How are you say such a thing to my face?
+    (내 면전에서 네가 감히 나에게 그런 말을 할 수 있겠는가?)
+    ◇부정문, 의문문에서 조동사로 쓰여 “감히 ～하다”
+  * He does not dare to tell us.
+    ◇ dare to do : 본동사로서 “감히 ～하다”
+  * I dare say = probably = perhaps = maybe = 아마.
+9. Need
+  * daily needs: 일용품.
+  * immediate needs: 당장 필요한 것들.
+  * The house is in need of repair. (명사로 필요, 소용, 결핍의 뜻)
+    ◇in need of～: ～에 필요한. ◇in need: 곤경에 빠져있는.
+  * He needs your help. (본동사, 그는 너의 도움을 필요로 한다)
+  * He need not go there. (조동사)
+    = He does not need to go there. (본동사)
+  * He need not have written to her again.
+    (그는 그녀에게 편지를 다시 쓸 필요가 없었는데...(그런데도 썼다))
+    He did not need to write to her again.
+    (그는 그녀에게 편지를 다시 쓸 필요가 없었다.(썼는지의 여부는 모름))
+    ◇need not have + p.p.: ～할 필요가 없었는데 ～를 했다.
+      did not need to～   : ～할 필요가 없었다, 그래서 ～하지 않았다.
+10. Used to
+  ① use가 명사, 동사로 쓰일 때.
+    * You use your legs when you walk. (동사, [ju:z])
+    * The telephone is of no use in this town. (명사, [ju:s])
+    * use up = exhaust: 다 써 버리다.
+      of no use = useless: 소용이 없는.
+  ② used to + 동사원형.
+    * I used to get up early. ([ju:st], 과거의 규칙적 습관)
+      = I was in the habit of getting up early.
+      = I made it a rule to get up early.
+      = I made a point of getting up early.
+      = I made it a point to get up early.
+    * There used to be a big tree here. (과거의 상태)
+  ③ be used to + 명사, 동명사.
+    * He is used to driving a car.
+      = He is accoustomed to drive a car.
+                             driving a car.
+      ◇ be used to 다음에 반드시 명사 또는 동명사가 오며 “～에 익숙하다”의
+      뜻.
+         그러나 be accustomed to 다음엔 동사원형 또는 명사나 동명사가 모두 쓰임.

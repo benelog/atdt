@@ -1,0 +1,154 @@
+영문법 정리       20. 강조,도치,생략,공통관계,삽입,동격,물주구문...
+────────────────────────────────────────
+-  -
+
+    강조, 도치, 생략, 공통관계, 삽입, 동격, 물주구문...
+
+1. 구문상 필요한 도치
+  ① What are you reading now? (의문문; 의문사 + 동사 + 주어)
+  ② Long live the king! (기원문; 부사 + 동사 + 주어)
+  ③ If I were rich, I could buy the car. (가정법 과거)
+     = Were I rich, I could buy the car.
+  ④ He never forgets what he has once heard.
+     = What he has once heard.    (He never forgets, 목 + 주 + 동)
+  ⑤ She did not say a word all day long.
+     = Not a word did she say all day long.
+     ◇목적어가 부정어와 함께 문두로 도치되면 “조동사 + 주 + 본동사” 어순.
+       주격보어가 문두로 도치되면 “보어 + 동 + 주”의 어순.
+2. 부사, 부사구의 도치
+  ①자동사 다음에 오는 부사가 문두로 도치 될 때,
+    주어가 대명사 → 부사 + 주어 + 동사,
+    주어가 명사   → 부사 + 동사 + 주어.
+    * He fell down.
+      = Down he fell. (부 + 대명사 + 주 + 동)
+    * The man fell down.
+      = Down fell the man. (부 + 동 + 명 + 주)
+  ②타동사인 경우 → 부사(구), 부정부사 + 조동사 + 주어 + 본동사의 순.
+    * I well remember his name.
+      = Well do I remember his name.
+    * I have never seen such a wounderful sight.
+      = Never have I seen such a wounderful sight.
+      ◇조동사가 따로 없을 땐 do를 인칭과 시제에 맞게 사용, 단 be동사일 땐
+        be동사 + 주어.
+    * I little dreamed that I should never see her again.
+      = Little did I dream that I should never see her again.
+      ◇ little은 “거의 ～하지 않는”의 뜻으로 준부정어이나 dreem, realize,
+         imagine, think, know 등과 함께 쓰이면 순수부정의 뜻인 “결코 ～하지
+         않는”이 됨.
+  ③ not ～ until : ～이 되어서야 비로소 ～하다.
+     no sooner ～ than : ～하자마자 …하다.
+     * He did not know the fact until this morning.
+      = Not until this morning did he know the fact.
+     * She had no sooner seen him than she burst into tears.
+       = No sooner had she seen him than she burst into tears.
+
+3. 강조
+  ①동사강조: 그 앞에 do를 인칭과 시제에 맞게 사용, 강조의 do는 강세가 있다.
+    * I know his name. (나는 그의 이름을 알고 있다.)
+      I d/o know his name. (나는 그의 이름을 참으로 알고 있다.)
+  ②명사강조: very가 the, this, that, one's 등의 뒤에 쓰여서 명사를 강
+    조할 땐 ‘그, 바로 그’, ‘～에 틀림없는, ～까지도’의 뜻.
+    * This is the very book I have been looking for.
+      (이것이 바로 내가 찾고 있던 책이다.)
+  ③의문문 강조: on, earth, in time world, the devil, at all, whatever
+    등의 어귀가 의문문에서 강조어귀로 쓰이면 ‘도대체, 조금이라도’의 뜻.
+    * Why on earth are you weeping? (너는 도대체 무엇 때문에 울고 있느냐?)
+  ④부정문 강조: not 다음에 at all, in the least, whatever, in the
+    slightest, by any means, a bit, on any way 등의 어구가 오면 부정어
+    not을 강조, ‘조금도, 아무것도’의 뜻.
+    * He is not happy at all. (그는 조금도 행복하지 않다.)
+    * I know nothing whatever about it. (나는 그것에 관해 조금도 모른다.)
+4. 생략
+  ① when, while, though, if, as if, wherever 등이 이끄는 부사절에서
+     주어가 주절의 주어와 같고 be동사인 경우엔 ‘주어 + be동사’가 생략
+     되는 경우가 많음.
+    * When (he was) a boy, he liked to play tennis.
+    * Insert commas wherever (they are) needed.
+  ② 반복되는 것을 피하기 위해 생략.
+    * Some people go to the mountain, Others (go) to the seaside.
+  ③ 관용어구, 인사말, 격언, 게시용어 등에서 관용적으로 생략 가능.
+    * (It is) So much for today.
+5. 공통관계
+  ◇ AX □ AY ＝ A (X + Y): 주어, 피수식어 등이 공통어인 경우.
+     XB + YB ＝ (X + Y) B: 술어, 동사 , 목적어 수식어구가 공통.
+     * I met home, and I watched television.
+       A    X          A        Y
+       = I met home, and watched television.
+     * We cannot live by ourselves and for ourselves.
+                      X      B          X      B
+       = We cannot live by and for ourselves.
+
+6. 삽입어
+  ◇문맥에 상관없이 앞에 나오는 말을 부가적으로, 구체적으로 설명하기
+    위한 단어나 구, 절 등을 문장 중간에 삽입.
+    * He was, indeed, a good boy.
+    * He is, I believe, a great statesman.
+      = I believe that he is a great statesman.
+7. 동격
+  * 명사 또는 명사 상당어구가 앞에 나온 낱말과 equal 관계로서 설명, 수
+    식하는 경우, 명사, 부정사, 명사절 등이 쓰임.
+    * Mr. Brown, an English teacher, lives in the next door.
+    * He gave up the idear of borrowing money. (동격의 of)
+8. 물 주 구 문 (物主構文)
+  ①. 물주구문 Ⅰ
+    * 사람주어 + can        + 동사 ～
+                 be able to
+      = 물주 + enable + 목적어 + to do ～
+    * People can travel through the air by airplanes.
+      = Airplanes enable people to travel through the air.
+  ②. 사람주어 + cannot + 동사 ～
+       = 물주 + prevent(keep,prohibits,hinders) + 목적어 + from + 동명사 ～
+       = 물주 + forbid  + 목적어 + to 부정사 ～
+    * As I am ill, I cannot attend the meeting.
+      = Because of my illness, I cannot attend the meeting.
+      = My illness prevents me from attending the meeting.
+      = My illness forbids me to attend the meeting.
+  ③. 사람주어 + have to (=must) + 동사 ～: ～해야한다.
+      = 물주 + force (compel,oblige) + 목적어 + to 부정사 ～
+         : 목적어로 하여금 ～ 하도록 강요하다.
+    * He had to put off his departure because of the rain.
+      = The rain force(comple,oblige) him to put off his departure.
+  ④. why + 조동사 + 주어 + 본동사 ～ ?
+     = what + make + 목적어 + 원형동사(또는 형용사)?
+    * why do you think so?
+      = what make you think so?
+    * You have come here for that reason.
+                         for what.
+                         why.
+      = For what have you come here?
+        Why
+      = What have you come here for?
+       ◇ why와 for는 함께 쓰일 수 없음
+  ⑤. 사람주어 + go 또는 get to ～
+      = 물주 + take + 사람목적어 ～
+    * We rode in a bus for an hour, and got to the park.
+      = An hour's bus ride took us to the park.
+      = It took us an hour to get to the park.
+      = It took an hour for us to get to the park.
+
+    * How long does it take to ～ ? : ～하는데 얼마나 걸립니까?
+    * It takes + 사람 + 시간 + to ～
+                 시간 + for + 목적격 + to ～
+                 :사람이 ～하는데 얼마의 시간이 걸리다.
+       A: How long does it take to go home?
+       B: It take me an hour (to go home)
+  ⑥. 사람주어 + come, reach ～
+      = 물주 + bring + 목적어 ～
+    * When she heard the cry, she came to the spot.
+      = The cry brought her to the spot.
+      = 그녀가 그 외침 소리를 듣고, 그 장소로 왔다.
+  ⑦. 사람주어 + have, derive + 목적어
+       = 물주 + give + 사람(I.O) + 물건(D.O)
+    * I have a good appetite after a short walk.
+      = A short walk gives me a good appetite.
+  ⑧. 이유부사구, 이유부사절이 있을 때
+       = 물주 + make, cause, drive + 목적어 + to부정사, 형용사, p․p
+    * He got angry because they laughted.(이유부사절)
+      = Their laughter made him get angry.
+  ⑨. 무생물주어가 조건을 나타낼 대
+    * A glance at the map will show you the way to the airport.(물주구문)
+      = If you glance at the map, you will find the way to the
+      airport.(인주구문)
+      ◇약을 복용하다 일땐 drink나 eat를 쓰지 않고 take를 사용한다.
+
+                   The     End

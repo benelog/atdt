@@ -1,0 +1,282 @@
+영문법 정리                                   3. 관사(Article)
+────────────────────────────────────────
+-  -
+
+      冠 詞 (Article)
+
+1. 부정관사: 자음 앞 a, 모음 앞 an.
+2. 부정관사 a, an의 용법
+  ① one(하나)을 뜻할 때.
+    * We shall stay here a day or two. (하루나 이틀)
+    * They resigned their posts in a body. (일괄적으로)
+  ②대표단수.
+    * A dog is a faithful animal.
+  ③ A certain(어떤)의 뜻.
+    * A Mr. John came to see you .
+    ◇In a sense, It is true: 어떤 의미로는 ～
+  ④ The same(같은)의 뜻.
+    * Birds of a feather flock together.
+    * We are of an age. (동갑이다)
+             of a mind. (마음이 같다)
+             of a humor.(성질이 같다)
+  ⑤ per(마다)의 뜻.
+    * I write to her once a day. (하루에 한번씩)
+  ⑥ some(어느정도, 약간)의 뜻.
+    * He was speechless for a time. (한동안, 얼마동안).
+    * He is industrious to a degree. (어느정도)
+3. 정관사 The의 용법
+  ①앞에 나온 명사가 반복될 때.
+    * I met a boy, and the boy showed me the way.
+  ②수식어구(형용사구, 형용사절)에 의해 한정이 될 때.
+    ◇물질․추상․고유명사는 원칙적으로 정관사를 사용할 수 없으나 수식
+      어구로 한정, 제한이 되면 정관사 the를 사용한다.
+      * Water is changed into steam by heat.
+      * The water of this well is not good to drink. (이 우물의 물)
+  ③문맥상 전후관계를 누구나 알 수 있는 경우.
+    * The post office is near the station.
+  ④시간, 수량의 단위를 나타낼 때.
+    * Sugar is sold by the pound.
+    ◇물건을 사고 팔 때 단위를 표시하는 방법은 ｢by the + 단위｣와 같이
+      반드시 정관사 the 사용.
+      * She rented the apartment by the month.
+      * They hired a man by the day. (일당으로, 하루단위로).
+
+  ⑤종족대표.
+    * The dog is a faithful animal.
+  ⑥신체 일부를 표시할 때.
+    * He caught me by the hand.
+  ⑦일반적으로 유일무이한 것에 사용.
+    * The sun is much larger than the moon.
+    * I wish to make a journey round the world.
+    * We are living in a busy world.
+    * English is a world language now.
+    ◇ World 앞에 형용사 busy가 있을 때, world가 형용사적으로 쓰일 때
+       에는 the 대신 “a”를 사용함.
+  ⑧최상급, 서수(first, second …), any, last, same 앞에서 사용.
+    * Seoul is the largest city in korea.
+    * Egypt was the first country to become civilized.
+    * February is the second month of the year.
+    * You will need a second pair of shoes.
+    ◇second가 “두번째”의 뜻으로 순서를 나타낼 땐 a second를 사용.
+  ⑨기계, 발명품, 악기명.
+    * The steam-engine was invented by J.watt.
+    * Does the lady play the piano well?
+  ⑩관용어구에서
+    * in the morning.  in the evening.  in the sun(햇볕에서).
+    * in the dark(어두운 곳에서).
+4. 신체일부를 표시하는 방법
+  ① catch형의 동사.
+    S + V + 사람 + by the 신체일부분.
+    catch, seize, take, hold, grasp 등의 동사는 전치사 by를 사용한다.
+    * He caught me by the neck.
+  ②strike(치다)형의 동사
+    S + V + 사람 + on the + 신체일부.
+    치다, 때리다 뜻인 strike, hit, pat, tap, touch, kiss 등의 동사.
+    on the + 신체일부.
+    * He struck me on the ear.
+         hit       on the head.
+  ③ look(보다)형의 동사.
+    S + V + 사람 + in the + 신체일부.
+    * I looked him in the eye.
+        gazed      in the face.
+        stared
+
+  ④기타.
+    * He was short through the head.
+    * He embraced his mother round the neek.
+    * He chucked me under the chin.
+    ◇붙잡다의 뜻인 동사는 by,
+      치다의 뜻인 동사는   on,
+      보다의 뜻인 동사는   in이 주로 사용됨.
+5. 고유명사와 정관사.
+  ①강, 바다, 선박, 해협 등의 이름.
+    * The Thames.  The Han River.
+  ②반도, 군도, 산맥의 이름.
+    * The Korean peninsula[pəninsjulə]: 한반도.
+  ③어떤 나라의 이름이나 지명, 국명은 일반적으로 무관사이지만 복수나
+    ‘of 한정구’가 붙으면 the를 쓴다.
+    * The United States of America.  The Netherlands.
+    ◇언어를 말할 땐 English, Korea처럼 관사없이 사용하지만 language를
+      함께 쓰면 반드시 the를 사용한다.
+  ④관공서, 공공건물을 나타낼 때.
+    * The State Department: 미국무성.
+    ◇예외: 역, 항구, 호수, 다리, 공항, 공원에는 일반적으로 the를 붙이지 않는다.
+      * Seoul Station.  Pagoda Park. Busan Harbor. Kimpo airport.
+  ⑤철도, 열차, 항공기, 배, 신문, 잡지, 학회의 이름 앞에.
+    * The Pullman(풀만호:철도이름).
+    * the Queen Mary. the Royal Academy.(영국미술원)
+  ⑥인명 앞에 성질 형용사가 올 때.
+    * The ambitious Caesar: 야망에 찬 시이저.
+    ◇예외: honest, old, young, poor, little 등의 일상생활에서 흔히 쓰
+      이는 형용사가 인명 앞에 올 때에는 the를 사용하지 않음.
+  ⑦고유명사가 한정될 때. (국어 이름과 특정한 말을 나타낼 때)
+    * London is the capital of English.
+    * The London of the 19th.: 19세기의 런던.
+    * What is the German for the English "flower"?
+6. 관사의 위치
+  * so, as, too, how, howwever  + 형용사 + 부정관사 + 명사.
+    * Such a work cannot be done in so short a time.
+    * He is as kind a boy as you are.
+
+  * such, half, rather, many, quite, what, whatever  + 부정관사 + 형용사 + 명사.
+    * She is quite a good painter.
+    * He is rather an old man.
+  * all, double, both + 정관사 + 명사.
+    * All the boys were present.
+    * I paid double the price for it.
+7. 관사의 생략
+  ①호격, 가족관계를 나타낼 때.
+    * Water, two cups of coffee.
+    * Father, may I go out?
+    * Father is looking for you, John.
+  ②식사, 질병, 운동, 계절, 학과의 이름.
+    * They were having breakfast when I arrived.  Because I have a
+      heavy breakfast.  I have no appetite.  The breakfast I had this
+      morning was too light.
+    ◇식사명 앞에 형용사가 올 때 식사명이 형용사구나 절로 한정이 될 때
+      에는 관사를 사용한다.
+      * He is suffering from fever.
+                             cancer.
+                             consumption.(폐결핵)
+      * I have a headache.    (두통)
+               a toothache.   (치통)
+               a stomachache. (복통)
+        ◇ ache가 들어가는 가벼운 병명 앞에는 부정관사 a를 사용한다.
+    * They are playing tennis.
+      ◇운동명은 관사없이 사용하지만 악기명은 the를 사용한다.
+    * He majors in English literature.
+    * I major in the English literature of the 20th.
+      ◇형용사구(of-)로 수식되는 경우에는 the를 사용.
+  ③관직, 칭호, 신분 + 고유명사일 때.
+    * Professor Lee: 이 교수.
+    ◇칭호, 신분, 관직이 아닌 명사가 고유명사 앞에 올 때, 그리고
+      Emperor, Empress, Zar는 예외적으로 정관사 the를 사용.
+      * The widow Smith: 과부 스미스.
+      * The Emperor Napoleon: 나폴레옹 황제.
+  ④관직, 신분, 혈통을 나타내는 말이 주격보어, 목적격보어로 쓰일 때.
+    Mr. Lee was appointed principal of our school.(주격보어)
+  ⑤ a kind of ～ , a sort of ～  다음에 오는 명사 앞에는 일반적으로
+    관사를 붙이지 않는다.
+    * He is a kind of gentleman.
+
+  ⑥짝을 이루는 두개의 명사가 전치사 혹은 접속사로 밀접하게 연결될 때.
+    * We are man and wife before heaven.
+    * Rich and poor celebrate New year's day.
+      ◇ the rich and the poor는 ｢the + 형용사｣로서 복수보통명사이나
+         and로 연결되어 the가 생략됨.
+    * father and son.  body and soul.  arm in arm(팔짱을 끼고).
+      side by side(나란히)
+  ⑦공공건물이 본래의 목적으로 쓰일 때.
+    * I am going to the school to see him.
+    * School begins at 9 O'clock
+      ◇school이 본래의 목적인 공부, 수업등의 뜻일 땐 관사없이 사용한다.
+    * in school: 재학중                 * go to church: 예배보러 가다.
+    * go to hospital: 입원하다.         * go to prison: 징역살이 하다.
+    * at church: 예배 중.               * go to sea: 선원이 되다.
+    * go to bed: 잠자리에 들다.         * at table: 식사 중.
+    * at sea: 항해 중.
+  ⑧교통, 통신수단을 나타낼 때.
+    * I came here by steamer.
+                  by train. (＝in a train)
+                  by car.   (＝in a car)
+    * I informed him by telephone.
+      ◇교통수단이나 통신수단을 나타낼 때에는 ｢by + 교통(통신)수단｣의
+        형태이며, by 다음에 관사를 사용하지 않는다.
+  ⑨ man 이인간, 남성의 뜻으로 woman이 여성의 뜻으로 쓰일 때.
+    * Man is stronger than woman.
+  ⑩관용어구로 쓰일 때.
+    ⓐ전치사 + 명사.
+      * in the morning.
+      * in the afternoon.
+      * in the evening.
+      * in the daytime.
+      * at dawn[dɔ:n] : 새벽에.
+      * at daybreak   : 새벽에.
+      * at noon       : 정오에.
+      * at night      : 밤에.
+      * at midnight   : 한밤중에.
+      * at hand       : 가까이에, 손닿는 곳에.
+      * in town       : 도회지에서.
+      * in the country: 시골에서.
+
+    ⓑ동사 + 명사.
+      * take place    : 일어나다, 발생하다.
+      * take the place of ～ : ～을 대신하다.
+      * take part in  : ～에 참가하다.
+      * take cold     : 감기들다.
+      * lose sight of : 시야에서 놓치다.
+      * keep house    : 살림을 하다.
+      * take hold of  : 잡다, 쥐다.
+8. 관사의 생략과 반복
+    * A poet and statesman is dead. (관사생략; 동일인 1명)
+    * A poet and a statesman are dead. (관사있음; 2명)
+     ◇예외: 불가분의 관계가 있을 때는 두사람이라도 and 다음에 관사를
+       붙이지 않고 첫 명사에만 관사를 붙인다.
+       * The king and Queen.  a doctor and nurse.  a cup and saucer.
+         a watch and chain.  a knife and fork.  a needle and thread.
+9. 특수한 형용사
+  ① father
+     * fatherly: 아버지의, 아버지 같은.
+     * paternal[pətə:nəl]: 아버지의, 부계의.
+     * paternaal care : 아버지의 보살핌.
+     * fatherly love  : 부성애.
+  ② mother
+     * motherly: 어머니다운.
+     * maternal[mədə:nəl]: 어머니의.
+     * maternal instincts: 모성본능.
+  ③ sun
+     * solar: 태양의.
+     * sunny: 햇볕이 잘드는, 양지바른.
+  ④ moon
+     * lunar[lu:nə]: 달의.
+  ⑤ sea
+     * marine[məri:n]: 바다의, 선박의, 해군의.
+  ⑥ see
+     * visible: 보이는, 볼 수 있는.
+       ≠ invisible: 보이지 않는.
+  ⑦ hear
+     * audible: 들리는, 청취할 수 있는.
+       ≠ inaudible: 들리지 않는.
+  ⑧ eat
+     * eatable[i:təbl]: 먹을 수 있는.
+     * edible[edibl]: 먹기에 좋은, 독성이 없는.
+  ⑨ carry
+     * portable: 휴대할 수 있는, 이동 가능한.
+  ⑩ town
+     * urban[ə:ʳbən]: 도시의. 도시에 있는.
+       ≠ country → rural[ruərəl]: 시골의.
+  ⑩ read
+     * rezdable: 읽기 쉬운. 읽을 수 있는.
+     * legible : 일기 쉬운.
+10. 제거․박탈동사
+    rob + 대상자 + of + 물건.
+    deprive A of B: A에게서 B를 강탈하다.
+    ◇참고: He stole my watch from me.
+            ＝ I had my watch stolen. (have + 물건 + p․p)
+            ＝ My watch was stolen.
+               (물건이 주어인 경우 be stolen을사용)
+    ◇ be stolen의 주어는 도둑당한 그 물건 자체이며, be robbed of ～ 의
+       주어는 사람이다.
+       * strip   A of B: A에게서 B를 벗기다, 몰수하다.
+       * clear   A of B: A에게서 B를 치우다, 제거하다.
+       * cure    A of B: A에게서 B를 치료하다, 제거하다.
+       * relieve A of B: A로부터 B를 제거하다, 훔치다.
+11. Not ～ till (untill)
+    * I did not know the fact, till(untill) the next morning.
+      = It was not till the next morning that I knew the fact.
+      = Not till the next morning did I know the fact.
+      = Only after the next morning did I know the fact.
+    * not A till B: B하고 나서야 비로소 A하다.
+    ◇ nott till the next morning을 문두로 도치시키면 반드시
+       조동사 + 주어 + 본동사의 형태로 해야한다.
+12. cannot but + 원형동사
+    * I cannot but laugh.
+      = I cannot choose but laugh. (cannot choose but + 원형동사)
+      = I cannot help  laughing.   (cannot help  + ～ing)
+                 avoid                     avoid
+      = I cannot keep from laughing.(cannot keep from + ～ing)
+      = I have no choice but to laugh.
+      = I have no alternative but laugh.
+      = Nothing remains but to laugh.
+      = There is nothing for it but to laugh.
+      = How can I help laughing?

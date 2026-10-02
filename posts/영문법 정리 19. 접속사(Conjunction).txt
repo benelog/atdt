@@ -1,0 +1,218 @@
+영문법 정리                            19. 접속사(Conjunction)
+────────────────────────────────────────
+-  -
+
+    접속사(Conjunction)
+
+1. 접속사의 종류
+  ① 의미상 종류
+    * 등위 접속사 : and, but, or, for 등
+    * 종속 접속사 : if, whether, that, because 등
+  ② 형태상 종류
+    * 단순 접속사 : and, when, as, for 등
+    * 상관 접속사 : either ～ or, both ～ and, not only ～ but also
+    * 접속사구 : as soon as, as well as, as long as 등
+2. 등위 접속사 and
+  * She is pretty and clever.
+  * Work hard, and you will pass the exem.
+    = If you work hard, you will pass the exam.
+  * Bread and butter is good for most sick people.
+  * The poet and statesman is dead.
+    The poet and the statesman are dead.
+  * Slow and steadly wins the race.
+    ◇불가분의 관계에 있거나 단일개념은 단수 취급을 한다.
+  * go, come, try, send 등의 다음에 오는 and는 부정사 to 대용
+    ◇ Come and see me next week.
+       = Come to see me next week.
+  * 형용사 + and + 형용사에서 앞의 형용사가 부사적 구실을 하는 경우.
+    ◇ I am good and tired
+       = I am very tired.
+3. 등위 접속사 But, Or, Nor
+  ① But.
+    * He works slowly but accurately.
+    * He did not come on Sunday, but on Monday.
+    * Not that I don't like the game, but that I have no time.
+      ◇not that A but that B = not because A but because B
+        =A 때문이 아니라 B 때문이다.
+  ② Or.
+    * You may dance or sing here.
+    * Make haste or you will be late for school.
+      = If you do not make haste, you will be late for school.
+      = Unless you make haste, you will be late for school.
+        ◇명령문 + or: ～해라, 그렇지 않으면 ～할 것이다.
+    * The distance is five miles, or about eight kilometers. (= that is; 즉)
+
+  ③ Nor.
+    * Not a man, a woman, nor a child is to be seen.
+      ◇nor는 and + not: 그리고 ～도 역시 아니다.
+        ‘nor + 조동사(또는 be 동사) + 주어’의 형태와 같이 nor 다음에는 도치.
+    * I am nothing rich, and I do not wish to be (rich).
+      = I am not rich, nor do I wish to be.
+4. 접속사 that
+  * If I complain, it is that I want to get justice. (because)
+  * He must be mad that he should cry out at this time of night.(판단의 기준)
+  * That he should betray me! That I were in England again! (놀람,슬픔,희망)
+  * That he is guilty is certain. (명사절 유도; It is certain that he is guilty)
+  * He realized the fact that he had made a great mistake.(동격의 명사절 유도)
+5. 등위접속사
+  ① Both
+    * He is both a novelist and a poet.
+    * He is remarkable both for his intelligence and for his skill.
+    ◇at once (alike, both) A and B: A도 B도 ～이다. (양자긍정)
+    ◇상관접속사는 같은 품사나 상당어구를 상관적으로 연결해야하며,
+      연결하는 어구가 같은 형태이어야 한다.)
+  ② either  A or  B:  A이거나 B이다.       (양자택일)
+     neither A nor B:  A도 B도 ～이 아니다. (양자부정)
+    * He must either mad or drunk.
+    * Either of these buses goes to the stadium.
+      ◇either A or B, neither A or B에서 동사는 동사에서 가까운 곳에
+        있는 주어인 B에 일치 시킨다.
+    * He neither had money not food. (×)
+    * He had neither money nor food. (○)
+      ◇either A or B, neither A nor B에 연결되는 부분은 문법상 같은
+         기능을 가진 상당어구이어야 한다.
+  ③ not only (not merely) A but (also) B
+     = B as well as A
+     = A뿐만 아니라 B도 ～이다. (동사는 B에 일치)
+    * He not only teaches English but also write many novels.
+      =Besides (In addition to)teaching English, he writes many novels.
+    * He gave me both food and money.
+                 not only food but also money.
+                 not merely food but also money.
+      = He gave me money as well as food.
+      = He gave me food, and money.
+    * as well = besides = in to the bargain = in addition =   additionally.
+
+6. 명사절을 유도하는 접속사
+  ◇that, whether, if, 의문사, 관계대명사.
+  * That he will succeed is certain.
+    = It is certain that he will succeed.
+  * Whether it is a good plan or not is a matter for argument.
+    ◇that～의 문장은 모두 완전한 문장이어야 한다. 즉, 접속사로서 that이
+      유도하는 문장은 완전해야 한다.
+7. 시간부사절을 이끄는 접속사
+  ◇when, while, after, since, before, as soon as, the moment, the
+    instant, instantly...
+  * I did not realize the value of the documents till yesterday.
+    = It was not until yesterday that I realized the value of the documents.
+    = Not until yesterday did I realize the value of the documents.
+  * I'll have finished the work by the time you get back.
+    ◇조건부사절과 시간부사절에서는 미래시제 대신 현재시제를 사용한다.
+8. 이유부사절을 유도하는 접속사
+   : because, since, as, for, now that, seeing that...
+  * I did not go, because I was busy.(내가 바빴기 때문에 가지 못했다.)
+    I did not go because I wanted to.(내가 가고 싶어서 간 것은 아니다)
+9. 결과의 부사절을 이끄는 접속사
+   ◇ so ～ that, such ～ that  등...
+    * As        ──┐     he is poor, he cannot buy the car.
+      since     │
+      Because   │
+      Now that  │
+      Seeing that       │
+      On the ground that        ──┘ → 이유접속사; ～하기 때문에.
+      = Because of      ──┐    his poverty, he cannot buy the car.
+        Owing to        │
+        On account of   │
+        On the ground of        ──┘ → 이유를 표시하는 전치사구.
+       ◇이유를 표시하는 전치사구 다음엔 명사 또는 동명사 구문을 사용.
+     = He is so poor that he cannot buy the car.
+     = He is so poor as not to buy the car.
+     = He is too poor to buy the car.
+     = His poverty is such that he cannot buy the car.
+     = His poverty prevents him from buying the car.
+     = His poverty forbids him to buy the car.
+
+10. 양보부사절을 유도하는 접속사
+    Though      ──┐
+    Althouhg    │ he is poor, he is happy.
+    If  │
+    Even if     ──┘ → 양보접속사
+    = In spite of       ──┐  his poverty, he is happy.
+      Despite   │
+      After all │
+      For all   │
+      With all  │
+      In the face of    │
+      Not withstanding  ──┘→ 양보전치사구 (비록 ～일지라도)
+11. 명령형 양보부사절
+  ①명령문(원형동사) + wh- clause.
+    * Wherever he may(will) go  ──┐   he will be welcome.
+      No matter where he may go │
+      Let him go where he will  │
+      Go where he will  ──┘
+      (그가 어디에 가더라도 환영 받을 것이다.)
+  ②명령문 + as clause
+    * However hard you may try  ──┐ you can never to it in a weak
+      No matter how hard you may try    │
+      Try as you may (will)     ──┘
+      (네가 아무리 열심히 해볼지라도, 너는 그것을 1주일 안으로 해낼 수는 없다.)
+  ③기타
+    * Be it ever so humble      ──┐  there is no place like home.
+      However humble it may be  │
+      No matter how humble it may be    ──┘
+      (아무리 누추하더라도 내집 같은 곳은 없다.)
+    * Be a man ever so rich     ──┐  he should not idle.
+      However rich a man may be │
+      No matter how rich a man may be   ──┘
+      (사람이 아무리 부자라 할지라도, 게을러서는 안된다.)
+    * Be it true or not ──┐   it is not worth considering.
+      Whether it be true or not ──┘
+      (그것이 사실이든 아니든, 생각해 볼만한 가치가 없다.)
+12. As 양보 부사절
+    : 형용사, 부사, 명사, 과거분사 + as(또는 though) + 주어 + 동사의
+      형태로서 양보의 뜻을 가진 것.
+
+  ①형 + as (though) + 주어 + 동사
+    * Rich as he is     ───┐  he cannot afford such extravagance
+      Rich though he is │  forever.
+      Though he is rich ───┘
+      (비록 그는 부자일지라도 영원히 그런 낭비를 감당할 수는 없다.)
+  ②부사 + as + S + V
+    * Though he studied hard    ──┐  he failed in the exam.
+      Hard as the studied       ──┘
+  ③명사 + as + S + V
+    * Though he was a coward    ──┐   he could not bear such an insult.
+      Coward as he was  │
+      Coward though he was      ──┘
+      ◇ a coward가 문두로 도치되면 반드시 부정관사 a를 생략할 것.
+  ④과거분사 (p.p) + as + S + V
+    * Though he was startled    ───┐   he didn't lose his balance.
+      Startled as he was        │
+      Startled though he was    ───┘
+      (비록 그는 놀랐지만 마음의 안정을 잃지는 않았다.)
+      ◇ keep one's balance = keep steady : 몸의 균형을 유지하다.
+         ≠ lose one's balance : 균형을 잃다. (become unsteady)
+                                 마음의 안정을 잃다. (be upset)
+13. 조건 부사절을 이끄는 접속사
+  * If you ask him, he will help you.
+  * Unless you work harder, you will fail.
+    = If you do work harder, you will fail.
+  * Suppose (that) he refuses, what shall we do?
+    = If he refuese, what shall we do?
+  * In cace you find the man, please let me know at once.
+    ◇ unless: if ～ not, 만일 ～하지 않는다면.
+       suppose that: 만일 ～한다면.
+       in case (that): 만일 ～한다면,～하는 경우를 대비하여.
+       : 접속사이므로 다음에 주어 + 동사의 형태가 와야한다.
+  * In case of (In the event of) fire, ring the alarm bell.
+    ◇ in case of, in the event of는 조건을 나타내는 전치사구이므로
+       다음에 명사 또는 동명사 구문이 와야한다.
+14. 목적의 부사절을 나타내는 접속사
+  * He works hard that  ─┐   he may pass the examination.
+                  so that       │
+                  in order that─┘ → 목적을 나타내는 부사절
+
+    = He works hard to  ─┐  pass the examination.
+                    so as to    │
+                    in order to ─┘ → 부정사의 부사적 용법
+    = He works hard for the purpose of        passing the exam.
+                    with a view to      ─┐
+                    with the view of    │
+                    with the object of  │
+                    with the intention of       ─┘ → 전치사구
+  * Make a note of it that you may not forget it.
+    ◇that ～ may not: ～하지 않도록, 부정어 not은 반드시 부정사 to 앞에.
+  * He works hard lest            he should fail in the exam.
+                  for fear (that)
+    ◇ lest ～ should나 for fear (that) ～ should는 ～하지 않도록, ～
+       하지 않기 위하여로 그 속에 부정어 not을 포함한다.

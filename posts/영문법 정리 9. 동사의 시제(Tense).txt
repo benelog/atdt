@@ -1,0 +1,184 @@
+영문법 정리                              9. 동사의 시제(Tense)
+────────────────────────────────────────
+-  -
+
+   동사의 시제(Tense)
+
+1. 현재시제
+  ◇형식;
+    현재시제의 형식은 be, have 동사를 제외한 일반동사는 3인칭 단수에
+    -s, -es를 붙이는 것 외에는 모두 원형과 같다.
+    △어미가 [s,z,ʃ,ʒ,tʃ,dʒ]의 음으로 끝나면 -es를 붙인다.
+      kisses, buzzes, washes
+    △어미가 'o'이면 '-es'를 붙이고, 어미가 'y'이고 그 앞이 자음이면 y
+      를 'i'로 고쳐 '-es'를 붙인다.
+      goes, echoes, does[dʌz], hurry → hurries, 그러나 buy → buys.
+  ①현재의 사실.
+    * He lives in England.
+    * I see he swimming in the pool.
+  ②현재의 습관적인 동작, 직업, 성격, 능력...
+    * I get up at six every morning.
+    * He teaches English.
+    * He never takes sugar in his coffee.
+  ③불변의 진리, 사실, 속담.
+    * The earth moves round the sun.
+    * Honesty is the best policy.
+  ④역사적 사실.
+    * Caesar crosses the Rubicon and enters Italy.
+  ⑤옛사람, 옛날 책에 쓰인 말을 인용할 때 현재형을 씀으로서 생생한 표현이 된다.
+    * Dryden says that none but the brave deserve(s) the fair.
+      (용기있는 자만이 미인을 얻을 수 있다고 드라이든은 말한다.)
+  ⑤미래시제 대용.
+    : 왕래발착(往來發着)을 나타내는 go, come, start, leave, arrive
+      depart, meet, return, sail, ride나  개시를 나타내는 begin 등의
+      동사는 미래를 나타내는 부사, 부사구와 함께 현재시제의 형태로 미
+      래를 나타낸다.
+    * He starts (= will start) for seoul tomorrow morning.
+  ⑥시간, 조건부사절에서 미래 대용 (명사절이나 형용사절에서는 미래
+     시제를 그대로 쓴다)
+    * I will not start if it rains tomorrow.
+    * I don't know if it will rain tomorrow.
+2. 과거시제
+  ◇규칙활용: 어미에 -ed를 붙인다.
+    stop → stoped.(단모음 + 자음), try → tried. (자음 + y)
+
+    △2음절의 동사가 ｢단모음 + 단자음｣으로 끝나고 액센트가 뒤 음절에
+      오면 자음을 중복하고 -ed를 붙인다.
+      om/it → omitted, pref/er → preferred, occ/ur → occurred.
+      그러나  v/isited, /offered, l/imited.
+    △picnic → picnicked, mimic → mimicked.
+  ◇불규칙활용: 어미에 -ed를 붙이지 않는 다른 형태.
+  ①과거의 동작, 상태, 습관.
+    * The hosts met their guests.
+  ②과거형이 과거완료를 대신 하는 경우.
+    * When I finished (= had finished) the work, I went out.
+    ◇접속사 when, after, till, before, as soon as 등의 접속사는 시간
+      의 전후관계가 명확하므로 과거완료 시제를 구태여 쓸 필요가 없음.
+3. 미래시제
+┌─────────────────┬────────────────┬────
+│       \       │   1 인 칭       │    2 인 칭      │    3 인 칭      │
+├─────────────────┼────────────────┼────
+│       │  I shall      │   You will    │   He will     │
+│ 단 순 미 래
+├────────────────┼────────────────┼─────
+───────────┤
+│       │  Shall I?     │   Shall you?  │   Will he?    │
+├──┬──────────────┼────────────────┼────
+│의│Speaker의 의지│ │   You shall   │   He shall    │
+│지├──────────────┤   I will
+├────────────────┼────────────────┤
+│미│주어의 의지       │       │   You will    │   He will     │
+│래├──────────────┼────────────────┼─────
+───────────┼────────────────┤
+│ │Hearer의 의지 │   Shall I?    │   Will you?   │   Shall he?   │
+└──┴──────────────┴────────────────┴────
+  ①단순미래.
+    ◇자연의 결과, 예정, 가능, 기대 등과 같이 단순한 미래 사항을 나타
+      내는 경우를 단순미래라 한다. (美語에서는 전부 Will)
+      * I shall be sixteen years old next year.
+  ②의지미래.
+    * All right, I will do so. (좋아, 그렇게 하겠어)
+4. 진행형시제
+  ①현재진행형 (be + ～ing)
+    * It is raining now.       (현재 진행 중인 동작)
+    * He is always grumbling.  (습관적인 동작)
+    ◇ always, constantly, continually 등의 부사가 현재진행형과 함께
+       쓰이면 반복적인 동작이나 습관 등을 나타냄.
+    ◇미래표시 부사구와 함께 쓰이면 현재 진행형이 가까운 미래를 나타냄.
+      * We are leaving for Seoul tonight.
+    ◇ be going to ～의 용법
+       ⓐ The ice is going to crack.(얼음이 방금 깨지려고 한다)
+       ⓑ The party is going to be a great success. (～할 것이다)
+       ⓒ My father is going to buy a new car.      (～할 예정이다)
+  ②과거진행형 (wsa, were + ～ing)
+    * He was reading a novel when I entered the room.
+    * I was studying English when you called on me yesterday.
+    ◇과거의 어느 시점에 진행 중인 동작을 나타내므로 과거진행형 사용.
+  ③미래진행형 (will, shall + be + ～ing)
+    * He will be reading a novel when we go to bed.
+    * We'll be thinking of you when we get to paris.
+    ◇ when～은 시간부사절이므로 미래시제 대신 현재시제를 사용.
+5. 진행형을 쓰지 않는 동사
+  ①존재 (be, exist)나 상태 (seem, look, appear, resemble) 등을 나타내
+    는 동사.
+    * You look much worried.
+    ◇ He resembles his father.          (○)
+       → He is resembling his father.   (×)
+       → He resembles with his father.  (×)
+       → He is resembled by his father. (×)
+      ◇ resemble은 진행형을 쓸 수 없으며 타동사이므로 전치사 with도
+         쓸 수 없고 수동태로도 할 수 없다.
+  ②지각 (feel, see, smell, hear, taste)을 나타내는 동사.
+    * I see her swimming in the pool.
+    ◇ see가 의지동사로서 구경하다, 면회하다의 뜻일 땐 진행형이 가능
+       하며, hear가 청강하다의 뜻일 땐 진행형이 가능하다.
+       * They are hearing lectures.
+       * I am seeing the sights of Seoul.
+      ◇ look at은 의지동사로서 ～을 보다 이므로 진행형이 가능하며,
+        listen to 역시 의지동사로서 귀를 기울이다의 뜻일 땐 진행형이
+        가능하다.
+  ③소유 (have, belong, passess, own)를 나타내는 동사.
+     * I have some money with me.         (○)
+      → I am having some money with me. (×)
+    * He is having breakfast. (○)
+      ◇ have가 소유의 뜻이 아닌 다른 의미로 쓰이면 진행형이 가능하다.
+      ◇ belong to는 ～속하다, ～의 소유이다의 뜻이므로 진행형을 쓸 수 없음.
+         * This house is belong to me.
+6. 현재완료
+
+ 과거완료의 영역    현재완료의 영역      미래완료의 영역
+ had+p.p             (have + p.p)         (will(shall) + have + p.p)
+────────────────────────────────────────
+↑                  ↑               ↑                          ↑
+대과거              과거             현재                       미래
+
+  ①완료 (just, already, by this time, yet 등과 함께 쓰임)
+    : 현재까지의 동작 완료 표현.
+    ◇과거표시 부사구인 ago, yesterday, then, last, when 등과 함께 쓸 수 없음.
+    ◇특히 just, now는 현재완료와 함께 사용하나 just now는 반드시 과거
+      시제와 함께 사용해야한다.
+    * He has just come back home.   (○)
+      → He came home just now.     (○)
+      → He has come home just now. (×)
+    ②동작의 결과.
+      * She has bought a new car. (과거에 사서 지금도 가지고 있다)
+        = She bought a new car and has it now.
+      ◇ have gone은 1, 2인칭에는 사용하지 못함.
+         * I have gone to the station. (×)
+         * You have gone to London. (×)
+    ③경험 (과거에서 현재까지)
+      * Have you ever seen a tiger?
+      ◇현재완료시제인 have + p.p가 과거 어느 때 부터 지금까지의 경험을
+        나타낼 땐 ever, never, once, before, seldom 등과 함께 쓰임.
+    ④계속; 상태의 계속 - 현재완료 have + p.p.
+            동작의 계속 - 현재완료 진행형 have been + ～ing.
+      * I have known her since she was a child. (○) - 상태의 계속.
+        → I have been knowing her since she was a child. (×)
+      * He has been studying English for ten years. (○) - 동작의 계속.
+ 7. 과거완료 (Had + p.p)
+   : 현재완료의 기준점은 현재이고, 과거완료의 기준점은 과거의 어느 정해진
+   때이다.
+  ①완료
+    * They had arrived at the house before night fell.
+  ②결과
+    * Spring had come by the time she was well again. (결과)
+  ③경험
+    * I recognized Mrs. Brown at once, for I had seen her several times before.
+  ④계속: 상태의 계속 - had + p.p.
+          동작의 계속 - had been + ～ing.
+    * He had lived there for ten years when his mother died.
+    * I had been waiting for an hour when he returned.
+8. 미래완료 (will 또는 shall + have + p.p.)
+  ①완료
+    * I shall have finished the work by the time you come.
+      ◇ by the time은 시간을 표시하는 부사절이므로 미래시제 will come
+         대신 현재시제 come을 사용한다.
+
+  ②결과
+    * When you wake these fancies will have gone.
+  ③경험
+    * I shall have read the poem three times if I read it again.
+  ④계속: 상태의 계속 - will(shall) have + p.p.
+          동작의 계속 - will(shall) have + p.p. + ～ing.
+    * He will have been in hospital for two weeks by next sundays.
+    * I shall have been reading this novel by noon.

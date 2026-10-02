@@ -1,0 +1,141 @@
+영문법 정리                                   17. 부사(Adverb)
+────────────────────────────────────────
+-  -
+
+     부사(Adverb)
+
+1. 부사의 형태
+  ①부사: 형용사 + ly.
+    * 형용사 + ly: slow → slowly.
+                   careful → carefully.
+    * -y + ly = ily - happy → happily.
+    * le + ly = ly  - possible → possibly.
+      ◇예외: sole → solely.
+            whole → wholly.
+    * -ue + ly = uly , true → truly, due → duly.
+    * -ll + ly = -lly, full → fully.
+    * -ic + ly = ically , dramatic → dramatically.
+       ◇예외: public → publicly.
+  ②형용사와 같은 형태의 부사.
+    early, long, hard, enough, hear, well, ill, far 등...
+    * I get up early in the morning. (부사)
+    * The early bird catches the worm. (형용사)
+2. 부사의 중복형
+    * Mr. Everest is very high. (형용사; 높은)
+    * He held his hand high.    (부사; 높이)
+    * It is a highly a musing film. ( 부사; 매우, 대단히)
+      ◇dear, cheap, hard, hear, late 등이 특히 중복되어 사용됨.
+3. 부사의 기능
+    : 원칙적으로 동사, 형용사, 다른 부사 (구, 절) 등을 수식하며, 명사, 대명
+      사, 문장 전체를 수식한다.
+    * He speaks English well.
+    * Evidently he has made a mistake.
+      = It is evident that he has made a mistake.
+4. 부사의 위치
+  ①양태부사 : (방법부사) 어떻게 (how)에 대한 답
+             ; gladly, well, heartily, carerully
+        ┌── 자동사 + 양태부사
+        │   타동사 + 목 + 양태부사 (또는 타동사 앞에서도 쓰임)
+        └── 타동사 + 양태부사 + 긴 목적어
+    * He came immediately (자동사 + 양태부사)
+    * They speak well of him (능동태)
+      = He is well spoken of. (수동태)
+    * I well remember those happy days. (정상어순)
+      = Well do I remember those happy days. (도치구문)
+  ②빈도부사 : (정도부사) how often에 대한 답으로 always, generally,
+     regulerly, often, never, somtimes, seldom. 정도부사에는 nearly,
+     almost, still, barely 등이 있다.
+     △위치: 일반동사 앞, be동사 다음, 조동사와 본동사 사이에 온다.
+     △목적어가 명사일 때
+       put on your coat (O)  : 타 + 부 + 목
+       put your coat on (O)  : 타 + 목 + 부
+     △ 목적어가 대명사일 때
+       put on it (X)
+       put it on (O)  : 타 + 목 + 부
+     △ 자동사 + 전치사는 하나의 타동사구로 쓰이므로 분리시킬 수 없음.
+        Look at the boy.
+        Look at him. (○)
+        Look him at. (×)
+5. 부사어구의 배열 순서
+   ① 시간 부사어구 : 작은 단위 + 큰 단위
+      장소 부사어구 : 작은 단위 + 큰 단위
+     * I'll call on you at seven o'clock next Sunday.
+     * We spent the holidays in a cottage is the morning.
+   ② 장소 + 방법 + 시간부사
+      방법 + 장소 + 시간부사
+      짧은 부사구 + 긴 부사구
+     * He came to Korea by ship last year.
+     * She played beautiful at the concert last night.
+     * We arrived safely at the station.
+6. 중요한 부사 용법
+        ┌── still + 본동사 ┌── 명사 + enough (O)
+        │   be동사 + still        │   enough + 명 (O)
+        │   조동사 + still + 본동사   │   형.부 + enough (O)
+        └── still + 부정조동사       └── enough + 형.부 (X)
+     * He is still standing. : 그는 아직도 서 있다.
+       He is standing still. : 그는 가만히 서 있다. (형)
+     * She still dislikes him.
+       He still doesn't like her.
+     * I need enough eggs.
+       = I need eggs enough.
+     * Only I can see him in the room.
+       I can only see him in the room.
+       I can see only him in the room.
+       I can see him only in the room.
+  ◇ ago는 현재를 기준으로 지금부터 ～전의 뜻이고 과거시제와 함께 쓰인다.
+     before는 과거기준으로 그 때보다 그 이전. 과거완료와 함께 쓰임.
+     before는 막연한 과거를 나타내어 현재완료와 쓸 수 있으나 ago는 현재완료
+     와 쓸 수 없음.
+     * He passed away three ago.
+     * He said that she had died three years before.
+     * I have seen this picture before.
+     * I have seen her a few days ago. (X)
+7. very, much의 용법
+        ┌─────────┬─────────┬───────────────
+        │  very │  형.부  │    원 급        │  현재분사 │
+        ├─────────┼─────────┼───────────────
+        │  much │  동사   │  비교.최상급       │  과거분사 │
+        └─────────┴─────────┴───────────────
+     * He breaks his words very often.
+     * I don't like beef much.
+   ◇ 과거분사가 명사를 직접 수식하는 한정용법으로 쓰일 때와 동사로서의 성
+      격을 잃고 형용사적인 용법으로 쓰이고 있는 tired, pleased, delighted,
+      surprised, satisfied등인 경우에는 much대신 very를 사용.
+     * A very celebrated scholar presided at the meeting.
+     * She had a very annoyed look on her face.
+     * He was very tired with a long walk.
+   ◇ 서술형용사인 afraid, alike, fond 등은 much로 수식.
+      the + very + 최상급
+      much + the + 최상급
+     * He is much ashamed of his behaviour.
+     * He is the very best runner in our class.
+     * He is much the best runner in our class.
+8. 의문부사
+    * 직접의문문: 의문부사 + 동사 + 주어?
+    * 간접의문문: 의문부사 + 주어 + 동사?  (부사절)
+      * Where does he live?
+      * I don't know + When should I do it?
+        → I don't know when I should do it.    (간접의문; know의 목적어)
+        → I don't know when to do it.          (부정사구; 명사적용법)
+    ◇ think, believe, imagine, suppose 등의 동사 다음에 직접의문문을 연결
+       할 때에는 의문부사를 문두로 도치.
+        * Do you think + Where does he lives?
+          → Do you think where he lives?    (×)
+          → Where do you think he lives?    (○)
+9. 관계부사
+    * where, when, how, why 등은 ‘부사 + 접속사’의 역할을 하며 ‘전치사 +
+      which’로 바꿀 수가 있다.
+      * This is the place + He was born in it.
+        → This is the place which he was born in.   (형용사절)
+        → This is the place in which he was born.
+        → This is the place where he was born.
+        → This is the place that he was born.    (where의 대용)
+        → This is where he was born.(주격보어; where의 명사절,선행사 the place
+        생략)
+    * 관계부사의 계속적 용법.
+      ～, where ⇒ ～, and there ..  (그리고 거기에서...)
+      ～, when  ⇒ ～, and then ...  (그리고 그때...)
+      ◇We went to Rome, where we stayed for a week.
+        Wait till seven, when he will be back.
+        You may go wherever you like. (wherever = to any place that)
+        Wherever you may go, I will follow you. (wherever = no matter where)
