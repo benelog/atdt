@@ -6,7 +6,7 @@
   const ESC = "\x1b", BEL = "\x07", CRLF = "\r\n";
   const T = window.Term, H = window.Host, D = window.ATDT_DATA;
   const { fit, strWidth, esc } = T;
-  const POSTS = D.posts;
+  const POSTS = D.posts, BOARDS = D.boards;
   const INPUT = H.INPUT, KEY = H.KEY;
 
   // ------------------------------------------------------------ 설정 (I.CNF)
@@ -858,7 +858,7 @@
       ["Enter", "출력 중이면 나머지를 한꺼번에 찍는다 (Space 도 같음)"], ["다람쥐", "화면의 밝은 글자를 누르면 그 명령을 친 것과 같다"],
     ]],
     ["갈무리 보관소 (BBS) 명령", [
-      ["번호", "그 번호의 글을 읽는다 (1 ~ " + POSTS.length + ")"], ["1 ~ 8", "주 메뉴에서 게시판을 고른다      9  전체 목록"],
+      ["번호", "그 번호의 글을 읽는다 (1 ~ " + POSTS.length + ")"], ["1 ~ " + BOARDS.length, "주 메뉴에서 게시판을 고른다      0  전체 목록"],
       ["N / P", "다음 쪽 / 이전 쪽.  글을 읽은 뒤에는 N 이 다음 글, 목록 첫 쪽에서 P 는 처음 메뉴"], ["L", "목록으로              T  처음 메뉴로"],
       ["S 낱말", "제목과 본문에서 낱말 찾기"], ["H, ?", "도움말                X  접속 끝"],
       ["", ""], ["읽는 중", "쪽이 끝나면  [Enter] 계속  [B] 이전 쪽  [L] 목록  [Q] 그만"],

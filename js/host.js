@@ -488,8 +488,10 @@
         const b = BOARDS[i];
         return lk(String(i + 1), fit(` ${i + 1}. ${b.name} (${b.posts.length})`, 34));
       };
-      for (let i = 0; i < 4; i++) s += "   " + item(i) + "   " + item(i + 4) + CRLF;
-      s += CRLF + "   " + lk("9", ` 9. 전체 글 목록 (${POSTS.length} 편)`) + CRLF + CRLF;
+      // 게시판은 두 줄로 나눠 왼쪽 열부터 채운다. 전체 목록은 0 번.
+      const rows = Math.ceil(BOARDS.length / 2);
+      for (let i = 0; i < rows; i++) s += "   " + item(i) + (i + rows < BOARDS.length ? "   " + item(i + rows) : "") + CRLF;
+      s += CRLF + "   " + lk("0", ` 0. 전체 글 목록 (${POSTS.length} 편)`) + CRLF + CRLF;
       s += "   " + lk("H", " H 도움말 ") + "    " + lk("S", " S 낱말 : 찾기 ") + "    " + lk("X", " X 접속 끝 ") + CRLF + CRLF;
       s += " 게시판 번호를 치거나, 글 번호(1 ~ " + POSTS.length + ")를 바로 쳐도 됩니다." + CRLF + CRLF;
       s += this.prompt();
@@ -681,8 +683,8 @@
       }
       if (/^\d+$/.test(cmd)) {
         const n = parseInt(cmd, 10);
-        if (this.ctx === "menu" && n >= 1 && n <= 8) return this.board(n - 1);
-        if (this.ctx === "menu" && n === 9) return this.allList();
+        if (this.ctx === "menu" && n >= 1 && n <= BOARDS.length) return this.board(n - 1);
+        if (this.ctx === "menu" && n === 0) return this.allList();
         return this.read(n);
       }
       switch (cmd) {
@@ -752,7 +754,7 @@
         "",
         sgr(1, 36) + " ┌ 갈무리 보관소 명령 ┐" + sgr(0),
         "   번호      : 그 번호의 글을 읽습니다. (글 번호는 1 ~ " + POSTS.length + ")",
-        "   1 ~ 8     : 주 메뉴에서 게시판을 고릅니다.      9 : 전체 목록",
+        "   1 ~ " + BOARDS.length + "     : 주 메뉴에서 게시판을 고릅니다.      0 : 전체 목록",
         "   N, P      : 다음 쪽 / 이전 쪽.  글을 읽은 뒤에는 N 이 다음 글입니다.",
         "               목록의 첫 쪽에서 P 를 치면 처음 메뉴로 올라갑니다.",
         "   L         : 목록으로            T : 처음 메뉴로",
